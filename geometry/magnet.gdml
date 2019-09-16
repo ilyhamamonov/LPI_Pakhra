@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+    <define>
+        <position name="magnet_v0" unit="mm" x="4140.0" y="45.0" z="0.0"/>
+        <position name="magnet_v1" unit="mm" x="4089.029785" y="725.0" z="647.638672"/>
+        <position name="magnet_v2" unit="mm" x="4089.029785" y="45.0" z="647.638672"/>
+        <position name="magnet_v3" unit="mm" x="4140.0" y="725.0" z="0.0"/>
+        <position name="magnet_v4" unit="mm" x="3937.374023" y="725.0" z="1279.330322"/>
+        <position name="magnet_v5" unit="mm" x="3937.374023" y="45.0" z="1279.330322"/>
+        <position name="magnet_v6" unit="mm" x="3688.76709" y="725.0" z="1879.52063"/>
+        <position name="magnet_v7" unit="mm" x="3688.76709" y="45.0" z="1879.52063"/>
+        <position name="magnet_v8" unit="mm" x="3349.330322" y="725.0" z="2433.430908"/>
+        <position name="magnet_v9" unit="mm" x="3349.330322" y="45.0" z="2433.430908"/>
+        <position name="magnet_v10" unit="mm" x="2927.422119" y="725.0" z="2927.422119"/>
+        <position name="magnet_v11" unit="mm" x="2927.422119" y="45.0" z="2927.422119"/>
+        <position name="magnet_v12" unit="mm" x="2433.430908" y="725.0" z="3349.330322"/>
+        <position name="magnet_v13" unit="mm" x="2433.430908" y="45.0" z="3349.330322"/>
+        <position name="magnet_v14" unit="mm" x="1879.52063" y="725.0" z="3688.76709"/>
+        <position name="magnet_v15" unit="mm" x="1879.52063" y="45.0" z="3688.76709"/>
+        <position name="magnet_v16" unit="mm" x="1279.330322" y="725.0" z="3937.374023"/>
+        <position name="magnet_v17" unit="mm" x="1279.330322" y="45.0" z="3937.374023"/>
+        <position name="magnet_v18" unit="mm" x="647.638672" y="725.0" z="4089.029785"/>
+        <position name="magnet_v19" unit="mm" x="647.638672" y="45.0" z="4089.029785"/>
+        <position name="magnet_v20" unit="mm" x="0.0" y="725.0" z="4140.0"/>
+        <position name="magnet_v21" unit="mm" x="0.0" y="45.0" z="4140.0"/>
+        <position name="magnet_v22" unit="mm" x="0.0" y="725.0" z="2990.0"/>
+        <position name="magnet_v23" unit="mm" x="583.320068" y="725.0" z="2932.548096"/>
+        <position name="magnet_v24" unit="mm" x="2932.548096" y="725.0" z="583.320068"/>
+        <position name="magnet_v25" unit="mm" x="2990.0" y="725.0" z="0.0"/>
+        <position name="magnet_v26" unit="mm" x="2762.399902" y="725.0" z="1144.223511"/>
+        <position name="magnet_v27" unit="mm" x="1144.223511" y="725.0" z="2762.399902"/>
+        <position name="magnet_v28" unit="mm" x="1661.155029" y="725.0" z="2486.094238"/>
+        <position name="magnet_v29" unit="mm" x="2486.094238" y="725.0" z="1661.155029"/>
+        <position name="magnet_v30" unit="mm" x="2114.249268" y="725.0" z="2114.249268"/>
+        <position name="magnet_v31" unit="mm" x="2990.0" y="-725.0" z="0.0"/>
+        <position name="magnet_v32" unit="mm" x="2932.548096" y="-725.0" z="583.320068"/>
+        <position name="magnet_v33" unit="mm" x="2762.399902" y="-725.0" z="1144.223511"/>
+        <position name="magnet_v34" unit="mm" x="2486.094238" y="-725.0" z="1661.155029"/>
+        <position name="magnet_v35" unit="mm" x="2114.249268" y="-725.0" z="2114.249268"/>
+        <position name="magnet_v36" unit="mm" x="1661.155029" y="-725.0" z="2486.094238"/>
+        <position name="magnet_v37" unit="mm" x="1144.223511" y="-725.0" z="2762.399902"/>
+        <position name="magnet_v38" unit="mm" x="583.320068" y="-725.0" z="2932.548096"/>
+        <position name="magnet_v39" unit="mm" x="0.0" y="-725.0" z="2990.0"/>
+        <position name="magnet_v40" unit="mm" x="4089.029785" y="-725.0" z="647.638672"/>
+        <position name="magnet_v41" unit="mm" x="4140.0" y="-725.0" z="0.0"/>
+        <position name="magnet_v42" unit="mm" x="3937.374023" y="-725.0" z="1279.330322"/>
+        <position name="magnet_v43" unit="mm" x="3688.76709" y="-725.0" z="1879.52063"/>
+        <position name="magnet_v44" unit="mm" x="3349.330322" y="-725.0" z="2433.430908"/>
+        <position name="magnet_v45" unit="mm" x="2927.422119" y="-725.0" z="2927.422119"/>
+        <position name="magnet_v46" unit="mm" x="2433.430908" y="-725.0" z="3349.330322"/>
+        <position name="magnet_v47" unit="mm" x="1879.52063" y="-725.0" z="3688.76709"/>
+        <position name="magnet_v48" unit="mm" x="1279.330322" y="-725.0" z="3937.374023"/>
+        <position name="magnet_v49" unit="mm" x="647.638672" y="-725.0" z="4089.029785"/>
+        <position name="magnet_v50" unit="mm" x="0.0" y="-725.0" z="4140.0"/>
+        <position name="magnet_v51" unit="mm" x="4089.029785" y="-45.0" z="647.638672"/>
+        <position name="magnet_v52" unit="mm" x="4140.0" y="-45.0" z="0.0"/>
+        <position name="magnet_v53" unit="mm" x="3937.374023" y="-45.0" z="1279.330322"/>
+        <position name="magnet_v54" unit="mm" x="3688.76709" y="-45.0" z="1879.52063"/>
+        <position name="magnet_v55" unit="mm" x="3349.330322" y="-45.0" z="2433.430908"/>
+        <position name="magnet_v56" unit="mm" x="2927.422119" y="-45.0" z="2927.422119"/>
+        <position name="magnet_v57" unit="mm" x="2433.430908" y="-45.0" z="3349.330322"/>
+        <position name="magnet_v58" unit="mm" x="1879.52063" y="-45.0" z="3688.76709"/>
+        <position name="magnet_v59" unit="mm" x="1279.330322" y="-45.0" z="3937.374023"/>
+        <position name="magnet_v60" unit="mm" x="647.638672" y="-45.0" z="4089.029785"/>
+        <position name="magnet_v61" unit="mm" x="0.0" y="-45.0" z="4140.0"/>
+        <position name="magnet_v62" unit="mm" x="3860.0" y="-45.0" z="0.0"/>
+        <position name="magnet_v63" unit="mm" x="3801.35791" y="-45.0" z="670.281982"/>
+        <position name="magnet_v64" unit="mm" x="3627.213623" y="-45.0" z="1320.197754"/>
+        <position name="magnet_v65" unit="mm" x="3342.858154" y="-45.0" z="1930.0"/>
+        <position name="magnet_v66" unit="mm" x="2956.931641" y="-45.0" z="2481.160156"/>
+        <position name="magnet_v67" unit="mm" x="2481.160156" y="-45.0" z="2956.931641"/>
+        <position name="magnet_v68" unit="mm" x="1930.0" y="-45.0" z="3342.858154"/>
+        <position name="magnet_v69" unit="mm" x="1320.197754" y="-45.0" z="3627.213623"/>
+        <position name="magnet_v70" unit="mm" x="670.281982" y="-45.0" z="3801.35791"/>
+        <position name="magnet_v71" unit="mm" x="0.0" y="-45.0" z="3860.0"/>
+        <position name="magnet_v72" unit="mm" x="3860.0" y="-140.0" z="0.0"/>
+        <position name="magnet_v73" unit="mm" x="3801.35791" y="-140.0" z="670.281982"/>
+        <position name="magnet_v74" unit="mm" x="3627.213623" y="-140.0" z="1320.197754"/>
+        <position name="magnet_v75" unit="mm" x="3342.858154" y="-140.0" z="1930.0"/>
+        <position name="magnet_v76" unit="mm" x="2956.931641" y="-140.0" z="2481.160156"/>
+        <position name="magnet_v77" unit="mm" x="2481.160156" y="-140.0" z="2956.931641"/>
+        <position name="magnet_v78" unit="mm" x="1930.0" y="-140.0" z="3342.858154"/>
+        <position name="magnet_v79" unit="mm" x="1320.197754" y="-140.0" z="3627.213623"/>
+        <position name="magnet_v80" unit="mm" x="670.281982" y="-140.0" z="3801.35791"/>
+        <position name="magnet_v81" unit="mm" x="0.0" y="-140.0" z="3860.0"/>
+        <position name="magnet_v82" unit="mm" x="3270.0" y="-125.0" z="0.0"/>
+        <position name="magnet_v83" unit="mm" x="3220.321289" y="-125.0" z="567.829529"/>
+        <position name="magnet_v84" unit="mm" x="3072.794922" y="-125.0" z="1118.405884"/>
+        <position name="magnet_v85" unit="mm" x="2831.903076" y="-125.0" z="1635.0"/>
+        <position name="magnet_v86" unit="mm" x="2504.965332" y="-125.0" z="2101.915527"/>
+        <position name="magnet_v87" unit="mm" x="2101.915527" y="-125.0" z="2504.965332"/>
+        <position name="magnet_v88" unit="mm" x="1635.0" y="-125.0" z="2831.903076"/>
+        <position name="magnet_v89" unit="mm" x="1118.405884" y="-125.0" z="3072.794922"/>
+        <position name="magnet_v90" unit="mm" x="567.829529" y="-125.0" z="3220.321289"/>
+        <position name="magnet_v91" unit="mm" x="0.0" y="-125.0" z="3270.0"/>
+        <position name="magnet_v92" unit="mm" x="3270.0" y="125.0" z="0.0"/>
+        <position name="magnet_v93" unit="mm" x="3220.321289" y="125.0" z="567.829529"/>
+        <position name="magnet_v94" unit="mm" x="3072.794922" y="125.0" z="1118.405884"/>
+        <position name="magnet_v95" unit="mm" x="2831.903076" y="125.0" z="1635.0"/>
+        <position name="magnet_v96" unit="mm" x="2504.965332" y="125.0" z="2101.915527"/>
+        <position name="magnet_v97" unit="mm" x="2101.915527" y="125.0" z="2504.965332"/>
+        <position name="magnet_v98" unit="mm" x="1635.0" y="125.0" z="2831.903076"/>
+        <position name="magnet_v99" unit="mm" x="1118.405884" y="125.0" z="3072.794922"/>
+        <position name="magnet_v100" unit="mm" x="567.829529" y="125.0" z="3220.321289"/>
+        <position name="magnet_v101" unit="mm" x="0.0" y="125.0" z="3270.0"/>
+        <position name="magnet_v102" unit="mm" x="3860.0" y="140.0" z="0.0"/>
+        <position name="magnet_v103" unit="mm" x="3801.35791" y="140.0" z="670.281982"/>
+        <position name="magnet_v104" unit="mm" x="3627.213623" y="140.0" z="1320.197754"/>
+        <position name="magnet_v105" unit="mm" x="3342.858154" y="140.0" z="1930.0"/>
+        <position name="magnet_v106" unit="mm" x="2956.931641" y="140.0" z="2481.160156"/>
+        <position name="magnet_v107" unit="mm" x="2481.160156" y="140.0" z="2956.931641"/>
+        <position name="magnet_v108" unit="mm" x="1930.0" y="140.0" z="3342.858154"/>
+        <position name="magnet_v109" unit="mm" x="1320.197754" y="140.0" z="3627.213623"/>
+        <position name="magnet_v110" unit="mm" x="670.281982" y="140.0" z="3801.35791"/>
+        <position name="magnet_v111" unit="mm" x="0.0" y="140.0" z="3860.0"/>
+        <position name="magnet_v112" unit="mm" x="3860.0" y="45.0" z="0.0"/>
+        <position name="magnet_v113" unit="mm" x="3801.35791" y="45.0" z="670.281982"/>
+        <position name="magnet_v114" unit="mm" x="3627.213623" y="45.0" z="1320.197754"/>
+        <position name="magnet_v115" unit="mm" x="3342.858154" y="45.0" z="1930.0"/>
+        <position name="magnet_v116" unit="mm" x="2956.931641" y="45.0" z="2481.160156"/>
+        <position name="magnet_v117" unit="mm" x="2481.160156" y="45.0" z="2956.931641"/>
+        <position name="magnet_v118" unit="mm" x="1930.0" y="45.0" z="3342.858154"/>
+        <position name="magnet_v119" unit="mm" x="1320.197754" y="45.0" z="3627.213623"/>
+        <position name="magnet_v120" unit="mm" x="670.281982" y="45.0" z="3801.35791"/>
+        <position name="magnet_v121" unit="mm" x="0.0" y="45.0" z="3860.0"/>
+    </define>
+
+    <solids>
+        <tessellated aunit="deg" lunit="mm" name="magnet-SOL">
+             <triangular vertex1="magnet_v0" vertex2="magnet_v1" vertex3="magnet_v2"/>
+             <triangular vertex1="magnet_v3" vertex2="magnet_v1" vertex3="magnet_v0"/>
+             <triangular vertex1="magnet_v2" vertex2="magnet_v4" vertex3="magnet_v5"/>
+             <triangular vertex1="magnet_v1" vertex2="magnet_v4" vertex3="magnet_v2"/>
+             <triangular vertex1="magnet_v5" vertex2="magnet_v6" vertex3="magnet_v7"/>
+             <triangular vertex1="magnet_v4" vertex2="magnet_v6" vertex3="magnet_v5"/>
+             <triangular vertex1="magnet_v7" vertex2="magnet_v8" vertex3="magnet_v9"/>
+             <triangular vertex1="magnet_v6" vertex2="magnet_v8" vertex3="magnet_v7"/>
+             <triangular vertex1="magnet_v9" vertex2="magnet_v10" vertex3="magnet_v11"/>
+             <triangular vertex1="magnet_v8" vertex2="magnet_v10" vertex3="magnet_v9"/>
+             <triangular vertex1="magnet_v11" vertex2="magnet_v12" vertex3="magnet_v13"/>
+             <triangular vertex1="magnet_v10" vertex2="magnet_v12" vertex3="magnet_v11"/>
+             <triangular vertex1="magnet_v13" vertex2="magnet_v14" vertex3="magnet_v15"/>
+             <triangular vertex1="magnet_v12" vertex2="magnet_v14" vertex3="magnet_v13"/>
+             <triangular vertex1="magnet_v15" vertex2="magnet_v16" vertex3="magnet_v17"/>
+             <triangular vertex1="magnet_v14" vertex2="magnet_v16" vertex3="magnet_v15"/>
+             <triangular vertex1="magnet_v17" vertex2="magnet_v18" vertex3="magnet_v19"/>
+             <triangular vertex1="magnet_v16" vertex2="magnet_v18" vertex3="magnet_v17"/>
+             <triangular vertex1="magnet_v19" vertex2="magnet_v20" vertex3="magnet_v21"/>
+             <triangular vertex1="magnet_v18" vertex2="magnet_v20" vertex3="magnet_v19"/>
+             <triangular vertex1="magnet_v22" vertex2="magnet_v18" vertex3="magnet_v23"/>
+             <triangular vertex1="magnet_v20" vertex2="magnet_v18" vertex3="magnet_v22"/>
+             <triangular vertex1="magnet_v24" vertex2="magnet_v1" vertex3="magnet_v25"/>
+             <triangular vertex1="magnet_v25" vertex2="magnet_v1" vertex3="magnet_v3"/>
+             <triangular vertex1="magnet_v26" vertex2="magnet_v4" vertex3="magnet_v24"/>
+             <triangular vertex1="magnet_v24" vertex2="magnet_v4" vertex3="magnet_v1"/>
+             <triangular vertex1="magnet_v23" vertex2="magnet_v16" vertex3="magnet_v27"/>
+             <triangular vertex1="magnet_v18" vertex2="magnet_v16" vertex3="magnet_v23"/>
+             <triangular vertex1="magnet_v27" vertex2="magnet_v14" vertex3="magnet_v28"/>
+             <triangular vertex1="magnet_v16" vertex2="magnet_v14" vertex3="magnet_v27"/>
+             <triangular vertex1="magnet_v29" vertex2="magnet_v6" vertex3="magnet_v26"/>
+             <triangular vertex1="magnet_v26" vertex2="magnet_v6" vertex3="magnet_v4"/>
+             <triangular vertex1="magnet_v28" vertex2="magnet_v12" vertex3="magnet_v30"/>
+             <triangular vertex1="magnet_v14" vertex2="magnet_v12" vertex3="magnet_v28"/>
+             <triangular vertex1="magnet_v30" vertex2="magnet_v8" vertex3="magnet_v29"/>
+             <triangular vertex1="magnet_v29" vertex2="magnet_v8" vertex3="magnet_v6"/>
+             <triangular vertex1="magnet_v12" vertex2="magnet_v10" vertex3="magnet_v30"/>
+             <triangular vertex1="magnet_v30" vertex2="magnet_v10" vertex3="magnet_v8"/>
+             <triangular vertex1="magnet_v25" vertex2="magnet_v31" vertex3="magnet_v24"/>
+             <triangular vertex1="magnet_v31" vertex2="magnet_v32" vertex3="magnet_v24"/>
+             <triangular vertex1="magnet_v24" vertex2="magnet_v33" vertex3="magnet_v26"/>
+             <triangular vertex1="magnet_v32" vertex2="magnet_v33" vertex3="magnet_v24"/>
+             <triangular vertex1="magnet_v26" vertex2="magnet_v34" vertex3="magnet_v29"/>
+             <triangular vertex1="magnet_v33" vertex2="magnet_v34" vertex3="magnet_v26"/>
+             <triangular vertex1="magnet_v29" vertex2="magnet_v35" vertex3="magnet_v30"/>
+             <triangular vertex1="magnet_v34" vertex2="magnet_v35" vertex3="magnet_v29"/>
+             <triangular vertex1="magnet_v30" vertex2="magnet_v36" vertex3="magnet_v28"/>
+             <triangular vertex1="magnet_v35" vertex2="magnet_v36" vertex3="magnet_v30"/>
+             <triangular vertex1="magnet_v28" vertex2="magnet_v37" vertex3="magnet_v27"/>
+             <triangular vertex1="magnet_v36" vertex2="magnet_v37" vertex3="magnet_v28"/>
+             <triangular vertex1="magnet_v27" vertex2="magnet_v38" vertex3="magnet_v23"/>
+             <triangular vertex1="magnet_v37" vertex2="magnet_v38" vertex3="magnet_v27"/>
+             <triangular vertex1="magnet_v23" vertex2="magnet_v39" vertex3="magnet_v22"/>
+             <triangular vertex1="magnet_v38" vertex2="magnet_v39" vertex3="magnet_v23"/>
+             <triangular vertex1="magnet_v40" vertex2="magnet_v31" vertex3="magnet_v41"/>
+             <triangular vertex1="magnet_v42" vertex2="magnet_v32" vertex3="magnet_v40"/>
+             <triangular vertex1="magnet_v40" vertex2="magnet_v32" vertex3="magnet_v31"/>
+             <triangular vertex1="magnet_v43" vertex2="magnet_v33" vertex3="magnet_v42"/>
+             <triangular vertex1="magnet_v42" vertex2="magnet_v33" vertex3="magnet_v32"/>
+             <triangular vertex1="magnet_v44" vertex2="magnet_v34" vertex3="magnet_v43"/>
+             <triangular vertex1="magnet_v43" vertex2="magnet_v34" vertex3="magnet_v33"/>
+             <triangular vertex1="magnet_v44" vertex2="magnet_v35" vertex3="magnet_v34"/>
+             <triangular vertex1="magnet_v44" vertex2="magnet_v45" vertex3="magnet_v35"/>
+             <triangular vertex1="magnet_v35" vertex2="magnet_v46" vertex3="magnet_v36"/>
+             <triangular vertex1="magnet_v45" vertex2="magnet_v46" vertex3="magnet_v35"/>
+             <triangular vertex1="magnet_v36" vertex2="magnet_v47" vertex3="magnet_v37"/>
+             <triangular vertex1="magnet_v46" vertex2="magnet_v47" vertex3="magnet_v36"/>
+             <triangular vertex1="magnet_v37" vertex2="magnet_v48" vertex3="magnet_v38"/>
+             <triangular vertex1="magnet_v47" vertex2="magnet_v48" vertex3="magnet_v37"/>
+             <triangular vertex1="magnet_v38" vertex2="magnet_v49" vertex3="magnet_v39"/>
+             <triangular vertex1="magnet_v48" vertex2="magnet_v49" vertex3="magnet_v38"/>
+             <triangular vertex1="magnet_v49" vertex2="magnet_v50" vertex3="magnet_v39"/>
+             <triangular vertex1="magnet_v41" vertex2="magnet_v51" vertex3="magnet_v40"/>
+             <triangular vertex1="magnet_v52" vertex2="magnet_v51" vertex3="magnet_v41"/>
+             <triangular vertex1="magnet_v40" vertex2="magnet_v53" vertex3="magnet_v42"/>
+             <triangular vertex1="magnet_v51" vertex2="magnet_v53" vertex3="magnet_v40"/>
+             <triangular vertex1="magnet_v42" vertex2="magnet_v54" vertex3="magnet_v43"/>
+             <triangular vertex1="magnet_v53" vertex2="magnet_v54" vertex3="magnet_v42"/>
+             <triangular vertex1="magnet_v43" vertex2="magnet_v55" vertex3="magnet_v44"/>
+             <triangular vertex1="magnet_v54" vertex2="magnet_v55" vertex3="magnet_v43"/>
+             <triangular vertex1="magnet_v44" vertex2="magnet_v56" vertex3="magnet_v45"/>
+             <triangular vertex1="magnet_v55" vertex2="magnet_v56" vertex3="magnet_v44"/>
+             <triangular vertex1="magnet_v45" vertex2="magnet_v57" vertex3="magnet_v46"/>
+             <triangular vertex1="magnet_v56" vertex2="magnet_v57" vertex3="magnet_v45"/>
+             <triangular vertex1="magnet_v46" vertex2="magnet_v58" vertex3="magnet_v47"/>
+             <triangular vertex1="magnet_v57" vertex2="magnet_v58" vertex3="magnet_v46"/>
+             <triangular vertex1="magnet_v47" vertex2="magnet_v59" vertex3="magnet_v48"/>
+             <triangular vertex1="magnet_v58" vertex2="magnet_v59" vertex3="magnet_v47"/>
+             <triangular vertex1="magnet_v48" vertex2="magnet_v60" vertex3="magnet_v49"/>
+             <triangular vertex1="magnet_v59" vertex2="magnet_v60" vertex3="magnet_v48"/>
+             <triangular vertex1="magnet_v49" vertex2="magnet_v61" vertex3="magnet_v50"/>
+             <triangular vertex1="magnet_v60" vertex2="magnet_v61" vertex3="magnet_v49"/>
+             <triangular vertex1="magnet_v51" vertex2="magnet_v52" vertex3="magnet_v62"/>
+             <triangular vertex1="magnet_v63" vertex2="magnet_v51" vertex3="magnet_v62"/>
+             <triangular vertex1="magnet_v53" vertex2="magnet_v51" vertex3="magnet_v63"/>
+             <triangular vertex1="magnet_v64" vertex2="magnet_v53" vertex3="magnet_v63"/>
+             <triangular vertex1="magnet_v54" vertex2="magnet_v53" vertex3="magnet_v64"/>
+             <triangular vertex1="magnet_v65" vertex2="magnet_v54" vertex3="magnet_v64"/>
+             <triangular vertex1="magnet_v55" vertex2="magnet_v54" vertex3="magnet_v65"/>
+             <triangular vertex1="magnet_v66" vertex2="magnet_v55" vertex3="magnet_v65"/>
+             <triangular vertex1="magnet_v56" vertex2="magnet_v55" vertex3="magnet_v66"/>
+             <triangular vertex1="magnet_v67" vertex2="magnet_v56" vertex3="magnet_v66"/>
+             <triangular vertex1="magnet_v57" vertex2="magnet_v56" vertex3="magnet_v67"/>
+             <triangular vertex1="magnet_v68" vertex2="magnet_v57" vertex3="magnet_v67"/>
+             <triangular vertex1="magnet_v58" vertex2="magnet_v57" vertex3="magnet_v68"/>
+             <triangular vertex1="magnet_v69" vertex2="magnet_v58" vertex3="magnet_v68"/>
+             <triangular vertex1="magnet_v59" vertex2="magnet_v58" vertex3="magnet_v69"/>
+             <triangular vertex1="magnet_v70" vertex2="magnet_v59" vertex3="magnet_v69"/>
+             <triangular vertex1="magnet_v60" vertex2="magnet_v59" vertex3="magnet_v70"/>
+             <triangular vertex1="magnet_v71" vertex2="magnet_v60" vertex3="magnet_v70"/>
+             <triangular vertex1="magnet_v61" vertex2="magnet_v60" vertex3="magnet_v71"/>
+             <triangular vertex1="magnet_v63" vertex2="magnet_v72" vertex3="magnet_v73"/>
+             <triangular vertex1="magnet_v63" vertex2="magnet_v62" vertex3="magnet_v72"/>
+             <triangular vertex1="magnet_v64" vertex2="magnet_v73" vertex3="magnet_v74"/>
+             <triangular vertex1="magnet_v64" vertex2="magnet_v63" vertex3="magnet_v73"/>
+             <triangular vertex1="magnet_v65" vertex2="magnet_v74" vertex3="magnet_v75"/>
+             <triangular vertex1="magnet_v65" vertex2="magnet_v64" vertex3="magnet_v74"/>
+             <triangular vertex1="magnet_v66" vertex2="magnet_v75" vertex3="magnet_v76"/>
+             <triangular vertex1="magnet_v66" vertex2="magnet_v65" vertex3="magnet_v75"/>
+             <triangular vertex1="magnet_v67" vertex2="magnet_v76" vertex3="magnet_v77"/>
+             <triangular vertex1="magnet_v67" vertex2="magnet_v77" vertex3="magnet_v78"/>
+             <triangular vertex1="magnet_v67" vertex2="magnet_v66" vertex3="magnet_v76"/>
+             <triangular vertex1="magnet_v68" vertex2="magnet_v67" vertex3="magnet_v78"/>
+             <triangular vertex1="magnet_v69" vertex2="magnet_v78" vertex3="magnet_v79"/>
+             <triangular vertex1="magnet_v69" vertex2="magnet_v68" vertex3="magnet_v78"/>
+             <triangular vertex1="magnet_v70" vertex2="magnet_v79" vertex3="magnet_v80"/>
+             <triangular vertex1="magnet_v70" vertex2="magnet_v69" vertex3="magnet_v79"/>
+             <triangular vertex1="magnet_v71" vertex2="magnet_v80" vertex3="magnet_v81"/>
+             <triangular vertex1="magnet_v71" vertex2="magnet_v70" vertex3="magnet_v80"/>
+             <triangular vertex1="magnet_v73" vertex2="magnet_v82" vertex3="magnet_v83"/>
+             <triangular vertex1="magnet_v73" vertex2="magnet_v72" vertex3="magnet_v82"/>
+             <triangular vertex1="magnet_v74" vertex2="magnet_v83" vertex3="magnet_v84"/>
+             <triangular vertex1="magnet_v74" vertex2="magnet_v73" vertex3="magnet_v83"/>
+             <triangular vertex1="magnet_v75" vertex2="magnet_v84" vertex3="magnet_v85"/>
+             <triangular vertex1="magnet_v75" vertex2="magnet_v74" vertex3="magnet_v84"/>
+             <triangular vertex1="magnet_v76" vertex2="magnet_v85" vertex3="magnet_v86"/>
+             <triangular vertex1="magnet_v76" vertex2="magnet_v75" vertex3="magnet_v85"/>
+             <triangular vertex1="magnet_v87" vertex2="magnet_v76" vertex3="magnet_v86"/>
+             <triangular vertex1="magnet_v77" vertex2="magnet_v76" vertex3="magnet_v87"/>
+             <triangular vertex1="magnet_v78" vertex2="magnet_v87" vertex3="magnet_v88"/>
+             <triangular vertex1="magnet_v78" vertex2="magnet_v77" vertex3="magnet_v87"/>
+             <triangular vertex1="magnet_v89" vertex2="magnet_v78" vertex3="magnet_v88"/>
+             <triangular vertex1="magnet_v79" vertex2="magnet_v78" vertex3="magnet_v89"/>
+             <triangular vertex1="magnet_v90" vertex2="magnet_v79" vertex3="magnet_v89"/>
+             <triangular vertex1="magnet_v80" vertex2="magnet_v79" vertex3="magnet_v90"/>
+             <triangular vertex1="magnet_v91" vertex2="magnet_v80" vertex3="magnet_v90"/>
+             <triangular vertex1="magnet_v81" vertex2="magnet_v80" vertex3="magnet_v91"/>
+             <triangular vertex1="magnet_v83" vertex2="magnet_v92" vertex3="magnet_v93"/>
+             <triangular vertex1="magnet_v83" vertex2="magnet_v82" vertex3="magnet_v92"/>
+             <triangular vertex1="magnet_v84" vertex2="magnet_v93" vertex3="magnet_v94"/>
+             <triangular vertex1="magnet_v84" vertex2="magnet_v83" vertex3="magnet_v93"/>
+             <triangular vertex1="magnet_v85" vertex2="magnet_v94" vertex3="magnet_v95"/>
+             <triangular vertex1="magnet_v85" vertex2="magnet_v84" vertex3="magnet_v94"/>
+             <triangular vertex1="magnet_v86" vertex2="magnet_v95" vertex3="magnet_v96"/>
+             <triangular vertex1="magnet_v86" vertex2="magnet_v85" vertex3="magnet_v95"/>
+             <triangular vertex1="magnet_v87" vertex2="magnet_v96" vertex3="magnet_v97"/>
+             <triangular vertex1="magnet_v87" vertex2="magnet_v86" vertex3="magnet_v96"/>
+             <triangular vertex1="magnet_v88" vertex2="magnet_v97" vertex3="magnet_v98"/>
+             <triangular vertex1="magnet_v88" vertex2="magnet_v87" vertex3="magnet_v97"/>
+             <triangular vertex1="magnet_v89" vertex2="magnet_v98" vertex3="magnet_v99"/>
+             <triangular vertex1="magnet_v89" vertex2="magnet_v88" vertex3="magnet_v98"/>
+             <triangular vertex1="magnet_v90" vertex2="magnet_v99" vertex3="magnet_v100"/>
+             <triangular vertex1="magnet_v90" vertex2="magnet_v89" vertex3="magnet_v99"/>
+             <triangular vertex1="magnet_v91" vertex2="magnet_v100" vertex3="magnet_v101"/>
+             <triangular vertex1="magnet_v91" vertex2="magnet_v90" vertex3="magnet_v100"/>
+             <triangular vertex1="magnet_v93" vertex2="magnet_v102" vertex3="magnet_v103"/>
+             <triangular vertex1="magnet_v93" vertex2="magnet_v92" vertex3="magnet_v102"/>
+             <triangular vertex1="magnet_v94" vertex2="magnet_v103" vertex3="magnet_v104"/>
+             <triangular vertex1="magnet_v94" vertex2="magnet_v93" vertex3="magnet_v103"/>
+             <triangular vertex1="magnet_v95" vertex2="magnet_v104" vertex3="magnet_v105"/>
+             <triangular vertex1="magnet_v95" vertex2="magnet_v94" vertex3="magnet_v104"/>
+             <triangular vertex1="magnet_v96" vertex2="magnet_v105" vertex3="magnet_v106"/>
+             <triangular vertex1="magnet_v96" vertex2="magnet_v95" vertex3="magnet_v105"/>
+             <triangular vertex1="magnet_v107" vertex2="magnet_v96" vertex3="magnet_v106"/>
+             <triangular vertex1="magnet_v97" vertex2="magnet_v96" vertex3="magnet_v107"/>
+             <triangular vertex1="magnet_v98" vertex2="magnet_v107" vertex3="magnet_v108"/>
+             <triangular vertex1="magnet_v98" vertex2="magnet_v97" vertex3="magnet_v107"/>
+             <triangular vertex1="magnet_v109" vertex2="magnet_v98" vertex3="magnet_v108"/>
+             <triangular vertex1="magnet_v99" vertex2="magnet_v98" vertex3="magnet_v109"/>
+             <triangular vertex1="magnet_v110" vertex2="magnet_v99" vertex3="magnet_v109"/>
+             <triangular vertex1="magnet_v100" vertex2="magnet_v99" vertex3="magnet_v110"/>
+             <triangular vertex1="magnet_v111" vertex2="magnet_v100" vertex3="magnet_v110"/>
+             <triangular vertex1="magnet_v101" vertex2="magnet_v100" vertex3="magnet_v111"/>
+             <triangular vertex1="magnet_v102" vertex2="magnet_v112" vertex3="magnet_v113"/>
+             <triangular vertex1="magnet_v103" vertex2="magnet_v113" vertex3="magnet_v114"/>
+             <triangular vertex1="magnet_v103" vertex2="magnet_v102" vertex3="magnet_v113"/>
+             <triangular vertex1="magnet_v104" vertex2="magnet_v114" vertex3="magnet_v115"/>
+             <triangular vertex1="magnet_v104" vertex2="magnet_v103" vertex3="magnet_v114"/>
+             <triangular vertex1="magnet_v105" vertex2="magnet_v115" vertex3="magnet_v116"/>
+             <triangular vertex1="magnet_v105" vertex2="magnet_v104" vertex3="magnet_v115"/>
+             <triangular vertex1="magnet_v106" vertex2="magnet_v105" vertex3="magnet_v116"/>
+             <triangular vertex1="magnet_v107" vertex2="magnet_v116" vertex3="magnet_v117"/>
+             <triangular vertex1="magnet_v107" vertex2="magnet_v106" vertex3="magnet_v116"/>
+             <triangular vertex1="magnet_v108" vertex2="magnet_v117" vertex3="magnet_v118"/>
+             <triangular vertex1="magnet_v108" vertex2="magnet_v107" vertex3="magnet_v117"/>
+             <triangular vertex1="magnet_v109" vertex2="magnet_v118" vertex3="magnet_v119"/>
+             <triangular vertex1="magnet_v109" vertex2="magnet_v108" vertex3="magnet_v118"/>
+             <triangular vertex1="magnet_v110" vertex2="magnet_v119" vertex3="magnet_v120"/>
+             <triangular vertex1="magnet_v110" vertex2="magnet_v109" vertex3="magnet_v119"/>
+             <triangular vertex1="magnet_v111" vertex2="magnet_v120" vertex3="magnet_v121"/>
+             <triangular vertex1="magnet_v111" vertex2="magnet_v110" vertex3="magnet_v120"/>
+             <triangular vertex1="magnet_v19" vertex2="magnet_v121" vertex3="magnet_v120"/>
+             <triangular vertex1="magnet_v19" vertex2="magnet_v21" vertex3="magnet_v121"/>
+             <triangular vertex1="magnet_v2" vertex2="magnet_v113" vertex3="magnet_v112"/>
+             <triangular vertex1="magnet_v2" vertex2="magnet_v112" vertex3="magnet_v0"/>
+             <triangular vertex1="magnet_v5" vertex2="magnet_v114" vertex3="magnet_v113"/>
+             <triangular vertex1="magnet_v5" vertex2="magnet_v113" vertex3="magnet_v2"/>
+             <triangular vertex1="magnet_v17" vertex2="magnet_v120" vertex3="magnet_v119"/>
+             <triangular vertex1="magnet_v17" vertex2="magnet_v19" vertex3="magnet_v120"/>
+             <triangular vertex1="magnet_v15" vertex2="magnet_v119" vertex3="magnet_v118"/>
+             <triangular vertex1="magnet_v15" vertex2="magnet_v17" vertex3="magnet_v119"/>
+             <triangular vertex1="magnet_v7" vertex2="magnet_v115" vertex3="magnet_v114"/>
+             <triangular vertex1="magnet_v7" vertex2="magnet_v114" vertex3="magnet_v5"/>
+             <triangular vertex1="magnet_v13" vertex2="magnet_v118" vertex3="magnet_v117"/>
+             <triangular vertex1="magnet_v13" vertex2="magnet_v15" vertex3="magnet_v118"/>
+             <triangular vertex1="magnet_v9" vertex2="magnet_v116" vertex3="magnet_v115"/>
+             <triangular vertex1="magnet_v9" vertex2="magnet_v115" vertex3="magnet_v7"/>
+             <triangular vertex1="magnet_v11" vertex2="magnet_v117" vertex3="magnet_v116"/>
+             <triangular vertex1="magnet_v11" vertex2="magnet_v13" vertex3="magnet_v117"/>
+             <triangular vertex1="magnet_v11" vertex2="magnet_v116" vertex3="magnet_v9"/>
+             <triangular vertex1="magnet_v82" vertex2="magnet_v25" vertex3="magnet_v92"/>
+             <triangular vertex1="magnet_v31" vertex2="magnet_v25" vertex3="magnet_v82"/>
+             <triangular vertex1="magnet_v31" vertex2="magnet_v72" vertex3="magnet_v41"/>
+             <triangular vertex1="magnet_v82" vertex2="magnet_v72" vertex3="magnet_v31"/>
+             <triangular vertex1="magnet_v25" vertex2="magnet_v102" vertex3="magnet_v92"/>
+             <triangular vertex1="magnet_v62" vertex2="magnet_v52" vertex3="magnet_v72"/>
+             <triangular vertex1="magnet_v72" vertex2="magnet_v52" vertex3="magnet_v41"/>
+             <triangular vertex1="magnet_v102" vertex2="magnet_v0" vertex3="magnet_v112"/>
+             <triangular vertex1="magnet_v25" vertex2="magnet_v3" vertex3="magnet_v102"/>
+             <triangular vertex1="magnet_v102" vertex2="magnet_v3" vertex3="magnet_v0"/>
+             <triangular vertex1="magnet_v22" vertex2="magnet_v91" vertex3="magnet_v101"/>
+             <triangular vertex1="magnet_v22" vertex2="magnet_v39" vertex3="magnet_v91"/>
+             <triangular vertex1="magnet_v81" vertex2="magnet_v39" vertex3="magnet_v50"/>
+             <triangular vertex1="magnet_v81" vertex2="magnet_v91" vertex3="magnet_v39"/>
+             <triangular vertex1="magnet_v111" vertex2="magnet_v22" vertex3="magnet_v101"/>
+             <triangular vertex1="magnet_v61" vertex2="magnet_v71" vertex3="magnet_v81"/>
+             <triangular vertex1="magnet_v61" vertex2="magnet_v81" vertex3="magnet_v50"/>
+             <triangular vertex1="magnet_v21" vertex2="magnet_v111" vertex3="magnet_v121"/>
+             <triangular vertex1="magnet_v20" vertex2="magnet_v22" vertex3="magnet_v111"/>
+             <triangular vertex1="magnet_v20" vertex2="magnet_v111" vertex3="magnet_v21"/>
+        </tessellated>
+    </solids>
+
+    <structure>
+        <volume name="magnet">
+            <materialref ref="Vacuum"/>
+            <solidref ref="magnet-SOL"/>
+        </volume>
+    </structure>
+
+    <setup name="Default" version="1.0">
+        <world ref="magnet"/>
+    </setup>
+</gdml>

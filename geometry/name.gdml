@@ -481,7 +481,19 @@
             <solidref ref="world_solid"/>
 
             <physvol>
-                <file name="top.gdml"/>
+                <file name="geometry/magnet.gdml"/>
+             </physvol>
+            <physvol>
+                <file name="geometry/tube_ring.gdml"/>
+             </physvol>
+            <physvol>
+                <file name="geometry/tube_vacuum.gdml"/>
+             </physvol>
+            <physvol>
+                <file name="geometry/straight_tube_ring.gdml"/>
+             </physvol>
+            <physvol>
+                <file name="geometry/straight_tube_vacuum.gdml"/>
              </physvol>
 
 

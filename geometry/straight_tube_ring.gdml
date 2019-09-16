@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+    <define>
+        <position name="straight_tube_ring_v0" unit="mm" x="-65.0" y="35.0" z="-960.0"/>
+        <position name="straight_tube_ring_v1" unit="mm" x="-74.058655" y="33.807392" z="-960.0"/>
+        <position name="straight_tube_ring_v2" unit="mm" x="-65.0" y="35.0" z="960.0"/>
+        <position name="straight_tube_ring_v3" unit="mm" x="-74.058655" y="33.807392" z="960.0"/>
+        <position name="straight_tube_ring_v4" unit="mm" x="-82.499977" y="30.310871" z="-960.0"/>
+        <position name="straight_tube_ring_v5" unit="mm" x="-82.499977" y="30.310871" z="960.0"/>
+        <position name="straight_tube_ring_v6" unit="mm" x="-89.748703" y="24.748718" z="-960.0"/>
+        <position name="straight_tube_ring_v7" unit="mm" x="-89.748703" y="24.748718" z="960.0"/>
+        <position name="straight_tube_ring_v8" unit="mm" x="-95.310844" y="17.499985" z="-960.0"/>
+        <position name="straight_tube_ring_v9" unit="mm" x="-95.310844" y="17.499985" z="960.0"/>
+        <position name="straight_tube_ring_v10" unit="mm" x="-98.807358" y="9.058659" z="-960.0"/>
+        <position name="straight_tube_ring_v11" unit="mm" x="-98.807358" y="9.058659" z="960.0"/>
+        <position name="straight_tube_ring_v12" unit="mm" x="-99.999947" y="-0.0" z="-960.0"/>
+        <position name="straight_tube_ring_v13" unit="mm" x="-99.999947" y="-0.0" z="960.0"/>
+        <position name="straight_tube_ring_v14" unit="mm" x="-98.807358" y="-9.058659" z="-960.0"/>
+        <position name="straight_tube_ring_v15" unit="mm" x="-98.807358" y="-9.058659" z="960.0"/>
+        <position name="straight_tube_ring_v16" unit="mm" x="-95.310844" y="-17.499985" z="-960.0"/>
+        <position name="straight_tube_ring_v17" unit="mm" x="-95.310844" y="-17.499985" z="960.0"/>
+        <position name="straight_tube_ring_v18" unit="mm" x="-89.748703" y="-24.748718" z="-960.0"/>
+        <position name="straight_tube_ring_v19" unit="mm" x="-89.748703" y="-24.748718" z="960.0"/>
+        <position name="straight_tube_ring_v20" unit="mm" x="-82.499977" y="-30.310871" z="-960.0"/>
+        <position name="straight_tube_ring_v21" unit="mm" x="-82.499977" y="-30.310871" z="960.0"/>
+        <position name="straight_tube_ring_v22" unit="mm" x="-74.058655" y="-33.807392" z="-960.0"/>
+        <position name="straight_tube_ring_v23" unit="mm" x="-74.058655" y="-33.807392" z="960.0"/>
+        <position name="straight_tube_ring_v24" unit="mm" x="-65.0" y="-35.0" z="-960.0"/>
+        <position name="straight_tube_ring_v25" unit="mm" x="-65.0" y="-35.0" z="960.0"/>
+        <position name="straight_tube_ring_v26" unit="mm" x="65.000053" y="-35.0" z="960.0"/>
+        <position name="straight_tube_ring_v27" unit="mm" x="65.000053" y="-35.0" z="-960.0"/>
+        <position name="straight_tube_ring_v28" unit="mm" x="74.058716" y="-33.807404" z="-960.0"/>
+        <position name="straight_tube_ring_v29" unit="mm" x="74.058716" y="-33.807404" z="960.0"/>
+        <position name="straight_tube_ring_v30" unit="mm" x="82.500053" y="-30.310888" z="-960.0"/>
+        <position name="straight_tube_ring_v31" unit="mm" x="82.500053" y="-30.310888" z="960.0"/>
+        <position name="straight_tube_ring_v32" unit="mm" x="89.748787" y="-24.748737" z="-960.0"/>
+        <position name="straight_tube_ring_v33" unit="mm" x="89.748787" y="-24.748737" z="960.0"/>
+        <position name="straight_tube_ring_v34" unit="mm" x="95.310944" y="-17.5" z="-960.0"/>
+        <position name="straight_tube_ring_v35" unit="mm" x="95.310944" y="-17.5" z="960.0"/>
+        <position name="straight_tube_ring_v36" unit="mm" x="98.807457" y="-9.058667" z="-960.0"/>
+        <position name="straight_tube_ring_v37" unit="mm" x="98.807457" y="-9.058667" z="960.0"/>
+        <position name="straight_tube_ring_v38" unit="mm" x="100.000053" y="-0.0" z="-960.0"/>
+        <position name="straight_tube_ring_v39" unit="mm" x="100.000053" y="-0.0" z="960.0"/>
+        <position name="straight_tube_ring_v40" unit="mm" x="98.807457" y="9.058666" z="-960.0"/>
+        <position name="straight_tube_ring_v41" unit="mm" x="98.807457" y="9.058666" z="960.0"/>
+        <position name="straight_tube_ring_v42" unit="mm" x="95.310944" y="17.5" z="-960.0"/>
+        <position name="straight_tube_ring_v43" unit="mm" x="95.310944" y="17.5" z="960.0"/>
+        <position name="straight_tube_ring_v44" unit="mm" x="89.748787" y="24.748737" z="960.0"/>
+        <position name="straight_tube_ring_v45" unit="mm" x="89.748787" y="24.748737" z="-960.0"/>
+        <position name="straight_tube_ring_v46" unit="mm" x="82.500053" y="30.310888" z="-960.0"/>
+        <position name="straight_tube_ring_v47" unit="mm" x="82.500053" y="30.310888" z="960.0"/>
+        <position name="straight_tube_ring_v48" unit="mm" x="74.058716" y="33.807404" z="-960.0"/>
+        <position name="straight_tube_ring_v49" unit="mm" x="74.058716" y="33.807404" z="960.0"/>
+        <position name="straight_tube_ring_v50" unit="mm" x="65.000053" y="35.0" z="-960.0"/>
+        <position name="straight_tube_ring_v51" unit="mm" x="65.000053" y="35.0" z="960.0"/>
+        <position name="straight_tube_ring_v52" unit="mm" x="-65.000008" y="30.0" z="960.0"/>
+        <position name="straight_tube_ring_v53" unit="mm" x="-65.000008" y="30.0" z="-960.0"/>
+        <position name="straight_tube_ring_v54" unit="mm" x="64.999992" y="30.0" z="960.0"/>
+        <position name="straight_tube_ring_v55" unit="mm" x="64.999992" y="30.0" z="-960.0"/>
+        <position name="straight_tube_ring_v56" unit="mm" x="72.179482" y="-29.128265" z="-960.0"/>
+        <position name="straight_tube_ring_v57" unit="mm" x="65.0" y="-30.0" z="-960.0"/>
+        <position name="straight_tube_ring_v58" unit="mm" x="65.0" y="-30.0" z="960.0"/>
+        <position name="straight_tube_ring_v59" unit="mm" x="72.179482" y="-29.128265" z="960.0"/>
+        <position name="straight_tube_ring_v60" unit="mm" x="78.941719" y="-26.563696" z="-960.0"/>
+        <position name="straight_tube_ring_v61" unit="mm" x="78.941719" y="-26.563696" z="960.0"/>
+        <position name="straight_tube_ring_v62" unit="mm" x="84.893715" y="-22.455339" z="-960.0"/>
+        <position name="straight_tube_ring_v63" unit="mm" x="84.893715" y="-22.455339" z="960.0"/>
+        <position name="straight_tube_ring_v64" unit="mm" x="89.68956" y="-17.041958" z="-960.0"/>
+        <position name="straight_tube_ring_v65" unit="mm" x="89.68956" y="-17.041958" z="960.0"/>
+        <position name="straight_tube_ring_v66" unit="mm" x="93.050537" y="-10.638155" z="-960.0"/>
+        <position name="straight_tube_ring_v67" unit="mm" x="93.050537" y="-10.638155" z="960.0"/>
+        <position name="straight_tube_ring_v68" unit="mm" x="94.781319" y="-3.616101" z="-960.0"/>
+        <position name="straight_tube_ring_v69" unit="mm" x="94.781319" y="-3.616101" z="960.0"/>
+        <position name="straight_tube_ring_v70" unit="mm" x="94.781319" y="3.616108" z="-960.0"/>
+        <position name="straight_tube_ring_v71" unit="mm" x="94.781319" y="3.616108" z="960.0"/>
+        <position name="straight_tube_ring_v72" unit="mm" x="93.050529" y="10.638162" z="-960.0"/>
+        <position name="straight_tube_ring_v73" unit="mm" x="93.050529" y="10.638162" z="960.0"/>
+        <position name="straight_tube_ring_v74" unit="mm" x="89.689552" y="17.041962" z="-960.0"/>
+        <position name="straight_tube_ring_v75" unit="mm" x="89.689552" y="17.041962" z="960.0"/>
+        <position name="straight_tube_ring_v76" unit="mm" x="84.893707" y="22.455345" z="-960.0"/>
+        <position name="straight_tube_ring_v77" unit="mm" x="84.893707" y="22.455345" z="960.0"/>
+        <position name="straight_tube_ring_v78" unit="mm" x="78.941711" y="26.5637" z="-960.0"/>
+        <position name="straight_tube_ring_v79" unit="mm" x="78.941711" y="26.5637" z="960.0"/>
+        <position name="straight_tube_ring_v80" unit="mm" x="72.179474" y="29.128267" z="-960.0"/>
+        <position name="straight_tube_ring_v81" unit="mm" x="72.179474" y="29.128267" z="960.0"/>
+        <position name="straight_tube_ring_v82" unit="mm" x="-65.0" y="-30.0" z="-960.0"/>
+        <position name="straight_tube_ring_v83" unit="mm" x="-65.0" y="-30.0" z="960.0"/>
+        <position name="straight_tube_ring_v84" unit="mm" x="-72.764565" y="28.977762" z="-960.0"/>
+        <position name="straight_tube_ring_v85" unit="mm" x="-72.764565" y="28.977762" z="960.0"/>
+        <position name="straight_tube_ring_v86" unit="mm" x="-79.999985" y="25.980742" z="-960.0"/>
+        <position name="straight_tube_ring_v87" unit="mm" x="-79.999985" y="25.980742" z="960.0"/>
+        <position name="straight_tube_ring_v88" unit="mm" x="-86.213173" y="21.213182" z="-960.0"/>
+        <position name="straight_tube_ring_v89" unit="mm" x="-86.213173" y="21.213182" z="960.0"/>
+        <position name="straight_tube_ring_v90" unit="mm" x="-90.980721" y="14.999981" z="-960.0"/>
+        <position name="straight_tube_ring_v91" unit="mm" x="-90.980721" y="14.999981" z="960.0"/>
+        <position name="straight_tube_ring_v92" unit="mm" x="-93.97773" y="7.764559" z="-960.0"/>
+        <position name="straight_tube_ring_v93" unit="mm" x="-93.97773" y="7.764559" z="960.0"/>
+        <position name="straight_tube_ring_v94" unit="mm" x="-94.999947" y="-3e-06" z="-960.0"/>
+        <position name="straight_tube_ring_v95" unit="mm" x="-94.999947" y="-3e-06" z="960.0"/>
+        <position name="straight_tube_ring_v96" unit="mm" x="-93.977722" y="-7.764566" z="-960.0"/>
+        <position name="straight_tube_ring_v97" unit="mm" x="-93.977722" y="-7.764566" z="960.0"/>
+        <position name="straight_tube_ring_v98" unit="mm" x="-90.980721" y="-14.999988" z="-960.0"/>
+        <position name="straight_tube_ring_v99" unit="mm" x="-90.980721" y="-14.999988" z="960.0"/>
+        <position name="straight_tube_ring_v100" unit="mm" x="-86.213165" y="-21.213186" z="-960.0"/>
+        <position name="straight_tube_ring_v101" unit="mm" x="-86.213165" y="-21.213186" z="960.0"/>
+        <position name="straight_tube_ring_v102" unit="mm" x="-79.999977" y="-25.980745" z="-960.0"/>
+        <position name="straight_tube_ring_v103" unit="mm" x="-79.999977" y="-25.980745" z="960.0"/>
+        <position name="straight_tube_ring_v104" unit="mm" x="-72.764565" y="-28.977764" z="-960.0"/>
+        <position name="straight_tube_ring_v105" unit="mm" x="-72.764565" y="-28.977764" z="960.0"/>
+    </define>
+
+    <solids>
+        <tessellated aunit="deg" lunit="mm" name="straight_tube_ring-SOL">
+             <triangular vertex1="straight_tube_ring_v0" vertex2="straight_tube_ring_v1" vertex3="straight_tube_ring_v2"/>
+             <triangular vertex1="straight_tube_ring_v2" vertex2="straight_tube_ring_v1" vertex3="straight_tube_ring_v3"/>
+             <triangular vertex1="straight_tube_ring_v3" vertex2="straight_tube_ring_v4" vertex3="straight_tube_ring_v5"/>
+             <triangular vertex1="straight_tube_ring_v1" vertex2="straight_tube_ring_v4" vertex3="straight_tube_ring_v3"/>
+             <triangular vertex1="straight_tube_ring_v5" vertex2="straight_tube_ring_v6" vertex3="straight_tube_ring_v7"/>
+             <triangular vertex1="straight_tube_ring_v4" vertex2="straight_tube_ring_v6" vertex3="straight_tube_ring_v5"/>
+             <triangular vertex1="straight_tube_ring_v7" vertex2="straight_tube_ring_v8" vertex3="straight_tube_ring_v9"/>
+             <triangular vertex1="straight_tube_ring_v6" vertex2="straight_tube_ring_v8" vertex3="straight_tube_ring_v7"/>
+             <triangular vertex1="straight_tube_ring_v9" vertex2="straight_tube_ring_v10" vertex3="straight_tube_ring_v11"/>
+             <triangular vertex1="straight_tube_ring_v8" vertex2="straight_tube_ring_v10" vertex3="straight_tube_ring_v9"/>
+             <triangular vertex1="straight_tube_ring_v11" vertex2="straight_tube_ring_v12" vertex3="straight_tube_ring_v13"/>
+             <triangular vertex1="straight_tube_ring_v10" vertex2="straight_tube_ring_v12" vertex3="straight_tube_ring_v11"/>
+             <triangular vertex1="straight_tube_ring_v13" vertex2="straight_tube_ring_v14" vertex3="straight_tube_ring_v15"/>
+             <triangular vertex1="straight_tube_ring_v12" vertex2="straight_tube_ring_v14" vertex3="straight_tube_ring_v13"/>
+             <triangular vertex1="straight_tube_ring_v15" vertex2="straight_tube_ring_v16" vertex3="straight_tube_ring_v17"/>
+             <triangular vertex1="straight_tube_ring_v14" vertex2="straight_tube_ring_v16" vertex3="straight_tube_ring_v15"/>
+             <triangular vertex1="straight_tube_ring_v17" vertex2="straight_tube_ring_v18" vertex3="straight_tube_ring_v19"/>
+             <triangular vertex1="straight_tube_ring_v16" vertex2="straight_tube_ring_v18" vertex3="straight_tube_ring_v17"/>
+             <triangular vertex1="straight_tube_ring_v19" vertex2="straight_tube_ring_v20" vertex3="straight_tube_ring_v21"/>
+             <triangular vertex1="straight_tube_ring_v18" vertex2="straight_tube_ring_v20" vertex3="straight_tube_ring_v19"/>
+             <triangular vertex1="straight_tube_ring_v21" vertex2="straight_tube_ring_v22" vertex3="straight_tube_ring_v23"/>
+             <triangular vertex1="straight_tube_ring_v20" vertex2="straight_tube_ring_v22" vertex3="straight_tube_ring_v21"/>
+             <triangular vertex1="straight_tube_ring_v23" vertex2="straight_tube_ring_v24" vertex3="straight_tube_ring_v25"/>
+             <triangular vertex1="straight_tube_ring_v22" vertex2="straight_tube_ring_v24" vertex3="straight_tube_ring_v23"/>
+             <triangular vertex1="straight_tube_ring_v25" vertex2="straight_tube_ring_v24" vertex3="straight_tube_ring_v26"/>
+             <triangular vertex1="straight_tube_ring_v24" vertex2="straight_tube_ring_v27" vertex3="straight_tube_ring_v26"/>
+             <triangular vertex1="straight_tube_ring_v27" vertex2="straight_tube_ring_v28" vertex3="straight_tube_ring_v26"/>
+             <triangular vertex1="straight_tube_ring_v26" vertex2="straight_tube_ring_v28" vertex3="straight_tube_ring_v29"/>
+             <triangular vertex1="straight_tube_ring_v29" vertex2="straight_tube_ring_v30" vertex3="straight_tube_ring_v31"/>
+             <triangular vertex1="straight_tube_ring_v28" vertex2="straight_tube_ring_v30" vertex3="straight_tube_ring_v29"/>
+             <triangular vertex1="straight_tube_ring_v31" vertex2="straight_tube_ring_v32" vertex3="straight_tube_ring_v33"/>
+             <triangular vertex1="straight_tube_ring_v30" vertex2="straight_tube_ring_v32" vertex3="straight_tube_ring_v31"/>
+             <triangular vertex1="straight_tube_ring_v33" vertex2="straight_tube_ring_v34" vertex3="straight_tube_ring_v35"/>
+             <triangular vertex1="straight_tube_ring_v32" vertex2="straight_tube_ring_v34" vertex3="straight_tube_ring_v33"/>
+             <triangular vertex1="straight_tube_ring_v35" vertex2="straight_tube_ring_v36" vertex3="straight_tube_ring_v37"/>
+             <triangular vertex1="straight_tube_ring_v34" vertex2="straight_tube_ring_v36" vertex3="straight_tube_ring_v35"/>
+             <triangular vertex1="straight_tube_ring_v37" vertex2="straight_tube_ring_v38" vertex3="straight_tube_ring_v39"/>
+             <triangular vertex1="straight_tube_ring_v36" vertex2="straight_tube_ring_v38" vertex3="straight_tube_ring_v37"/>
+             <triangular vertex1="straight_tube_ring_v39" vertex2="straight_tube_ring_v40" vertex3="straight_tube_ring_v41"/>
+             <triangular vertex1="straight_tube_ring_v38" vertex2="straight_tube_ring_v40" vertex3="straight_tube_ring_v39"/>
+             <triangular vertex1="straight_tube_ring_v41" vertex2="straight_tube_ring_v42" vertex3="straight_tube_ring_v43"/>
+             <triangular vertex1="straight_tube_ring_v43" vertex2="straight_tube_ring_v42" vertex3="straight_tube_ring_v44"/>
+             <triangular vertex1="straight_tube_ring_v40" vertex2="straight_tube_ring_v42" vertex3="straight_tube_ring_v41"/>
+             <triangular vertex1="straight_tube_ring_v42" vertex2="straight_tube_ring_v45" vertex3="straight_tube_ring_v44"/>
+             <triangular vertex1="straight_tube_ring_v44" vertex2="straight_tube_ring_v46" vertex3="straight_tube_ring_v47"/>
+             <triangular vertex1="straight_tube_ring_v45" vertex2="straight_tube_ring_v46" vertex3="straight_tube_ring_v44"/>
+             <triangular vertex1="straight_tube_ring_v47" vertex2="straight_tube_ring_v48" vertex3="straight_tube_ring_v49"/>
+             <triangular vertex1="straight_tube_ring_v46" vertex2="straight_tube_ring_v48" vertex3="straight_tube_ring_v47"/>
+             <triangular vertex1="straight_tube_ring_v49" vertex2="straight_tube_ring_v50" vertex3="straight_tube_ring_v51"/>
+             <triangular vertex1="straight_tube_ring_v48" vertex2="straight_tube_ring_v50" vertex3="straight_tube_ring_v49"/>
+             <triangular vertex1="straight_tube_ring_v0" vertex2="straight_tube_ring_v2" vertex3="straight_tube_ring_v51"/>
+             <triangular vertex1="straight_tube_ring_v50" vertex2="straight_tube_ring_v0" vertex3="straight_tube_ring_v51"/>
+             <triangular vertex1="straight_tube_ring_v52" vertex2="straight_tube_ring_v53" vertex3="straight_tube_ring_v54"/>
+             <triangular vertex1="straight_tube_ring_v53" vertex2="straight_tube_ring_v55" vertex3="straight_tube_ring_v54"/>
+             <triangular vertex1="straight_tube_ring_v56" vertex2="straight_tube_ring_v57" vertex3="straight_tube_ring_v58"/>
+             <triangular vertex1="straight_tube_ring_v56" vertex2="straight_tube_ring_v58" vertex3="straight_tube_ring_v59"/>
+             <triangular vertex1="straight_tube_ring_v60" vertex2="straight_tube_ring_v59" vertex3="straight_tube_ring_v61"/>
+             <triangular vertex1="straight_tube_ring_v60" vertex2="straight_tube_ring_v56" vertex3="straight_tube_ring_v59"/>
+             <triangular vertex1="straight_tube_ring_v62" vertex2="straight_tube_ring_v61" vertex3="straight_tube_ring_v63"/>
+             <triangular vertex1="straight_tube_ring_v62" vertex2="straight_tube_ring_v60" vertex3="straight_tube_ring_v61"/>
+             <triangular vertex1="straight_tube_ring_v64" vertex2="straight_tube_ring_v63" vertex3="straight_tube_ring_v65"/>
+             <triangular vertex1="straight_tube_ring_v64" vertex2="straight_tube_ring_v62" vertex3="straight_tube_ring_v63"/>
+             <triangular vertex1="straight_tube_ring_v66" vertex2="straight_tube_ring_v65" vertex3="straight_tube_ring_v67"/>
+             <triangular vertex1="straight_tube_ring_v66" vertex2="straight_tube_ring_v64" vertex3="straight_tube_ring_v65"/>
+             <triangular vertex1="straight_tube_ring_v68" vertex2="straight_tube_ring_v67" vertex3="straight_tube_ring_v69"/>
+             <triangular vertex1="straight_tube_ring_v68" vertex2="straight_tube_ring_v66" vertex3="straight_tube_ring_v67"/>
+             <triangular vertex1="straight_tube_ring_v70" vertex2="straight_tube_ring_v69" vertex3="straight_tube_ring_v71"/>
+             <triangular vertex1="straight_tube_ring_v70" vertex2="straight_tube_ring_v68" vertex3="straight_tube_ring_v69"/>
+             <triangular vertex1="straight_tube_ring_v72" vertex2="straight_tube_ring_v71" vertex3="straight_tube_ring_v73"/>
+             <triangular vertex1="straight_tube_ring_v72" vertex2="straight_tube_ring_v70" vertex3="straight_tube_ring_v71"/>
+             <triangular vertex1="straight_tube_ring_v74" vertex2="straight_tube_ring_v73" vertex3="straight_tube_ring_v75"/>
+             <triangular vertex1="straight_tube_ring_v74" vertex2="straight_tube_ring_v72" vertex3="straight_tube_ring_v73"/>
+             <triangular vertex1="straight_tube_ring_v76" vertex2="straight_tube_ring_v75" vertex3="straight_tube_ring_v77"/>
+             <triangular vertex1="straight_tube_ring_v76" vertex2="straight_tube_ring_v74" vertex3="straight_tube_ring_v75"/>
+             <triangular vertex1="straight_tube_ring_v78" vertex2="straight_tube_ring_v77" vertex3="straight_tube_ring_v79"/>
+             <triangular vertex1="straight_tube_ring_v78" vertex2="straight_tube_ring_v76" vertex3="straight_tube_ring_v77"/>
+             <triangular vertex1="straight_tube_ring_v80" vertex2="straight_tube_ring_v79" vertex3="straight_tube_ring_v81"/>
+             <triangular vertex1="straight_tube_ring_v80" vertex2="straight_tube_ring_v78" vertex3="straight_tube_ring_v79"/>
+             <triangular vertex1="straight_tube_ring_v55" vertex2="straight_tube_ring_v81" vertex3="straight_tube_ring_v54"/>
+             <triangular vertex1="straight_tube_ring_v55" vertex2="straight_tube_ring_v80" vertex3="straight_tube_ring_v81"/>
+             <triangular vertex1="straight_tube_ring_v82" vertex2="straight_tube_ring_v83" vertex3="straight_tube_ring_v58"/>
+             <triangular vertex1="straight_tube_ring_v57" vertex2="straight_tube_ring_v82" vertex3="straight_tube_ring_v58"/>
+             <triangular vertex1="straight_tube_ring_v84" vertex2="straight_tube_ring_v53" vertex3="straight_tube_ring_v52"/>
+             <triangular vertex1="straight_tube_ring_v84" vertex2="straight_tube_ring_v52" vertex3="straight_tube_ring_v85"/>
+             <triangular vertex1="straight_tube_ring_v86" vertex2="straight_tube_ring_v85" vertex3="straight_tube_ring_v87"/>
+             <triangular vertex1="straight_tube_ring_v86" vertex2="straight_tube_ring_v84" vertex3="straight_tube_ring_v85"/>
+             <triangular vertex1="straight_tube_ring_v88" vertex2="straight_tube_ring_v87" vertex3="straight_tube_ring_v89"/>
+             <triangular vertex1="straight_tube_ring_v88" vertex2="straight_tube_ring_v86" vertex3="straight_tube_ring_v87"/>
+             <triangular vertex1="straight_tube_ring_v90" vertex2="straight_tube_ring_v89" vertex3="straight_tube_ring_v91"/>
+             <triangular vertex1="straight_tube_ring_v90" vertex2="straight_tube_ring_v88" vertex3="straight_tube_ring_v89"/>
+             <triangular vertex1="straight_tube_ring_v92" vertex2="straight_tube_ring_v91" vertex3="straight_tube_ring_v93"/>
+             <triangular vertex1="straight_tube_ring_v92" vertex2="straight_tube_ring_v90" vertex3="straight_tube_ring_v91"/>
+             <triangular vertex1="straight_tube_ring_v94" vertex2="straight_tube_ring_v93" vertex3="straight_tube_ring_v95"/>
+             <triangular vertex1="straight_tube_ring_v94" vertex2="straight_tube_ring_v92" vertex3="straight_tube_ring_v93"/>
+             <triangular vertex1="straight_tube_ring_v96" vertex2="straight_tube_ring_v95" vertex3="straight_tube_ring_v97"/>
+             <triangular vertex1="straight_tube_ring_v96" vertex2="straight_tube_ring_v94" vertex3="straight_tube_ring_v95"/>
+             <triangular vertex1="straight_tube_ring_v98" vertex2="straight_tube_ring_v97" vertex3="straight_tube_ring_v99"/>
+             <triangular vertex1="straight_tube_ring_v98" vertex2="straight_tube_ring_v96" vertex3="straight_tube_ring_v97"/>
+             <triangular vertex1="straight_tube_ring_v100" vertex2="straight_tube_ring_v99" vertex3="straight_tube_ring_v101"/>
+             <triangular vertex1="straight_tube_ring_v100" vertex2="straight_tube_ring_v98" vertex3="straight_tube_ring_v99"/>
+             <triangular vertex1="straight_tube_ring_v102" vertex2="straight_tube_ring_v101" vertex3="straight_tube_ring_v103"/>
+             <triangular vertex1="straight_tube_ring_v102" vertex2="straight_tube_ring_v100" vertex3="straight_tube_ring_v101"/>
+             <triangular vertex1="straight_tube_ring_v104" vertex2="straight_tube_ring_v103" vertex3="straight_tube_ring_v105"/>
+             <triangular vertex1="straight_tube_ring_v104" vertex2="straight_tube_ring_v102" vertex3="straight_tube_ring_v103"/>
+             <triangular vertex1="straight_tube_ring_v82" vertex2="straight_tube_ring_v105" vertex3="straight_tube_ring_v83"/>
+             <triangular vertex1="straight_tube_ring_v82" vertex2="straight_tube_ring_v104" vertex3="straight_tube_ring_v105"/>
+             <triangular vertex1="straight_tube_ring_v66" vertex2="straight_tube_ring_v68" vertex3="straight_tube_ring_v36"/>
+             <triangular vertex1="straight_tube_ring_v0" vertex2="straight_tube_ring_v55" vertex3="straight_tube_ring_v53"/>
+             <triangular vertex1="straight_tube_ring_v68" vertex2="straight_tube_ring_v38" vertex3="straight_tube_ring_v36"/>
+             <triangular vertex1="straight_tube_ring_v70" vertex2="straight_tube_ring_v38" vertex3="straight_tube_ring_v68"/>
+             <triangular vertex1="straight_tube_ring_v16" vertex2="straight_tube_ring_v100" vertex3="straight_tube_ring_v18"/>
+             <triangular vertex1="straight_tube_ring_v0" vertex2="straight_tube_ring_v50" vertex3="straight_tube_ring_v55"/>
+             <triangular vertex1="straight_tube_ring_v18" vertex2="straight_tube_ring_v102" vertex3="straight_tube_ring_v20"/>
+             <triangular vertex1="straight_tube_ring_v100" vertex2="straight_tube_ring_v102" vertex3="straight_tube_ring_v18"/>
+             <triangular vertex1="straight_tube_ring_v50" vertex2="straight_tube_ring_v80" vertex3="straight_tube_ring_v55"/>
+             <triangular vertex1="straight_tube_ring_v16" vertex2="straight_tube_ring_v98" vertex3="straight_tube_ring_v100"/>
+             <triangular vertex1="straight_tube_ring_v20" vertex2="straight_tube_ring_v104" vertex3="straight_tube_ring_v22"/>
+             <triangular vertex1="straight_tube_ring_v102" vertex2="straight_tube_ring_v104" vertex3="straight_tube_ring_v20"/>
+             <triangular vertex1="straight_tube_ring_v14" vertex2="straight_tube_ring_v96" vertex3="straight_tube_ring_v16"/>
+             <triangular vertex1="straight_tube_ring_v16" vertex2="straight_tube_ring_v96" vertex3="straight_tube_ring_v98"/>
+             <triangular vertex1="straight_tube_ring_v72" vertex2="straight_tube_ring_v40" vertex3="straight_tube_ring_v70"/>
+             <triangular vertex1="straight_tube_ring_v22" vertex2="straight_tube_ring_v82" vertex3="straight_tube_ring_v24"/>
+             <triangular vertex1="straight_tube_ring_v70" vertex2="straight_tube_ring_v40" vertex3="straight_tube_ring_v38"/>
+             <triangular vertex1="straight_tube_ring_v50" vertex2="straight_tube_ring_v48" vertex3="straight_tube_ring_v80"/>
+             <triangular vertex1="straight_tube_ring_v104" vertex2="straight_tube_ring_v82" vertex3="straight_tube_ring_v22"/>
+             <triangular vertex1="straight_tube_ring_v80" vertex2="straight_tube_ring_v48" vertex3="straight_tube_ring_v78"/>
+             <triangular vertex1="straight_tube_ring_v12" vertex2="straight_tube_ring_v94" vertex3="straight_tube_ring_v14"/>
+             <triangular vertex1="straight_tube_ring_v14" vertex2="straight_tube_ring_v94" vertex3="straight_tube_ring_v96"/>
+             <triangular vertex1="straight_tube_ring_v74" vertex2="straight_tube_ring_v42" vertex3="straight_tube_ring_v72"/>
+             <triangular vertex1="straight_tube_ring_v72" vertex2="straight_tube_ring_v42" vertex3="straight_tube_ring_v40"/>
+             <triangular vertex1="straight_tube_ring_v78" vertex2="straight_tube_ring_v46" vertex3="straight_tube_ring_v76"/>
+             <triangular vertex1="straight_tube_ring_v10" vertex2="straight_tube_ring_v92" vertex3="straight_tube_ring_v12"/>
+             <triangular vertex1="straight_tube_ring_v48" vertex2="straight_tube_ring_v46" vertex3="straight_tube_ring_v78"/>
+             <triangular vertex1="straight_tube_ring_v12" vertex2="straight_tube_ring_v92" vertex3="straight_tube_ring_v94"/>
+             <triangular vertex1="straight_tube_ring_v76" vertex2="straight_tube_ring_v45" vertex3="straight_tube_ring_v74"/>
+             <triangular vertex1="straight_tube_ring_v74" vertex2="straight_tube_ring_v45" vertex3="straight_tube_ring_v42"/>
+             <triangular vertex1="straight_tube_ring_v46" vertex2="straight_tube_ring_v45" vertex3="straight_tube_ring_v76"/>
+             <triangular vertex1="straight_tube_ring_v8" vertex2="straight_tube_ring_v90" vertex3="straight_tube_ring_v10"/>
+             <triangular vertex1="straight_tube_ring_v10" vertex2="straight_tube_ring_v90" vertex3="straight_tube_ring_v92"/>
+             <triangular vertex1="straight_tube_ring_v8" vertex2="straight_tube_ring_v88" vertex3="straight_tube_ring_v90"/>
+             <triangular vertex1="straight_tube_ring_v8" vertex2="straight_tube_ring_v6" vertex3="straight_tube_ring_v88"/>
+             <triangular vertex1="straight_tube_ring_v6" vertex2="straight_tube_ring_v86" vertex3="straight_tube_ring_v88"/>
+             <triangular vertex1="straight_tube_ring_v6" vertex2="straight_tube_ring_v4" vertex3="straight_tube_ring_v86"/>
+             <triangular vertex1="straight_tube_ring_v4" vertex2="straight_tube_ring_v84" vertex3="straight_tube_ring_v86"/>
+             <triangular vertex1="straight_tube_ring_v4" vertex2="straight_tube_ring_v1" vertex3="straight_tube_ring_v84"/>
+             <triangular vertex1="straight_tube_ring_v1" vertex2="straight_tube_ring_v53" vertex3="straight_tube_ring_v84"/>
+             <triangular vertex1="straight_tube_ring_v1" vertex2="straight_tube_ring_v0" vertex3="straight_tube_ring_v53"/>
+             <triangular vertex1="straight_tube_ring_v24" vertex2="straight_tube_ring_v57" vertex3="straight_tube_ring_v27"/>
+             <triangular vertex1="straight_tube_ring_v82" vertex2="straight_tube_ring_v57" vertex3="straight_tube_ring_v24"/>
+             <triangular vertex1="straight_tube_ring_v57" vertex2="straight_tube_ring_v56" vertex3="straight_tube_ring_v27"/>
+             <triangular vertex1="straight_tube_ring_v27" vertex2="straight_tube_ring_v56" vertex3="straight_tube_ring_v28"/>
+             <triangular vertex1="straight_tube_ring_v56" vertex2="straight_tube_ring_v60" vertex3="straight_tube_ring_v28"/>
+             <triangular vertex1="straight_tube_ring_v28" vertex2="straight_tube_ring_v60" vertex3="straight_tube_ring_v30"/>
+             <triangular vertex1="straight_tube_ring_v60" vertex2="straight_tube_ring_v62" vertex3="straight_tube_ring_v30"/>
+             <triangular vertex1="straight_tube_ring_v62" vertex2="straight_tube_ring_v32" vertex3="straight_tube_ring_v30"/>
+             <triangular vertex1="straight_tube_ring_v62" vertex2="straight_tube_ring_v64" vertex3="straight_tube_ring_v32"/>
+             <triangular vertex1="straight_tube_ring_v64" vertex2="straight_tube_ring_v34" vertex3="straight_tube_ring_v32"/>
+             <triangular vertex1="straight_tube_ring_v64" vertex2="straight_tube_ring_v66" vertex3="straight_tube_ring_v34"/>
+             <triangular vertex1="straight_tube_ring_v66" vertex2="straight_tube_ring_v36" vertex3="straight_tube_ring_v34"/>
+             <triangular vertex1="straight_tube_ring_v69" vertex2="straight_tube_ring_v67" vertex3="straight_tube_ring_v37"/>
+             <triangular vertex1="straight_tube_ring_v54" vertex2="straight_tube_ring_v2" vertex3="straight_tube_ring_v52"/>
+             <triangular vertex1="straight_tube_ring_v39" vertex2="straight_tube_ring_v69" vertex3="straight_tube_ring_v37"/>
+             <triangular vertex1="straight_tube_ring_v39" vertex2="straight_tube_ring_v71" vertex3="straight_tube_ring_v69"/>
+             <triangular vertex1="straight_tube_ring_v101" vertex2="straight_tube_ring_v17" vertex3="straight_tube_ring_v19"/>
+             <triangular vertex1="straight_tube_ring_v51" vertex2="straight_tube_ring_v2" vertex3="straight_tube_ring_v54"/>
+             <triangular vertex1="straight_tube_ring_v103" vertex2="straight_tube_ring_v19" vertex3="straight_tube_ring_v21"/>
+             <triangular vertex1="straight_tube_ring_v103" vertex2="straight_tube_ring_v101" vertex3="straight_tube_ring_v19"/>
+             <triangular vertex1="straight_tube_ring_v81" vertex2="straight_tube_ring_v51" vertex3="straight_tube_ring_v54"/>
+             <triangular vertex1="straight_tube_ring_v99" vertex2="straight_tube_ring_v17" vertex3="straight_tube_ring_v101"/>
+             <triangular vertex1="straight_tube_ring_v105" vertex2="straight_tube_ring_v21" vertex3="straight_tube_ring_v23"/>
+             <triangular vertex1="straight_tube_ring_v105" vertex2="straight_tube_ring_v103" vertex3="straight_tube_ring_v21"/>
+             <triangular vertex1="straight_tube_ring_v97" vertex2="straight_tube_ring_v15" vertex3="straight_tube_ring_v17"/>
+             <triangular vertex1="straight_tube_ring_v97" vertex2="straight_tube_ring_v17" vertex3="straight_tube_ring_v99"/>
+             <triangular vertex1="straight_tube_ring_v41" vertex2="straight_tube_ring_v73" vertex3="straight_tube_ring_v71"/>
+             <triangular vertex1="straight_tube_ring_v83" vertex2="straight_tube_ring_v23" vertex3="straight_tube_ring_v25"/>
+             <triangular vertex1="straight_tube_ring_v41" vertex2="straight_tube_ring_v71" vertex3="straight_tube_ring_v39"/>
+             <triangular vertex1="straight_tube_ring_v49" vertex2="straight_tube_ring_v51" vertex3="straight_tube_ring_v81"/>
+             <triangular vertex1="straight_tube_ring_v83" vertex2="straight_tube_ring_v105" vertex3="straight_tube_ring_v23"/>
+             <triangular vertex1="straight_tube_ring_v49" vertex2="straight_tube_ring_v81" vertex3="straight_tube_ring_v79"/>
+             <triangular vertex1="straight_tube_ring_v95" vertex2="straight_tube_ring_v13" vertex3="straight_tube_ring_v15"/>
+             <triangular vertex1="straight_tube_ring_v95" vertex2="straight_tube_ring_v15" vertex3="straight_tube_ring_v97"/>
+             <triangular vertex1="straight_tube_ring_v43" vertex2="straight_tube_ring_v75" vertex3="straight_tube_ring_v73"/>
+             <triangular vertex1="straight_tube_ring_v43" vertex2="straight_tube_ring_v73" vertex3="straight_tube_ring_v41"/>
+             <triangular vertex1="straight_tube_ring_v47" vertex2="straight_tube_ring_v79" vertex3="straight_tube_ring_v77"/>
+             <triangular vertex1="straight_tube_ring_v93" vertex2="straight_tube_ring_v11" vertex3="straight_tube_ring_v13"/>
+             <triangular vertex1="straight_tube_ring_v47" vertex2="straight_tube_ring_v49" vertex3="straight_tube_ring_v79"/>
+             <triangular vertex1="straight_tube_ring_v93" vertex2="straight_tube_ring_v13" vertex3="straight_tube_ring_v95"/>
+             <triangular vertex1="straight_tube_ring_v44" vertex2="straight_tube_ring_v77" vertex3="straight_tube_ring_v75"/>
+             <triangular vertex1="straight_tube_ring_v44" vertex2="straight_tube_ring_v75" vertex3="straight_tube_ring_v43"/>
+             <triangular vertex1="straight_tube_ring_v44" vertex2="straight_tube_ring_v47" vertex3="straight_tube_ring_v77"/>
+             <triangular vertex1="straight_tube_ring_v91" vertex2="straight_tube_ring_v9" vertex3="straight_tube_ring_v11"/>
+             <triangular vertex1="straight_tube_ring_v91" vertex2="straight_tube_ring_v11" vertex3="straight_tube_ring_v93"/>
+             <triangular vertex1="straight_tube_ring_v89" vertex2="straight_tube_ring_v9" vertex3="straight_tube_ring_v91"/>
+             <triangular vertex1="straight_tube_ring_v7" vertex2="straight_tube_ring_v9" vertex3="straight_tube_ring_v89"/>
+             <triangular vertex1="straight_tube_ring_v87" vertex2="straight_tube_ring_v7" vertex3="straight_tube_ring_v89"/>
+             <triangular vertex1="straight_tube_ring_v5" vertex2="straight_tube_ring_v7" vertex3="straight_tube_ring_v87"/>
+             <triangular vertex1="straight_tube_ring_v85" vertex2="straight_tube_ring_v5" vertex3="straight_tube_ring_v87"/>
+             <triangular vertex1="straight_tube_ring_v3" vertex2="straight_tube_ring_v5" vertex3="straight_tube_ring_v85"/>
+             <triangular vertex1="straight_tube_ring_v52" vertex2="straight_tube_ring_v3" vertex3="straight_tube_ring_v85"/>
+             <triangular vertex1="straight_tube_ring_v2" vertex2="straight_tube_ring_v3" vertex3="straight_tube_ring_v52"/>
+             <triangular vertex1="straight_tube_ring_v58" vertex2="straight_tube_ring_v25" vertex3="straight_tube_ring_v26"/>
+             <triangular vertex1="straight_tube_ring_v58" vertex2="straight_tube_ring_v83" vertex3="straight_tube_ring_v25"/>
+             <triangular vertex1="straight_tube_ring_v59" vertex2="straight_tube_ring_v58" vertex3="straight_tube_ring_v26"/>
+             <triangular vertex1="straight_tube_ring_v59" vertex2="straight_tube_ring_v26" vertex3="straight_tube_ring_v29"/>
+             <triangular vertex1="straight_tube_ring_v61" vertex2="straight_tube_ring_v59" vertex3="straight_tube_ring_v29"/>
+             <triangular vertex1="straight_tube_ring_v61" vertex2="straight_tube_ring_v29" vertex3="straight_tube_ring_v31"/>
+             <triangular vertex1="straight_tube_ring_v63" vertex2="straight_tube_ring_v61" vertex3="straight_tube_ring_v31"/>
+             <triangular vertex1="straight_tube_ring_v33" vertex2="straight_tube_ring_v63" vertex3="straight_tube_ring_v31"/>
+             <triangular vertex1="straight_tube_ring_v65" vertex2="straight_tube_ring_v63" vertex3="straight_tube_ring_v33"/>
+             <triangular vertex1="straight_tube_ring_v35" vertex2="straight_tube_ring_v65" vertex3="straight_tube_ring_v33"/>
+             <triangular vertex1="straight_tube_ring_v67" vertex2="straight_tube_ring_v65" vertex3="straight_tube_ring_v35"/>
+             <triangular vertex1="straight_tube_ring_v37" vertex2="straight_tube_ring_v67" vertex3="straight_tube_ring_v35"/>
+        </tessellated>
+    </solids>
+
+    <structure>
+        <volume name="straight_tube_ring">
+            <materialref ref="Vacuum"/>
+            <solidref ref="straight_tube_ring-SOL"/>
+        </volume>
+    </structure>
+
+    <setup name="Default" version="1.0">
+        <world ref="straight_tube_ring"/>
+    </setup>
+</gdml>

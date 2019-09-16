@@ -20,7 +20,7 @@ target_link_libraries(${NAME} ${Geant4_LIBRARIES})
 
 set(FSCRIPTS
         init_vis.mac
-        vis.mac
+		vis.mac
         )
 
 foreach(_script ${FSCRIPTS})
@@ -30,3 +30,7 @@ foreach(_script ${FSCRIPTS})
             COPYONLY
     )
 endforeach()
+
+file(COPY ${PROJECT_SOURCE_DIR}/geometry
+	DESTINATION ${PROJECT_BUILD_DIR}/
+	)

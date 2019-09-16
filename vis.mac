@@ -21,7 +21,7 @@
 /vis/scene/endOfEventAction accumulate 50
 
 # Axes
-#/vis/scene/add/axes  0 0 0 0.05  # Simple axes: x=red, y=green, z=blue.
+/vis/scene/add/axes  0 0 0 1  # Simple axes: x=red, y=green, z=blue.
 
 /vis/geometry/set/visibility logWorld 0 false
 /vis/viewer/set/style surface

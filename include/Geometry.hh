@@ -29,11 +29,19 @@ private:
 	G4VPhysicalVolume*          physWorld;
 	virtual G4VPhysicalVolume*  Construct();	
 
-	G4GDMLParser* pars_tube;
+	G4GDMLParser* parser;
 public:
 	Geometry();
 	virtual ~Geometry();	
 
-	void Parser_Init(G4GDMLParser* parser, std::string name);
-	void Place_Tube(G4GDMLParser* parser, int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	void Place_Section(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	void Place_Tube(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+
+	void Place_Tube_Ring(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	void Place_Tube_Vacuum(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	void Place_Magnet(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+
+	void Place_Straight_Tube_Ring(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	void Place_Straight_Tube_Vacuum(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	
 };

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+    <define>
+        <position name="straight_tube_vacuum_v0" unit="mm" x="-65.0" y="30.0" z="-960.0"/>
+        <position name="straight_tube_vacuum_v1" unit="mm" x="-72.764565" y="28.977764" z="-960.0"/>
+        <position name="straight_tube_vacuum_v2" unit="mm" x="-65.0" y="30.0" z="960.0"/>
+        <position name="straight_tube_vacuum_v3" unit="mm" x="-72.764565" y="28.977764" z="960.0"/>
+        <position name="straight_tube_vacuum_v4" unit="mm" x="-79.999985" y="25.980743" z="-960.0"/>
+        <position name="straight_tube_vacuum_v5" unit="mm" x="-79.999985" y="25.980743" z="960.0"/>
+        <position name="straight_tube_vacuum_v6" unit="mm" x="-86.213181" y="21.213181" z="-960.0"/>
+        <position name="straight_tube_vacuum_v7" unit="mm" x="-86.213181" y="21.213181" z="960.0"/>
+        <position name="straight_tube_vacuum_v8" unit="mm" x="-90.980736" y="14.999975" z="-960.0"/>
+        <position name="straight_tube_vacuum_v9" unit="mm" x="-90.980736" y="14.999975" z="960.0"/>
+        <position name="straight_tube_vacuum_v10" unit="mm" x="-93.977737" y="7.764547" z="-960.0"/>
+        <position name="straight_tube_vacuum_v11" unit="mm" x="-93.977737" y="7.764547" z="960.0"/>
+        <position name="straight_tube_vacuum_v12" unit="mm" x="-94.999954" y="-2.1e-05" z="-960.0"/>
+        <position name="straight_tube_vacuum_v13" unit="mm" x="-94.999954" y="-2.1e-05" z="960.0"/>
+        <position name="straight_tube_vacuum_v14" unit="mm" x="-93.97773" y="-7.764589" z="-960.0"/>
+        <position name="straight_tube_vacuum_v15" unit="mm" x="-93.97773" y="-7.764589" z="960.0"/>
+        <position name="straight_tube_vacuum_v16" unit="mm" x="-90.980713" y="-15.000012" z="-960.0"/>
+        <position name="straight_tube_vacuum_v17" unit="mm" x="-90.980713" y="-15.000012" z="960.0"/>
+        <position name="straight_tube_vacuum_v18" unit="mm" x="-86.21315" y="-21.213211" z="-960.0"/>
+        <position name="straight_tube_vacuum_v19" unit="mm" x="-86.21315" y="-21.213211" z="960.0"/>
+        <position name="straight_tube_vacuum_v20" unit="mm" x="-79.999954" y="-25.980766" z="-960.0"/>
+        <position name="straight_tube_vacuum_v21" unit="mm" x="-79.999954" y="-25.980766" z="960.0"/>
+        <position name="straight_tube_vacuum_v22" unit="mm" x="-72.764526" y="-28.977776" z="-960.0"/>
+        <position name="straight_tube_vacuum_v23" unit="mm" x="-72.764526" y="-28.977776" z="960.0"/>
+        <position name="straight_tube_vacuum_v24" unit="mm" x="-64.999954" y="-30.0" z="-960.0"/>
+        <position name="straight_tube_vacuum_v25" unit="mm" x="-64.999954" y="-30.0" z="960.0"/>
+        <position name="straight_tube_vacuum_v26" unit="mm" x="65.000046" y="-30.0" z="960.0"/>
+        <position name="straight_tube_vacuum_v27" unit="mm" x="65.000046" y="-30.0" z="-960.0"/>
+        <position name="straight_tube_vacuum_v28" unit="mm" x="72.17952" y="-29.128256" z="960.0"/>
+        <position name="straight_tube_vacuum_v29" unit="mm" x="72.17952" y="-29.128256" z="-960.0"/>
+        <position name="straight_tube_vacuum_v30" unit="mm" x="78.94175" y="-26.563683" z="-960.0"/>
+        <position name="straight_tube_vacuum_v31" unit="mm" x="78.94175" y="-26.563683" z="960.0"/>
+        <position name="straight_tube_vacuum_v32" unit="mm" x="84.893738" y="-22.45532" z="-960.0"/>
+        <position name="straight_tube_vacuum_v33" unit="mm" x="84.893738" y="-22.45532" z="960.0"/>
+        <position name="straight_tube_vacuum_v34" unit="mm" x="89.689575" y="-17.041935" z="-960.0"/>
+        <position name="straight_tube_vacuum_v35" unit="mm" x="89.689575" y="-17.041935" z="960.0"/>
+        <position name="straight_tube_vacuum_v36" unit="mm" x="93.050545" y="-10.638134" z="-960.0"/>
+        <position name="straight_tube_vacuum_v37" unit="mm" x="93.050545" y="-10.638134" z="960.0"/>
+        <position name="straight_tube_vacuum_v38" unit="mm" x="94.781326" y="-3.616082" z="-960.0"/>
+        <position name="straight_tube_vacuum_v39" unit="mm" x="94.781326" y="-3.616082" z="960.0"/>
+        <position name="straight_tube_vacuum_v40" unit="mm" x="94.781319" y="3.616124" z="-960.0"/>
+        <position name="straight_tube_vacuum_v41" unit="mm" x="94.781319" y="3.616124" z="960.0"/>
+        <position name="straight_tube_vacuum_v42" unit="mm" x="93.050529" y="10.638174" z="-960.0"/>
+        <position name="straight_tube_vacuum_v43" unit="mm" x="93.050529" y="10.638174" z="960.0"/>
+        <position name="straight_tube_vacuum_v44" unit="mm" x="89.689552" y="17.041971" z="-960.0"/>
+        <position name="straight_tube_vacuum_v45" unit="mm" x="89.689552" y="17.041971" z="960.0"/>
+        <position name="straight_tube_vacuum_v46" unit="mm" x="84.893707" y="22.455349" z="-960.0"/>
+        <position name="straight_tube_vacuum_v47" unit="mm" x="84.893707" y="22.455349" z="960.0"/>
+        <position name="straight_tube_vacuum_v48" unit="mm" x="78.941711" y="26.563702" z="-960.0"/>
+        <position name="straight_tube_vacuum_v49" unit="mm" x="78.941711" y="26.563702" z="960.0"/>
+        <position name="straight_tube_vacuum_v50" unit="mm" x="72.179474" y="29.128267" z="960.0"/>
+        <position name="straight_tube_vacuum_v51" unit="mm" x="72.179474" y="29.128267" z="-960.0"/>
+        <position name="straight_tube_vacuum_v52" unit="mm" x="65.0" y="30.0" z="-960.0"/>
+        <position name="straight_tube_vacuum_v53" unit="mm" x="65.0" y="30.0" z="960.0"/>
+    </define>
+
+    <solids>
+        <tessellated aunit="deg" lunit="mm" name="straight_tube_vacuum-SOL">
+             <triangular vertex1="straight_tube_vacuum_v0" vertex2="straight_tube_vacuum_v1" vertex3="straight_tube_vacuum_v2"/>
+             <triangular vertex1="straight_tube_vacuum_v2" vertex2="straight_tube_vacuum_v1" vertex3="straight_tube_vacuum_v3"/>
+             <triangular vertex1="straight_tube_vacuum_v3" vertex2="straight_tube_vacuum_v4" vertex3="straight_tube_vacuum_v5"/>
+             <triangular vertex1="straight_tube_vacuum_v1" vertex2="straight_tube_vacuum_v4" vertex3="straight_tube_vacuum_v3"/>
+             <triangular vertex1="straight_tube_vacuum_v5" vertex2="straight_tube_vacuum_v6" vertex3="straight_tube_vacuum_v7"/>
+             <triangular vertex1="straight_tube_vacuum_v4" vertex2="straight_tube_vacuum_v6" vertex3="straight_tube_vacuum_v5"/>
+             <triangular vertex1="straight_tube_vacuum_v7" vertex2="straight_tube_vacuum_v8" vertex3="straight_tube_vacuum_v9"/>
+             <triangular vertex1="straight_tube_vacuum_v6" vertex2="straight_tube_vacuum_v8" vertex3="straight_tube_vacuum_v7"/>
+             <triangular vertex1="straight_tube_vacuum_v9" vertex2="straight_tube_vacuum_v10" vertex3="straight_tube_vacuum_v11"/>
+             <triangular vertex1="straight_tube_vacuum_v8" vertex2="straight_tube_vacuum_v10" vertex3="straight_tube_vacuum_v9"/>
+             <triangular vertex1="straight_tube_vacuum_v11" vertex2="straight_tube_vacuum_v12" vertex3="straight_tube_vacuum_v13"/>
+             <triangular vertex1="straight_tube_vacuum_v10" vertex2="straight_tube_vacuum_v12" vertex3="straight_tube_vacuum_v11"/>
+             <triangular vertex1="straight_tube_vacuum_v13" vertex2="straight_tube_vacuum_v14" vertex3="straight_tube_vacuum_v15"/>
+             <triangular vertex1="straight_tube_vacuum_v12" vertex2="straight_tube_vacuum_v14" vertex3="straight_tube_vacuum_v13"/>
+             <triangular vertex1="straight_tube_vacuum_v15" vertex2="straight_tube_vacuum_v16" vertex3="straight_tube_vacuum_v17"/>
+             <triangular vertex1="straight_tube_vacuum_v14" vertex2="straight_tube_vacuum_v16" vertex3="straight_tube_vacuum_v15"/>
+             <triangular vertex1="straight_tube_vacuum_v17" vertex2="straight_tube_vacuum_v18" vertex3="straight_tube_vacuum_v19"/>
+             <triangular vertex1="straight_tube_vacuum_v16" vertex2="straight_tube_vacuum_v18" vertex3="straight_tube_vacuum_v17"/>
+             <triangular vertex1="straight_tube_vacuum_v19" vertex2="straight_tube_vacuum_v20" vertex3="straight_tube_vacuum_v21"/>
+             <triangular vertex1="straight_tube_vacuum_v18" vertex2="straight_tube_vacuum_v20" vertex3="straight_tube_vacuum_v19"/>
+             <triangular vertex1="straight_tube_vacuum_v21" vertex2="straight_tube_vacuum_v22" vertex3="straight_tube_vacuum_v23"/>
+             <triangular vertex1="straight_tube_vacuum_v20" vertex2="straight_tube_vacuum_v22" vertex3="straight_tube_vacuum_v21"/>
+             <triangular vertex1="straight_tube_vacuum_v23" vertex2="straight_tube_vacuum_v24" vertex3="straight_tube_vacuum_v25"/>
+             <triangular vertex1="straight_tube_vacuum_v22" vertex2="straight_tube_vacuum_v24" vertex3="straight_tube_vacuum_v23"/>
+             <triangular vertex1="straight_tube_vacuum_v25" vertex2="straight_tube_vacuum_v24" vertex3="straight_tube_vacuum_v26"/>
+             <triangular vertex1="straight_tube_vacuum_v24" vertex2="straight_tube_vacuum_v27" vertex3="straight_tube_vacuum_v26"/>
+             <triangular vertex1="straight_tube_vacuum_v26" vertex2="straight_tube_vacuum_v27" vertex3="straight_tube_vacuum_v28"/>
+             <triangular vertex1="straight_tube_vacuum_v27" vertex2="straight_tube_vacuum_v29" vertex3="straight_tube_vacuum_v28"/>
+             <triangular vertex1="straight_tube_vacuum_v28" vertex2="straight_tube_vacuum_v30" vertex3="straight_tube_vacuum_v31"/>
+             <triangular vertex1="straight_tube_vacuum_v29" vertex2="straight_tube_vacuum_v30" vertex3="straight_tube_vacuum_v28"/>
+             <triangular vertex1="straight_tube_vacuum_v31" vertex2="straight_tube_vacuum_v32" vertex3="straight_tube_vacuum_v33"/>
+             <triangular vertex1="straight_tube_vacuum_v30" vertex2="straight_tube_vacuum_v32" vertex3="straight_tube_vacuum_v31"/>
+             <triangular vertex1="straight_tube_vacuum_v33" vertex2="straight_tube_vacuum_v34" vertex3="straight_tube_vacuum_v35"/>
+             <triangular vertex1="straight_tube_vacuum_v32" vertex2="straight_tube_vacuum_v34" vertex3="straight_tube_vacuum_v33"/>
+             <triangular vertex1="straight_tube_vacuum_v35" vertex2="straight_tube_vacuum_v36" vertex3="straight_tube_vacuum_v37"/>
+             <triangular vertex1="straight_tube_vacuum_v34" vertex2="straight_tube_vacuum_v36" vertex3="straight_tube_vacuum_v35"/>
+             <triangular vertex1="straight_tube_vacuum_v37" vertex2="straight_tube_vacuum_v38" vertex3="straight_tube_vacuum_v39"/>
+             <triangular vertex1="straight_tube_vacuum_v36" vertex2="straight_tube_vacuum_v38" vertex3="straight_tube_vacuum_v37"/>
+             <triangular vertex1="straight_tube_vacuum_v39" vertex2="straight_tube_vacuum_v40" vertex3="straight_tube_vacuum_v41"/>
+             <triangular vertex1="straight_tube_vacuum_v38" vertex2="straight_tube_vacuum_v40" vertex3="straight_tube_vacuum_v39"/>
+             <triangular vertex1="straight_tube_vacuum_v41" vertex2="straight_tube_vacuum_v42" vertex3="straight_tube_vacuum_v43"/>
+             <triangular vertex1="straight_tube_vacuum_v40" vertex2="straight_tube_vacuum_v42" vertex3="straight_tube_vacuum_v41"/>
+             <triangular vertex1="straight_tube_vacuum_v43" vertex2="straight_tube_vacuum_v44" vertex3="straight_tube_vacuum_v45"/>
+             <triangular vertex1="straight_tube_vacuum_v42" vertex2="straight_tube_vacuum_v44" vertex3="straight_tube_vacuum_v43"/>
+             <triangular vertex1="straight_tube_vacuum_v45" vertex2="straight_tube_vacuum_v46" vertex3="straight_tube_vacuum_v47"/>
+             <triangular vertex1="straight_tube_vacuum_v44" vertex2="straight_tube_vacuum_v46" vertex3="straight_tube_vacuum_v45"/>
+             <triangular vertex1="straight_tube_vacuum_v47" vertex2="straight_tube_vacuum_v48" vertex3="straight_tube_vacuum_v49"/>
+             <triangular vertex1="straight_tube_vacuum_v49" vertex2="straight_tube_vacuum_v48" vertex3="straight_tube_vacuum_v50"/>
+             <triangular vertex1="straight_tube_vacuum_v46" vertex2="straight_tube_vacuum_v48" vertex3="straight_tube_vacuum_v47"/>
+             <triangular vertex1="straight_tube_vacuum_v48" vertex2="straight_tube_vacuum_v51" vertex3="straight_tube_vacuum_v50"/>
+             <triangular vertex1="straight_tube_vacuum_v50" vertex2="straight_tube_vacuum_v52" vertex3="straight_tube_vacuum_v53"/>
+             <triangular vertex1="straight_tube_vacuum_v51" vertex2="straight_tube_vacuum_v52" vertex3="straight_tube_vacuum_v50"/>
+             <triangular vertex1="straight_tube_vacuum_v0" vertex2="straight_tube_vacuum_v2" vertex3="straight_tube_vacuum_v53"/>
+             <triangular vertex1="straight_tube_vacuum_v52" vertex2="straight_tube_vacuum_v0" vertex3="straight_tube_vacuum_v53"/>
+             <triangular vertex1="straight_tube_vacuum_v16" vertex2="straight_tube_vacuum_v14" vertex3="straight_tube_vacuum_v18"/>
+             <triangular vertex1="straight_tube_vacuum_v18" vertex2="straight_tube_vacuum_v22" vertex3="straight_tube_vacuum_v20"/>
+             <triangular vertex1="straight_tube_vacuum_v14" vertex2="straight_tube_vacuum_v12" vertex3="straight_tube_vacuum_v18"/>
+             <triangular vertex1="straight_tube_vacuum_v18" vertex2="straight_tube_vacuum_v24" vertex3="straight_tube_vacuum_v22"/>
+             <triangular vertex1="straight_tube_vacuum_v10" vertex2="straight_tube_vacuum_v8" vertex3="straight_tube_vacuum_v12"/>
+             <triangular vertex1="straight_tube_vacuum_v6" vertex2="straight_tube_vacuum_v4" vertex3="straight_tube_vacuum_v8"/>
+             <triangular vertex1="straight_tube_vacuum_v8" vertex2="straight_tube_vacuum_v4" vertex3="straight_tube_vacuum_v12"/>
+             <triangular vertex1="straight_tube_vacuum_v12" vertex2="straight_tube_vacuum_v1" vertex3="straight_tube_vacuum_v18"/>
+             <triangular vertex1="straight_tube_vacuum_v18" vertex2="straight_tube_vacuum_v1" vertex3="straight_tube_vacuum_v24"/>
+             <triangular vertex1="straight_tube_vacuum_v4" vertex2="straight_tube_vacuum_v1" vertex3="straight_tube_vacuum_v12"/>
+             <triangular vertex1="straight_tube_vacuum_v1" vertex2="straight_tube_vacuum_v0" vertex3="straight_tube_vacuum_v24"/>
+             <triangular vertex1="straight_tube_vacuum_v27" vertex2="straight_tube_vacuum_v30" vertex3="straight_tube_vacuum_v29"/>
+             <triangular vertex1="straight_tube_vacuum_v27" vertex2="straight_tube_vacuum_v32" vertex3="straight_tube_vacuum_v30"/>
+             <triangular vertex1="straight_tube_vacuum_v34" vertex2="straight_tube_vacuum_v38" vertex3="straight_tube_vacuum_v36"/>
+             <triangular vertex1="straight_tube_vacuum_v24" vertex2="straight_tube_vacuum_v52" vertex3="straight_tube_vacuum_v27"/>
+             <triangular vertex1="straight_tube_vacuum_v0" vertex2="straight_tube_vacuum_v52" vertex3="straight_tube_vacuum_v24"/>
+             <triangular vertex1="straight_tube_vacuum_v34" vertex2="straight_tube_vacuum_v40" vertex3="straight_tube_vacuum_v38"/>
+             <triangular vertex1="straight_tube_vacuum_v32" vertex2="straight_tube_vacuum_v44" vertex3="straight_tube_vacuum_v34"/>
+             <triangular vertex1="straight_tube_vacuum_v40" vertex2="straight_tube_vacuum_v44" vertex3="straight_tube_vacuum_v42"/>
+             <triangular vertex1="straight_tube_vacuum_v34" vertex2="straight_tube_vacuum_v44" vertex3="straight_tube_vacuum_v40"/>
+             <triangular vertex1="straight_tube_vacuum_v27" vertex2="straight_tube_vacuum_v44" vertex3="straight_tube_vacuum_v32"/>
+             <triangular vertex1="straight_tube_vacuum_v52" vertex2="straight_tube_vacuum_v44" vertex3="straight_tube_vacuum_v27"/>
+             <triangular vertex1="straight_tube_vacuum_v48" vertex2="straight_tube_vacuum_v46" vertex3="straight_tube_vacuum_v51"/>
+             <triangular vertex1="straight_tube_vacuum_v51" vertex2="straight_tube_vacuum_v46" vertex3="straight_tube_vacuum_v52"/>
+             <triangular vertex1="straight_tube_vacuum_v52" vertex2="straight_tube_vacuum_v46" vertex3="straight_tube_vacuum_v44"/>
+             <triangular vertex1="straight_tube_vacuum_v15" vertex2="straight_tube_vacuum_v17" vertex3="straight_tube_vacuum_v19"/>
+             <triangular vertex1="straight_tube_vacuum_v23" vertex2="straight_tube_vacuum_v19" vertex3="straight_tube_vacuum_v21"/>
+             <triangular vertex1="straight_tube_vacuum_v13" vertex2="straight_tube_vacuum_v15" vertex3="straight_tube_vacuum_v19"/>
+             <triangular vertex1="straight_tube_vacuum_v25" vertex2="straight_tube_vacuum_v19" vertex3="straight_tube_vacuum_v23"/>
+             <triangular vertex1="straight_tube_vacuum_v9" vertex2="straight_tube_vacuum_v11" vertex3="straight_tube_vacuum_v13"/>
+             <triangular vertex1="straight_tube_vacuum_v5" vertex2="straight_tube_vacuum_v7" vertex3="straight_tube_vacuum_v9"/>
+             <triangular vertex1="straight_tube_vacuum_v5" vertex2="straight_tube_vacuum_v9" vertex3="straight_tube_vacuum_v13"/>
+             <triangular vertex1="straight_tube_vacuum_v3" vertex2="straight_tube_vacuum_v13" vertex3="straight_tube_vacuum_v19"/>
+             <triangular vertex1="straight_tube_vacuum_v3" vertex2="straight_tube_vacuum_v19" vertex3="straight_tube_vacuum_v25"/>
+             <triangular vertex1="straight_tube_vacuum_v3" vertex2="straight_tube_vacuum_v5" vertex3="straight_tube_vacuum_v13"/>
+             <triangular vertex1="straight_tube_vacuum_v2" vertex2="straight_tube_vacuum_v3" vertex3="straight_tube_vacuum_v25"/>
+             <triangular vertex1="straight_tube_vacuum_v31" vertex2="straight_tube_vacuum_v26" vertex3="straight_tube_vacuum_v28"/>
+             <triangular vertex1="straight_tube_vacuum_v33" vertex2="straight_tube_vacuum_v26" vertex3="straight_tube_vacuum_v31"/>
+             <triangular vertex1="straight_tube_vacuum_v39" vertex2="straight_tube_vacuum_v35" vertex3="straight_tube_vacuum_v37"/>
+             <triangular vertex1="straight_tube_vacuum_v53" vertex2="straight_tube_vacuum_v25" vertex3="straight_tube_vacuum_v26"/>
+             <triangular vertex1="straight_tube_vacuum_v53" vertex2="straight_tube_vacuum_v2" vertex3="straight_tube_vacuum_v25"/>
+             <triangular vertex1="straight_tube_vacuum_v41" vertex2="straight_tube_vacuum_v35" vertex3="straight_tube_vacuum_v39"/>
+             <triangular vertex1="straight_tube_vacuum_v45" vertex2="straight_tube_vacuum_v33" vertex3="straight_tube_vacuum_v35"/>
+             <triangular vertex1="straight_tube_vacuum_v45" vertex2="straight_tube_vacuum_v41" vertex3="straight_tube_vacuum_v43"/>
+             <triangular vertex1="straight_tube_vacuum_v45" vertex2="straight_tube_vacuum_v35" vertex3="straight_tube_vacuum_v41"/>
+             <triangular vertex1="straight_tube_vacuum_v45" vertex2="straight_tube_vacuum_v26" vertex3="straight_tube_vacuum_v33"/>
+             <triangular vertex1="straight_tube_vacuum_v45" vertex2="straight_tube_vacuum_v53" vertex3="straight_tube_vacuum_v26"/>
+             <triangular vertex1="straight_tube_vacuum_v47" vertex2="straight_tube_vacuum_v49" vertex3="straight_tube_vacuum_v50"/>
+             <triangular vertex1="straight_tube_vacuum_v47" vertex2="straight_tube_vacuum_v50" vertex3="straight_tube_vacuum_v53"/>
+             <triangular vertex1="straight_tube_vacuum_v47" vertex2="straight_tube_vacuum_v53" vertex3="straight_tube_vacuum_v45"/>
+        </tessellated>
+    </solids>
+
+    <structure>
+        <volume name="straight_tube_vacuum">
+            <materialref ref="Vacuum"/>
+            <solidref ref="straight_tube_vacuum-SOL"/>
+        </volume>
+    </structure>
+
+    <setup name="Default" version="1.0">
+        <world ref="straight_tube_vacuum"/>
+    </setup>
+</gdml>
