@@ -14,6 +14,9 @@
 #include "G4VUserDetectorConstruction.hh"
 #include <G4SubtractionSolid.hh>
 #include <G4GDMLParser.hh>
+#include "G4UniformMagField.hh"
+#include "G4FieldManager.hh"
+#include "G4TransportationManager.hh"
 
 class G4VPhysicalVolume;
 class G4LogicalVolume;
@@ -27,21 +30,33 @@ private:
 	G4Box*                      solidWorld;
 	G4LogicalVolume*            logicWorld;
 	G4VPhysicalVolume*          physWorld;
-	virtual G4VPhysicalVolume*  Construct();	
+	virtual G4VPhysicalVolume*  Construct();
+
+	G4MagneticField*			magField;
+	G4FieldManager*				localFieldMgr;
+
+	G4Material*					Vacuum;
+	G4Material*					SiO2;
+
+	void Init_Materials(void);
+	void Vacuum_Init(void);
+	void SiO2_Init(void);
+
+	void Place_L_Section(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	void Place_Q_Section(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+
+	void Place_Q_Tube(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	void Place_Q_Vacuum(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	void Place_Q_Magnet(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+
+	void Place_L_Tube(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	void Place_L_Vacuum(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
 
 	G4GDMLParser* parser;
 public:
 	Geometry();
 	virtual ~Geometry();	
 
-	void Place_Section(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
-	void Place_Tube(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
-
-	void Place_Tube_Ring(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
-	void Place_Tube_Vacuum(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
-	void Place_Magnet(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
-
-	void Place_Straight_Tube_Ring(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
-	void Place_Straight_Tube_Vacuum(int PointX, int PointY, int PointZ, int RotateX, int RotateY);
+	
 	
 };

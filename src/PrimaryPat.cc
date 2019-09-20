@@ -8,7 +8,7 @@ PrimaryPat::PrimaryPat()
 {
 	gun = new G4ParticleGun(1);
 	gun->SetParticleDefinition(G4Electron::ElectronDefinition());
-	gun->SetParticlePosition(G4ThreeVector(-10 * cm, 0, 0));
+	gun->SetParticlePosition(G4ThreeVector(0, 0, 496 *cm));
 	gun->SetParticleEnergy(7 * MeV);
 }
 
