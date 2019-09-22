@@ -20,9 +20,6 @@
 # To superimpose all of the events from a given run:
 /vis/scene/endOfEventAction accumulate 50
 
-# Axes
-/vis/scene/add/axes  0 0 0 1  # Simple axes: x=red, y=green, z=blue.
-
 /vis/geometry/set/visibility logWorld 0 false
 /vis/viewer/set/style surface
 /vis/viewer/set/hiddenMarker true
@@ -30,3 +27,17 @@
 
 # Re-establish auto refreshing and verbosity:
 /vis/viewer/set/autoRefresh true
+
+# Axes
+/vis/scene/add/axes  0 0 0 1  # Simple axes: x=red, y=green, z=blue.
+
+# Add text
+/vis/scene/add/text 2500 1000 -2500 mm 12 4 4 Q1
+/vis/scene/add/text -2500 1000 -2500 mm 12 4 4 Q2
+/vis/scene/add/text -2500 1000 2500 mm 12 4 4 Q3
+/vis/scene/add/text 2500 1000 2500 mm 12 4 4 Q4
+
+/vis/scene/add/text 2500 1000 0 mm 12 4 4 L1
+/vis/scene/add/text 0 1000 2500 mm 12 4 4 L2
+/vis/scene/add/text -2500 1000 0 mm 12 4 4 L3
+/vis/scene/add/text 0 1000 -2500 mm 12 4 4 L4

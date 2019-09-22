@@ -4,6 +4,8 @@
 
 Loader::Loader(int argc, char **argv)
 {
+	G4Random::setTheEngine(new CLHEP::RanecuEngine);
+	CLHEP::HepRandom::setTheSeed(time(NULL));
 #ifdef G4MULTITHREADED
     runManager = new G4MTRunManager;
     runManager->SetNumberOfThreads(G4Threading::G4GetNumberOfCores());
