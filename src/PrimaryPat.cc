@@ -37,7 +37,8 @@ void PrimaryPat::Set_Particle_Angle(void)
 
 	angle = 1e-3 * 180 / pi / 2 * rand;
 
-	gun->SetParticleMomentum(G4ThreeVector(-1, 0, angle));
+	//gun->SetParticleMomentum(G4ThreeVector(-1, 0, angle));
+	gun->SetParticleMomentum(G4ThreeVector(-1, 0, 0));
 
 	//std::cout << "angle = " << angle << std::endl;
 }

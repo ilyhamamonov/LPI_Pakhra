@@ -56,14 +56,14 @@ void Geometry::Place_wolfram_wire(int PointX, int PointZ)
 	rotm->rotateX(90 * deg);
 
 	G4Tubs* wolfram_wire_tube = new G4Tubs("wolfram_wire_tube", 0, thickness, 60 * mm, 0, 360);
-	G4LogicalVolume* wolfram_wire = new G4LogicalVolume(wolfram_wire_tube, nist->FindOrBuildMaterial("G4_W"), "wolfram_wire");
+	G4LogicalVolume* wolfram_wire = new G4LogicalVolume(wolfram_wire_tube, nist->FindOrBuildMaterial("G4_W"), "wolfram_wire_lv");
 
 	G4VisAttributes visAttr = new G4VisAttributes();
 	visAttr.SetColor(0, 1, 1, transparency);
 
 	wolfram_wire->SetVisAttributes(visAttr);
 
-	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), wolfram_wire, "wolfram_wire_PV", logicWorld, false, 0);
+	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), wolfram_wire, "wolfram_wire_", logicWorld, false, 0);
 }
 
 // ---------------------------------- Geometry sectors
@@ -106,7 +106,6 @@ void Geometry::Place_L_Tube(int PointX, int PointZ, int RotateX, int RotateY, st
 	rotm->rotateY(RotateY * deg);
 
 	G4LogicalVolume* l_tube = parser_l_tube;
-	l_tube->SetName("l_tube_" + name);
 
 	G4VisAttributes visAttr = new G4VisAttributes();
 	visAttr.SetColor(0, 0, 1, transparency);
@@ -114,7 +113,7 @@ void Geometry::Place_L_Tube(int PointX, int PointZ, int RotateX, int RotateY, st
 	l_tube->SetVisAttributes(visAttr);
 	l_tube->SetMaterial(SiO2);
 
-	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), l_tube, "l_tube_PV_" + name, logicWorld, false, 0);
+	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), l_tube, "l_tube_" + name, logicWorld, false, 0);
 }
 
 void Geometry::Place_L_Vacuum(int PointX, int PointZ, int RotateX, int RotateY, std::string name)
@@ -126,7 +125,6 @@ void Geometry::Place_L_Vacuum(int PointX, int PointZ, int RotateX, int RotateY, 
 	rotm->rotateY(RotateY * deg);
 
 	G4LogicalVolume* l_vacuum = parser_l_vacuum;
-	l_vacuum->SetName("l_vacuum_" + name);
 
 	G4VisAttributes visAttr = new G4VisAttributes();
 	visAttr.SetColor(1, 1, 0, transparency);
@@ -134,7 +132,7 @@ void Geometry::Place_L_Vacuum(int PointX, int PointZ, int RotateX, int RotateY, 
 	l_vacuum->SetVisAttributes(visAttr);
 	l_vacuum->SetMaterial(Vacuum);
 
-	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), l_vacuum, "l_vacuum_PV_" + name, logicWorld, false, 0);
+	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), l_vacuum, "l_vacuum_" + name, logicWorld, false, 0);
 }
 
 void Geometry::Place_Q_Tube(int PointX, int PointZ, int RotateX, int RotateY, std::string name)
@@ -146,7 +144,6 @@ void Geometry::Place_Q_Tube(int PointX, int PointZ, int RotateX, int RotateY, st
 	rotm->rotateY(RotateY * deg);
 
 	G4LogicalVolume* q_tube = parser_q_tube;
-	q_tube->SetName("q_tube_" + name);
 
 	G4VisAttributes visAttr = new G4VisAttributes();
 	visAttr.SetColor(0, 0, 1, transparency);
@@ -154,12 +151,12 @@ void Geometry::Place_Q_Tube(int PointX, int PointZ, int RotateX, int RotateY, st
 	q_tube->SetVisAttributes(visAttr);
 	q_tube->SetMaterial(SiO2);
 
-	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), q_tube, "q_tube_PV_" + name, logicWorld, false, 0);
+	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), q_tube, "q_tube_" + name, logicWorld, false, 0);
 }
 
 void Geometry::Place_Q_Vacuum(int PointX, int PointZ, int RotateX, int RotateY, std::string name)
 {
-	G4double mag_field = 63.2 * gauss;
+	G4double mag_field = 62 * gauss;
 	G4double transparency = 0.01;
 
 	G4RotationMatrix* rotm = new G4RotationMatrix();
@@ -167,7 +164,6 @@ void Geometry::Place_Q_Vacuum(int PointX, int PointZ, int RotateX, int RotateY, 
 	rotm->rotateY(RotateY * deg);
 
 	G4LogicalVolume* q_vacuum = parser_q_vacuum;
-	q_vacuum->SetName("q_vacuum_" + name);
 
 	G4VisAttributes visAttr = new G4VisAttributes();
 	visAttr.SetColor(1, 1, 0, transparency);
@@ -179,7 +175,7 @@ void Geometry::Place_Q_Vacuum(int PointX, int PointZ, int RotateX, int RotateY, 
 	G4FieldManager* localFieldMgr = new G4FieldManager(magField);
 	q_vacuum->SetFieldManager(localFieldMgr, true);
 
-	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), q_vacuum, "q_vacuum_PV_" + name, logicWorld, false, 0);
+	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), q_vacuum, "q_vacuum_" + name, logicWorld, false, 0);
 }
 
 void Geometry::Place_Q_Magnet(int PointX, int PointZ, int RotateX, int RotateY, std::string name)
@@ -191,7 +187,6 @@ void Geometry::Place_Q_Magnet(int PointX, int PointZ, int RotateX, int RotateY, 
 	rotm->rotateY(RotateY * deg);
 
 	G4LogicalVolume* q_magnet = parser_q_magnet;
-	q_magnet->SetName("q_magnet_" + name);
 	
 	G4VisAttributes visAttr = new G4VisAttributes();
 	visAttr.SetColor(0, 1, 0, transparency);
@@ -199,7 +194,7 @@ void Geometry::Place_Q_Magnet(int PointX, int PointZ, int RotateX, int RotateY, 
 	q_magnet->SetVisAttributes(visAttr);
 	q_magnet->SetMaterial(nist->FindOrBuildMaterial("G4_Pb"));
 	
-	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), q_magnet, "q_magnet_PV_" + name, logicWorld, false, 0);
+	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), q_magnet, "q_magnet_" + name, logicWorld, false, 0);
 }
 
 // ---------------------------------- Materials
@@ -208,7 +203,6 @@ void Geometry::Init_Materials(void)
 {
 	Vacuum_Init();
 	SiO2_Init();
-	Wolfram_Init();
 }
 
 void Geometry::Vacuum_Init(void)
