@@ -14,14 +14,8 @@ void StepAct::UserSteppingAction(const G4Step* step)
 	volume_name = step->GetTrack()->GetVolume()->GetName();
 
 	if (volume_name == "l_vacuum_L4")
-	{
 		event->add_step_i();
-	}
 
-	print_val(event->get_step_i());
-
-	if (event->get_step_i() >= 20)
-	{
+	if (event->get_step_i() >= 30)
 		step->GetTrack()->SetTrackStatus(fStopAndKill);
-	}
 }

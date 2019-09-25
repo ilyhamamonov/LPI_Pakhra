@@ -50,12 +50,12 @@ void Geometry::Init_World(void)
 void Geometry::Place_wolfram_wire(int PointX, int PointZ)
 {
 	G4double transparency = 1;
-	G4double thickness = 0.01 * mm;
+	G4double thickness = 250 * um;
 
 	G4RotationMatrix* rotm = new G4RotationMatrix();
 	rotm->rotateX(90 * deg);
 
-	G4Tubs* wolfram_wire_tube = new G4Tubs("wolfram_wire_tube", 0, thickness, 60 * mm, 0, 360);
+	G4Tubs* wolfram_wire_tube = new G4Tubs("wolfram_wire_tube", 0, thickness / 2, 60 * mm, 0, 360);
 	G4LogicalVolume* wolfram_wire = new G4LogicalVolume(wolfram_wire_tube, nist->FindOrBuildMaterial("G4_W"), "wolfram_wire_lv");
 
 	G4VisAttributes visAttr = new G4VisAttributes();
@@ -156,7 +156,7 @@ void Geometry::Place_Q_Tube(int PointX, int PointZ, int RotateX, int RotateY, st
 
 void Geometry::Place_Q_Vacuum(int PointX, int PointZ, int RotateX, int RotateY, std::string name)
 {
-	G4double mag_field = 62 * gauss;
+	G4double mag_field = 63 * gauss;
 	G4double transparency = 0.01;
 
 	G4RotationMatrix* rotm = new G4RotationMatrix();

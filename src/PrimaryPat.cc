@@ -16,9 +16,9 @@ PrimaryPat::~PrimaryPat()
 
 
 void PrimaryPat::GeneratePrimaries(G4Event* anEvent)
-{	
-	Set_Particle_Angle();
+{
 	Set_Particle_Energy();
+	Set_Particle_Angle();
 	Set_Particle_Position();
 
 	gun->GeneratePrimaryVertex(anEvent);
@@ -37,10 +37,9 @@ void PrimaryPat::Set_Particle_Angle(void)
 
 	angle = 1e-3 * 180 / pi / 2 * rand;
 
-	//gun->SetParticleMomentum(G4ThreeVector(-1, 0, angle));
-	gun->SetParticleMomentum(G4ThreeVector(-1, 0, 0));
+	gun->SetParticleMomentumDirection(G4ThreeVector(-1, 0, angle));
 
-	//std::cout << "angle = " << angle << std::endl;
+	//std::cout << "angle = " << gun->GetParticleMomentumDirection().getZ() << std::endl;
 }
 
 void PrimaryPat::Set_Particle_Energy(void)
@@ -57,7 +56,7 @@ void PrimaryPat::Set_Particle_Energy(void)
 
 	gun->SetParticleEnergy(energy * MeV);
 
-	//std::cout << "energy = " << energy << std::endl;
+	//std::cout << "energy = " << gun->GetParticleEnergy() << std::endl;
 }
 
 void PrimaryPat::Set_Particle_Position(void)
@@ -82,6 +81,6 @@ void PrimaryPat::Set_Particle_Position(void)
 	} while (pos_z > mean_pos_z + 2 * sigma_pos_z || pos_z < mean_pos_z - 2 * sigma_pos_z);		
 
 	gun->SetParticlePosition(G4ThreeVector(0, pos_y * mm, - pos_z * mm));
-
-	//std::cout << "pos_y = " << pos_y << ", pos_z = " << pos_z << std::endl;
+	
+	//std::cout << "pos_y = " << gun->GetParticlePosition().getY() << ", pos_z = " << gun->GetParticlePosition().getZ() << std::endl;
 }

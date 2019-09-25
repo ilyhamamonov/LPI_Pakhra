@@ -12,7 +12,7 @@ EventAct::~EventAct()
 
 void EventAct::BeginOfEventAction(const G4Event* anEvent)
 {
-	set_step_zero();
+	set_step_i_to_zero();
 }
 
 void EventAct::EndOfEventAction(const G4Event* anEvent)
