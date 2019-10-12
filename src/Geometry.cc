@@ -6,7 +6,7 @@ Geometry::Geometry()
 
 	Init_Materials();
 	Init_World();
-	//Init_Parser();
+	Init_Parser();
 }
 
 Geometry::~Geometry() {
@@ -15,7 +15,7 @@ Geometry::~Geometry() {
 
 G4VPhysicalVolume* Geometry::Construct()
 {
-	//Init_Accelerator_Geometry();
+	Init_Accelerator_Geometry();
 
 	Place_wolfram_wire(960, -4960);
 
