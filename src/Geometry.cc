@@ -6,7 +6,7 @@ Geometry::Geometry()
 
 	Init_Materials();
 	Init_World();
-	Init_Parser();
+	//Init_Parser();
 }
 
 Geometry::~Geometry() {
@@ -15,7 +15,7 @@ Geometry::~Geometry() {
 
 G4VPhysicalVolume* Geometry::Construct()
 {
-	Init_Geometry();
+	//Init_Accelerator_Geometry();
 
 	Place_wolfram_wire(960, -4960);
 
@@ -45,7 +45,7 @@ void Geometry::Init_World(void)
 	physWorld = new G4PVPlacement(0, G4ThreeVector(), logicWorld, "phyWorld", 0, false, 0);
 }
 
-// ---------------------------------- Wolfram wire
+// ---------------------------------- Wolfram wire ----------------------------------
 
 void Geometry::Place_wolfram_wire(int PointX, int PointZ)
 {
@@ -66,9 +66,10 @@ void Geometry::Place_wolfram_wire(int PointX, int PointZ)
 	new G4PVPlacement(rotm, G4ThreeVector(PointX * mm, 0, PointZ * mm), wolfram_wire, "wolfram_wire_", logicWorld, false, 0);
 }
 
+// ---------------------------------- Accelerator Geometry ----------------------------------
 // ---------------------------------- Geometry sectors
 
-void Geometry::Init_Geometry(void)
+void Geometry::Init_Accelerator_Geometry(void)
 {
 	Place_Q_Section(960, -960, 180, 0, "Q1");
 	Place_Q_Section(-960, -960, 0, 180, "Q2");

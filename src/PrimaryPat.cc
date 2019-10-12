@@ -4,6 +4,8 @@
 #include <G4SystemOfUnits.hh>
 #include <Randomize.hh>
 
+#define MEAN_ENERGY_MeV 7
+
 PrimaryPat::PrimaryPat()
 {
 	Init_Particle();
@@ -46,8 +48,8 @@ void PrimaryPat::Set_Particle_Energy(void)
 {
 	G4double energy = 0;
 
-	G4double mean_energy = 7;
-	G4double sigma_energy = 0.07;
+	G4double mean_energy = MEAN_ENERGY_MeV;
+	G4double sigma_energy = MEAN_ENERGY_MeV * 0.01;
 
 	do
 	{

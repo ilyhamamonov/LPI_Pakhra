@@ -49,7 +49,7 @@ private:
 	void Init_World(void);
 	void Init_Parser(void);
 
-	void Init_Geometry(void);
+	void Init_Accelerator_Geometry(void);
 
 	void Place_L_Section(int PointX, int PointZ, int RotateX, int RotateY, std::string name);
 	void Place_Q_Section(int PointX, int PointZ, int RotateX, int RotateY, std::string name);
