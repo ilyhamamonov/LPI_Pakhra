@@ -480,6 +480,9 @@
             <materialref ref="Vacuum"/>
             <solidref ref="world_solid"/>
 
+			<physvol>
+                <file name="geometry/tube_q2_ring.gdml"/>
+            </physvol>
             <physvol>
                 <file name="geometry/magnet.gdml"/>
              </physvol>
@@ -491,12 +494,10 @@
              </physvol>
             <physvol>
                 <file name="geometry/straight_tube_ring.gdml"/>
-             </physvol>
-            <physvol>
+             </physvol>            
+			<physvol>
                 <file name="geometry/straight_tube_vacuum.gdml"/>
-             </physvol>
-
-
+            </physvol>
         </volume>
     </structure>
 

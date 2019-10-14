@@ -1,7 +1,7 @@
 #include <iostream>
 #include <Loader.hh>
 
-// v0.4.2
+// v0.5
 
 int main(int argc, char** argv) {
 

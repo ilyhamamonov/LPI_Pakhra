@@ -10,6 +10,7 @@
 #include "G4PVPlacement.hh"
 #include <G4Box.hh>
 #include <G4Tubs.hh>
+#include <G4Cons.hh>
 #include "G4VUserDetectorConstruction.hh"
 #include <G4SubtractionSolid.hh>
 #include <G4GDMLParser.hh>
@@ -34,6 +35,7 @@ private:
 	G4LogicalVolume*			parser_q_tube;
 	G4LogicalVolume*			parser_q_vacuum;
 	G4LogicalVolume*			parser_q_magnet;
+	G4LogicalVolume*			parser_q2_ring;
 
 	virtual G4VPhysicalVolume*  Construct();
 
@@ -44,17 +46,20 @@ private:
 
 	void Init_Materials(void);
 	void Vacuum_Init(void);
-	void SiO2_Init(void);
+	void SiO2_Init(void);	
 
 	void Init_World(void);
 	void Init_Parser(void);
 
 	void Init_Accelerator_Geometry(void);
+	void Init_Channel_Geometry(void);
 
 	void Place_L_Section(int PointX, int PointZ, int RotateX, int RotateY, std::string name);
 	void Place_Q_Section(int PointX, int PointZ, int RotateX, int RotateY, std::string name);
+	void Place_Q2_Section(int PointX, int PointZ, int RotateX, int RotateY);
 
 	void Place_Q_Tube(int PointX, int PointZ, int RotateX, int RotateY, std::string name);
+	void Place_Q2_Tube(int PointX, int PointZ, int RotateX, int RotateY);
 	void Place_Q_Vacuum(int PointX, int PointZ, int RotateX, int RotateY, std::string name);
 	void Place_Q_Magnet(int PointX, int PointZ, int RotateX, int RotateY, std::string name);
 
@@ -62,6 +67,15 @@ private:
 	void Place_L_Vacuum(int PointX, int PointZ, int RotateX, int RotateY, std::string name);
 
 	void Place_wolfram_wire(int PointX, int PointZ);
+
+	void Place_C1_Channel(int PointX, int PointZ, int RotateY);
+	void Place_W1_T_Channel(int PointX, int PointZ, int RotateY);
+	void Place_C2_Channel(int PointX, int PointZ, int RotateY);
+	void Place_M1_Channel(int PointX, int PointZ, int RotateY);
+	void Place_GEc_M2_Channel(int PointX, int PointZ, int RotateY);
+	void Place_C3_PbWall_Channel(int PointX, int PointZ, int RotateY);
+	void Place_tD_Channel(int PointX, int PointZ, int RotateY);
+
 public:
 	Geometry();
 	virtual ~Geometry();	

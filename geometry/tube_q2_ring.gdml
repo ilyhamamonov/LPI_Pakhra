@@ -1,0 +1,1601 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://service-spi.web.cern.ch/service-spi/app/releases/GDML/schema/gdml.xsd">
+
+    <define>
+        <position name="Tube_Q2_Ring_v0" unit="mm" x="4090.980713" y="-14.999986" z="0.0"/>
+        <position name="Tube_Q2_Ring_v1" unit="mm" x="4098.807129" y="-9.058666" z="0.0"/>
+        <position name="Tube_Q2_Ring_v2" unit="mm" x="4095.310791" y="-17.5" z="0.0"/>
+        <position name="Tube_Q2_Ring_v3" unit="mm" x="4093.977783" y="-7.764563" z="0.0"/>
+        <position name="Tube_Q2_Ring_v4" unit="mm" x="3935.0" y="35.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v5" unit="mm" x="4065.0" y="30.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v6" unit="mm" x="3935.0" y="30.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v7" unit="mm" x="3906.195557" y="-19.882282" z="0.0"/>
+        <position name="Tube_Q2_Ring_v8" unit="mm" x="3913.786865" y="-21.213238" z="0.0"/>
+        <position name="Tube_Q2_Ring_v9" unit="mm" x="3911.790771" y="-26.197895" z="0.0"/>
+        <position name="Tube_Q2_Ring_v10" unit="mm" x="4100.0" y="-0.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v11" unit="mm" x="4095.0" y="-0.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v12" unit="mm" x="3902.274414" y="-12.411182" z="0.0"/>
+        <position name="Tube_Q2_Ring_v13" unit="mm" x="3909.019287" y="-15.000041" z="0.0"/>
+        <position name="Tube_Q2_Ring_v14" unit="mm" x="4065.0" y="35.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v15" unit="mm" x="4093.977783" y="7.764563" z="0.0"/>
+        <position name="Tube_Q2_Ring_v16" unit="mm" x="3920.0" y="-25.980787" z="0.0"/>
+        <position name="Tube_Q2_Ring_v17" unit="mm" x="3918.734619" y="-30.990976" z="0.0"/>
+        <position name="Tube_Q2_Ring_v18" unit="mm" x="3900.255127" y="-4.218788" z="0.0"/>
+        <position name="Tube_Q2_Ring_v19" unit="mm" x="3906.022217" y="-7.764616" z="0.0"/>
+        <position name="Tube_Q2_Ring_v20" unit="mm" x="3927.235352" y="-28.977787" z="0.0"/>
+        <position name="Tube_Q2_Ring_v21" unit="mm" x="3926.624023" y="-33.982975" z="0.0"/>
+        <position name="Tube_Q2_Ring_v22" unit="mm" x="4098.807129" y="9.058666" z="0.0"/>
+        <position name="Tube_Q2_Ring_v23" unit="mm" x="4090.980713" y="14.999986" z="0.0"/>
+        <position name="Tube_Q2_Ring_v24" unit="mm" x="4074.058594" y="33.807404" z="0.0"/>
+        <position name="Tube_Q2_Ring_v25" unit="mm" x="3900.255127" y="4.218788" z="0.0"/>
+        <position name="Tube_Q2_Ring_v26" unit="mm" x="3905.0" y="-4.5e-05" z="0.0"/>
+        <position name="Tube_Q2_Ring_v27" unit="mm" x="4072.764648" y="28.977764" z="0.0"/>
+        <position name="Tube_Q2_Ring_v28" unit="mm" x="4086.213135" y="21.213186" z="0.0"/>
+        <position name="Tube_Q2_Ring_v29" unit="mm" x="4095.310791" y="17.5" z="0.0"/>
+        <position name="Tube_Q2_Ring_v30" unit="mm" x="3935.0" y="-30.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v31" unit="mm" x="3935.0" y="-35.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v32" unit="mm" x="4082.5" y="30.310888" z="0.0"/>
+        <position name="Tube_Q2_Ring_v33" unit="mm" x="4080.0" y="25.980745" z="0.0"/>
+        <position name="Tube_Q2_Ring_v34" unit="mm" x="4089.748779" y="24.748737" z="0.0"/>
+        <position name="Tube_Q2_Ring_v35" unit="mm" x="3906.022217" y="7.764528" z="0.0"/>
+        <position name="Tube_Q2_Ring_v36" unit="mm" x="3902.274414" y="12.411182" z="0.0"/>
+        <position name="Tube_Q2_Ring_v37" unit="mm" x="3909.019287" y="14.999962" z="0.0"/>
+        <position name="Tube_Q2_Ring_v38" unit="mm" x="3906.195557" y="19.882282" z="0.0"/>
+        <position name="Tube_Q2_Ring_v39" unit="mm" x="3913.786621" y="21.213173" z="0.0"/>
+        <position name="Tube_Q2_Ring_v40" unit="mm" x="3911.790771" y="26.197895" z="0.0"/>
+        <position name="Tube_Q2_Ring_v41" unit="mm" x="3920.0" y="25.980742" z="0.0"/>
+        <position name="Tube_Q2_Ring_v42" unit="mm" x="3918.734619" y="30.990976" z="0.0"/>
+        <position name="Tube_Q2_Ring_v43" unit="mm" x="3927.235352" y="28.977764" z="0.0"/>
+        <position name="Tube_Q2_Ring_v44" unit="mm" x="3926.624023" y="33.982975" z="0.0"/>
+        <position name="Tube_Q2_Ring_v45" unit="mm" x="4065.0" y="-35.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v46" unit="mm" x="4065.0" y="-30.0" z="0.0"/>
+        <position name="Tube_Q2_Ring_v47" unit="mm" x="4074.058594" y="-33.807404" z="0.0"/>
+        <position name="Tube_Q2_Ring_v48" unit="mm" x="4072.764648" y="-28.977764" z="0.0"/>
+        <position name="Tube_Q2_Ring_v49" unit="mm" x="4082.5" y="-30.310888" z="0.0"/>
+        <position name="Tube_Q2_Ring_v50" unit="mm" x="4080.0" y="-25.980745" z="0.0"/>
+        <position name="Tube_Q2_Ring_v51" unit="mm" x="4089.748779" y="-24.748737" z="0.0"/>
+        <position name="Tube_Q2_Ring_v52" unit="mm" x="4086.213135" y="-21.213186" z="0.0"/>
+        <position name="Tube_Q2_Ring_v53" unit="mm" x="3785.207031" y="-30.990976" z="1014.243164"/>
+        <position name="Tube_Q2_Ring_v54" unit="mm" x="3400.556152" y="-33.982975" z="1963.312012"/>
+        <position name="Tube_Q2_Ring_v55" unit="mm" x="3393.723877" y="-30.990976" z="1959.36731"/>
+        <position name="Tube_Q2_Ring_v56" unit="mm" x="2759.324707" y="-12.411182" z="2759.324707"/>
+        <position name="Tube_Q2_Ring_v57" unit="mm" x="1953.097778" y="-19.882282" z="3382.864502"/>
+        <position name="Tube_Q2_Ring_v58" unit="mm" x="1951.137207" y="-12.411182" z="3379.46875"/>
+        <position name="Tube_Q2_Ring_v59" unit="mm" x="3800.918213" y="-35.0" z="1018.452942"/>
+        <position name="Tube_Q2_Ring_v60" unit="mm" x="3792.827393" y="-33.982975" z="1016.285034"/>
+        <position name="Tube_Q2_Ring_v61" unit="mm" x="2762.097412" y="-19.882282" z="2762.097412"/>
+        <position name="Tube_Q2_Ring_v62" unit="mm" x="1955.895386" y="-26.197895" z="3387.710205"/>
+        <position name="Tube_Q2_Ring_v63" unit="mm" x="3407.810059" y="35.0" z="1967.5"/>
+        <position name="Tube_Q2_Ring_v64" unit="mm" x="2776.54248" y="33.982975" z="2776.54248"/>
+        <position name="Tube_Q2_Ring_v65" unit="mm" x="2782.465088" y="35.0" z="2782.465088"/>
+        <position name="Tube_Q2_Ring_v66" unit="mm" x="2766.053711" y="-26.197895" z="2766.053711"/>
+        <position name="Tube_Q2_Ring_v67" unit="mm" x="3785.207031" y="30.990976" z="1014.243164"/>
+        <position name="Tube_Q2_Ring_v68" unit="mm" x="3792.827393" y="33.982975" z="1016.285034"/>
+        <position name="Tube_Q2_Ring_v69" unit="mm" x="1959.36731" y="-30.990976" z="3393.723877"/>
+        <position name="Tube_Q2_Ring_v70" unit="mm" x="3400.556152" y="33.982975" z="1963.312012"/>
+        <position name="Tube_Q2_Ring_v71" unit="mm" x="3778.499756" y="26.197895" z="1012.445923"/>
+        <position name="Tube_Q2_Ring_v72" unit="mm" x="2770.963867" y="-30.990976" z="2770.963867"/>
+        <position name="Tube_Q2_Ring_v73" unit="mm" x="1967.5" y="-35.0" z="3407.810059"/>
+        <position name="Tube_Q2_Ring_v74" unit="mm" x="1963.312012" y="-33.982975" z="3400.556152"/>
+        <position name="Tube_Q2_Ring_v75" unit="mm" x="2782.465088" y="-35.0" z="2782.465088"/>
+        <position name="Tube_Q2_Ring_v76" unit="mm" x="2776.54248" y="-33.982975" z="2776.54248"/>
+        <position name="Tube_Q2_Ring_v77" unit="mm" x="2770.963867" y="30.990976" z="2770.963867"/>
+        <position name="Tube_Q2_Ring_v78" unit="mm" x="1967.5" y="35.0" z="3407.810059"/>
+        <position name="Tube_Q2_Ring_v79" unit="mm" x="1016.285034" y="33.982975" z="3792.827393"/>
+        <position name="Tube_Q2_Ring_v80" unit="mm" x="1018.452942" y="35.0" z="3800.918213"/>
+        <position name="Tube_Q2_Ring_v81" unit="mm" x="3773.095215" y="19.882282" z="1010.997803"/>
+        <position name="Tube_Q2_Ring_v82" unit="mm" x="3393.723877" y="30.990976" z="1959.36731"/>
+        <position name="Tube_Q2_Ring_v83" unit="mm" x="1963.312012" y="33.982975" z="3400.556152"/>
+        <position name="Tube_Q2_Ring_v84" unit="mm" x="3769.307617" y="12.411182" z="1009.98291"/>
+        <position name="Tube_Q2_Ring_v85" unit="mm" x="2766.053711" y="26.197895" z="2766.053711"/>
+        <position name="Tube_Q2_Ring_v86" unit="mm" x="0.0" y="33.982975" z="3926.624023"/>
+        <position name="Tube_Q2_Ring_v87" unit="mm" x="3387.710205" y="26.197895" z="1955.895386"/>
+        <position name="Tube_Q2_Ring_v88" unit="mm" x="1014.243164" y="30.990976" z="3785.207031"/>
+        <position name="Tube_Q2_Ring_v89" unit="mm" x="0.0" y="30.990976" z="3918.734619"/>
+        <position name="Tube_Q2_Ring_v90" unit="mm" x="3382.864502" y="19.882282" z="1953.097778"/>
+        <position name="Tube_Q2_Ring_v91" unit="mm" x="2762.097412" y="19.882282" z="2762.097412"/>
+        <position name="Tube_Q2_Ring_v92" unit="mm" x="3767.357178" y="4.218788" z="1009.460327"/>
+        <position name="Tube_Q2_Ring_v93" unit="mm" x="1959.36731" y="30.990976" z="3393.723877"/>
+        <position name="Tube_Q2_Ring_v94" unit="mm" x="3379.46875" y="12.411182" z="1951.137207"/>
+        <position name="Tube_Q2_Ring_v95" unit="mm" x="2759.324707" y="12.411182" z="2759.324707"/>
+        <position name="Tube_Q2_Ring_v96" unit="mm" x="3767.357178" y="-4.218788" z="1009.460327"/>
+        <position name="Tube_Q2_Ring_v97" unit="mm" x="1012.445923" y="26.197895" z="3778.499756"/>
+        <position name="Tube_Q2_Ring_v98" unit="mm" x="0.0" y="26.197895" z="3911.790771"/>
+        <position name="Tube_Q2_Ring_v99" unit="mm" x="3377.719971" y="4.218788" z="1950.127563"/>
+        <position name="Tube_Q2_Ring_v100" unit="mm" x="2757.896973" y="4.218788" z="2757.896973"/>
+        <position name="Tube_Q2_Ring_v101" unit="mm" x="3769.307617" y="-12.411182" z="1009.98291"/>
+        <position name="Tube_Q2_Ring_v102" unit="mm" x="1955.895386" y="26.197895" z="3387.710205"/>
+        <position name="Tube_Q2_Ring_v103" unit="mm" x="3773.095215" y="-19.882282" z="1010.997803"/>
+        <position name="Tube_Q2_Ring_v104" unit="mm" x="1010.997803" y="19.882282" z="3773.095215"/>
+        <position name="Tube_Q2_Ring_v105" unit="mm" x="2757.896973" y="-4.218788" z="2757.896973"/>
+        <position name="Tube_Q2_Ring_v106" unit="mm" x="0.0" y="19.882282" z="3906.195557"/>
+        <position name="Tube_Q2_Ring_v107" unit="mm" x="3377.719971" y="-4.218788" z="1950.127563"/>
+        <position name="Tube_Q2_Ring_v108" unit="mm" x="3778.499756" y="-26.197895" z="1012.445923"/>
+        <position name="Tube_Q2_Ring_v109" unit="mm" x="3379.46875" y="-12.411182" z="1951.137207"/>
+        <position name="Tube_Q2_Ring_v110" unit="mm" x="1953.097778" y="19.882282" z="3382.864502"/>
+        <position name="Tube_Q2_Ring_v111" unit="mm" x="1009.98291" y="12.411182" z="3769.307617"/>
+        <position name="Tube_Q2_Ring_v112" unit="mm" x="3382.864502" y="-19.882282" z="1953.097778"/>
+        <position name="Tube_Q2_Ring_v113" unit="mm" x="0.0" y="12.411182" z="3902.274414"/>
+        <position name="Tube_Q2_Ring_v114" unit="mm" x="3387.710205" y="-26.197895" z="1955.895386"/>
+        <position name="Tube_Q2_Ring_v115" unit="mm" x="3800.918213" y="35.0" z="1018.452942"/>
+        <position name="Tube_Q2_Ring_v116" unit="mm" x="1951.137207" y="12.411182" z="3379.46875"/>
+        <position name="Tube_Q2_Ring_v117" unit="mm" x="1009.460327" y="4.218788" z="3767.357178"/>
+        <position name="Tube_Q2_Ring_v118" unit="mm" x="3407.810059" y="-35.0" z="1967.5"/>
+        <position name="Tube_Q2_Ring_v119" unit="mm" x="0.0" y="4.218788" z="3900.255127"/>
+        <position name="Tube_Q2_Ring_v120" unit="mm" x="1950.127563" y="4.218788" z="3377.719971"/>
+        <position name="Tube_Q2_Ring_v121" unit="mm" x="1009.460327" y="-4.218788" z="3767.357178"/>
+        <position name="Tube_Q2_Ring_v122" unit="mm" x="0.0" y="-4.218788" z="3900.255127"/>
+        <position name="Tube_Q2_Ring_v123" unit="mm" x="0.0" y="35.0" z="3935.0"/>
+        <position name="Tube_Q2_Ring_v124" unit="mm" x="1950.127563" y="-4.218788" z="3377.719971"/>
+        <position name="Tube_Q2_Ring_v125" unit="mm" x="1009.98291" y="-12.411182" z="3769.307617"/>
+        <position name="Tube_Q2_Ring_v126" unit="mm" x="0.0" y="-12.411182" z="3902.274414"/>
+        <position name="Tube_Q2_Ring_v127" unit="mm" x="1010.997803" y="-19.882282" z="3773.095215"/>
+        <position name="Tube_Q2_Ring_v128" unit="mm" x="0.0" y="-19.882282" z="3906.195557"/>
+        <position name="Tube_Q2_Ring_v129" unit="mm" x="1012.445923" y="-26.197895" z="3778.499756"/>
+        <position name="Tube_Q2_Ring_v130" unit="mm" x="0.0" y="-26.197895" z="3911.790771"/>
+        <position name="Tube_Q2_Ring_v131" unit="mm" x="1014.243164" y="-30.990976" z="3785.207031"/>
+        <position name="Tube_Q2_Ring_v132" unit="mm" x="0.0" y="-30.990976" z="3918.734619"/>
+        <position name="Tube_Q2_Ring_v133" unit="mm" x="1016.285034" y="-33.982975" z="3792.827393"/>
+        <position name="Tube_Q2_Ring_v134" unit="mm" x="1018.452942" y="-35.0" z="3800.918213"/>
+        <position name="Tube_Q2_Ring_v135" unit="mm" x="0.0" y="-33.982975" z="3926.624023"/>
+        <position name="Tube_Q2_Ring_v136" unit="mm" x="0.0" y="-35.0" z="3935.0"/>
+        <position name="Tube_Q2_Ring_v137" unit="mm" x="4007.049805" y="35.0" z="683.941895"/>
+        <position name="Tube_Q2_Ring_v138" unit="mm" x="4050.486572" y="35.0" z="343.196289"/>
+        <position name="Tube_Q2_Ring_v139" unit="mm" x="3935.0" y="35.0" z="1019.803711"/>
+        <position name="Tube_Q2_Ring_v140" unit="mm" x="4007.049805" y="-35.0" z="683.941895"/>
+        <position name="Tube_Q2_Ring_v141" unit="mm" x="4050.486572" y="-35.0" z="343.196289"/>
+        <position name="Tube_Q2_Ring_v142" unit="mm" x="3935.0" y="-35.0" z="1019.803711"/>
+        <position name="Tube_Q2_Ring_v143" unit="mm" x="4065.0" y="-35.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v144" unit="mm" x="4074.058594" y="-33.807404" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v145" unit="mm" x="4082.5" y="-30.310888" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v146" unit="mm" x="4089.748779" y="-24.748737" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v147" unit="mm" x="4095.310791" y="-17.5" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v148" unit="mm" x="4098.807129" y="-9.058666" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v149" unit="mm" x="4100.0" y="-0.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v150" unit="mm" x="4098.807129" y="9.058666" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v151" unit="mm" x="4095.310791" y="17.5" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v152" unit="mm" x="4089.748779" y="24.748737" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v153" unit="mm" x="4082.5" y="30.310888" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v154" unit="mm" x="4074.058594" y="33.807404" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v155" unit="mm" x="4065.0" y="35.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v156" unit="mm" x="3904.695313" y="-17.51086" z="215.559647"/>
+        <position name="Tube_Q2_Ring_v157" unit="mm" x="3903.045654" y="-14.280128" z="208.612869"/>
+        <position name="Tube_Q2_Ring_v158" unit="mm" x="3935.0" y="30.0" z="0.312895"/>
+        <position name="Tube_Q2_Ring_v159" unit="mm" x="3935.0" y="30.0" z="0.62579"/>
+        <position name="Tube_Q2_Ring_v160" unit="mm" x="3935.0" y="30.0" z="0.938685"/>
+        <position name="Tube_Q2_Ring_v161" unit="mm" x="3932.995605" y="-30.0" z="125.58268"/>
+        <position name="Tube_Q2_Ring_v162" unit="mm" x="3908.252441" y="-22.573807" z="233.822693"/>
+        <position name="Tube_Q2_Ring_v163" unit="mm" x="3932.975586" y="30.0" z="126.20784"/>
+        <position name="Tube_Q2_Ring_v164" unit="mm" x="3926.984131" y="-30.0" z="251.03743"/>
+        <position name="Tube_Q2_Ring_v165" unit="mm" x="3914.408691" y="-28.301973" z="288.831177"/>
+        <position name="Tube_Q2_Ring_v166" unit="mm" x="3916.972168" y="-30.0" z="376.23642"/>
+        <position name="Tube_Q2_Ring_v167" unit="mm" x="3911.046143" y="25.518896" z="253.098633"/>
+        <position name="Tube_Q2_Ring_v168" unit="mm" x="3926.964355" y="30.0" z="251.34906"/>
+        <position name="Tube_Q2_Ring_v169" unit="mm" x="3906.217773" y="19.91431" z="222.738876"/>
+        <position name="Tube_Q2_Ring_v170" unit="mm" x="3916.972168" y="30.0" z="376.235474"/>
+        <position name="Tube_Q2_Ring_v171" unit="mm" x="3903.796875" y="15.854626" z="211.68013"/>
+        <position name="Tube_Q2_Ring_v172" unit="mm" x="3901.799072" y="11.076814" z="203.838226"/>
+        <position name="Tube_Q2_Ring_v173" unit="mm" x="3901.060547" y="8.551065" z="201.177048"/>
+        <position name="Tube_Q2_Ring_v174" unit="mm" x="3900.556396" y="6.216089" z="199.424728"/>
+        <position name="Tube_Q2_Ring_v175" unit="mm" x="3900.245117" y="4.135804" z="198.368118"/>
+        <position name="Tube_Q2_Ring_v176" unit="mm" x="3900.032715" y="1.515266" z="197.657501"/>
+        <position name="Tube_Q2_Ring_v177" unit="mm" x="3900.016846" y="-1.087138" z="197.604553"/>
+        <position name="Tube_Q2_Ring_v178" unit="mm" x="3900.205322" y="-3.785765" z="198.234085"/>
+        <position name="Tube_Q2_Ring_v179" unit="mm" x="3900.677734" y="-6.855019" z="199.842148"/>
+        <position name="Tube_Q2_Ring_v180" unit="mm" x="3901.680176" y="-10.714347" z="203.402328"/>
+        <position name="Tube_Q2_Ring_v181" unit="mm" x="4007.049805" y="-30.0" z="683.942017"/>
+        <position name="Tube_Q2_Ring_v182" unit="mm" x="4050.486572" y="-30.0" z="343.19635"/>
+        <position name="Tube_Q2_Ring_v183" unit="mm" x="3935.0" y="-30.0" z="1019.803894"/>
+        <position name="Tube_Q2_Ring_v184" unit="mm" x="4065.0" y="-30.0" z="383.262634"/>
+        <position name="Tube_Q2_Ring_v185" unit="mm" x="4065.0" y="-30.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v186" unit="mm" x="4072.764648" y="-28.977764" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v187" unit="mm" x="4080.0" y="-25.980745" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v188" unit="mm" x="4086.213135" y="-21.213186" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v189" unit="mm" x="4090.980713" y="-14.999986" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v190" unit="mm" x="4093.977783" y="-7.764563" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v191" unit="mm" x="4095.0" y="-0.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v192" unit="mm" x="4093.977783" y="7.764563" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v193" unit="mm" x="4090.980713" y="14.999986" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v194" unit="mm" x="4086.213135" y="21.213186" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v195" unit="mm" x="4080.0" y="25.980745" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v196" unit="mm" x="4072.764648" y="28.977764" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v197" unit="mm" x="4065.0" y="30.0" z="383.262634"/>
+        <position name="Tube_Q2_Ring_v198" unit="mm" x="4065.0" y="30.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v199" unit="mm" x="4007.049805" y="30.0" z="683.942017"/>
+        <position name="Tube_Q2_Ring_v200" unit="mm" x="4050.486572" y="30.0" z="343.19635"/>
+        <position name="Tube_Q2_Ring_v201" unit="mm" x="3935.0" y="30.0" z="1019.803894"/>
+        <position name="Tube_Q2_Ring_v202" unit="mm" x="3618.46582" y="35.0" z="1852.276855"/>
+        <position name="Tube_Q2_Ring_v203" unit="mm" x="3128.236084" y="35.0" z="2595.835938"/>
+        <position name="Tube_Q2_Ring_v204" unit="mm" x="2487.842773" y="35.0" z="3214.78833"/>
+        <position name="Tube_Q2_Ring_v205" unit="mm" x="1728.026611" y="35.0" z="3679.422363"/>
+        <position name="Tube_Q2_Ring_v206" unit="mm" x="885.260681" y="35.0" z="3967.434814"/>
+        <position name="Tube_Q2_Ring_v207" unit="mm" x="0.0" y="35.0" z="4065.0"/>
+        <position name="Tube_Q2_Ring_v208" unit="mm" x="3618.46582" y="-35.0" z="1852.276855"/>
+        <position name="Tube_Q2_Ring_v209" unit="mm" x="3128.236084" y="-35.0" z="2595.835938"/>
+        <position name="Tube_Q2_Ring_v210" unit="mm" x="2487.842773" y="-35.0" z="3214.78833"/>
+        <position name="Tube_Q2_Ring_v211" unit="mm" x="1728.026611" y="-35.0" z="3679.422363"/>
+        <position name="Tube_Q2_Ring_v212" unit="mm" x="885.260681" y="-35.0" z="3967.434814"/>
+        <position name="Tube_Q2_Ring_v213" unit="mm" x="0.0" y="-35.0" z="4065.0"/>
+        <position name="Tube_Q2_Ring_v214" unit="mm" x="0.0" y="-9.058666" z="4098.807129"/>
+        <position name="Tube_Q2_Ring_v215" unit="mm" x="0.0" y="-14.999986" z="4090.980713"/>
+        <position name="Tube_Q2_Ring_v216" unit="mm" x="0.0" y="-17.5" z="4095.310791"/>
+        <position name="Tube_Q2_Ring_v217" unit="mm" x="0.0" y="-7.764563" z="4093.977783"/>
+        <position name="Tube_Q2_Ring_v218" unit="mm" x="0.0" y="30.0" z="4065.0"/>
+        <position name="Tube_Q2_Ring_v219" unit="mm" x="0.0" y="30.0" z="3935.0"/>
+        <position name="Tube_Q2_Ring_v220" unit="mm" x="0.0" y="-21.213238" z="3913.786865"/>
+        <position name="Tube_Q2_Ring_v221" unit="mm" x="0.0" y="-0.0" z="4100.0"/>
+        <position name="Tube_Q2_Ring_v222" unit="mm" x="0.0" y="-0.0" z="4095.0"/>
+        <position name="Tube_Q2_Ring_v223" unit="mm" x="0.0" y="-15.000041" z="3909.019287"/>
+        <position name="Tube_Q2_Ring_v224" unit="mm" x="0.0" y="7.764563" z="4093.977783"/>
+        <position name="Tube_Q2_Ring_v225" unit="mm" x="0.0" y="-25.980787" z="3920.0"/>
+        <position name="Tube_Q2_Ring_v226" unit="mm" x="0.0" y="-7.764616" z="3906.022217"/>
+        <position name="Tube_Q2_Ring_v227" unit="mm" x="0.0" y="-28.977787" z="3927.235352"/>
+        <position name="Tube_Q2_Ring_v228" unit="mm" x="0.0" y="9.058666" z="4098.807129"/>
+        <position name="Tube_Q2_Ring_v229" unit="mm" x="0.0" y="14.999986" z="4090.980713"/>
+        <position name="Tube_Q2_Ring_v230" unit="mm" x="0.0" y="33.807404" z="4074.058594"/>
+        <position name="Tube_Q2_Ring_v231" unit="mm" x="0.0" y="-4.5e-05" z="3905.0"/>
+        <position name="Tube_Q2_Ring_v232" unit="mm" x="0.0" y="28.977764" z="4072.764648"/>
+        <position name="Tube_Q2_Ring_v233" unit="mm" x="0.0" y="17.5" z="4095.310791"/>
+        <position name="Tube_Q2_Ring_v234" unit="mm" x="0.0" y="21.213186" z="4086.213135"/>
+        <position name="Tube_Q2_Ring_v235" unit="mm" x="0.0" y="-30.0" z="3935.0"/>
+        <position name="Tube_Q2_Ring_v236" unit="mm" x="0.0" y="30.310888" z="4082.5"/>
+        <position name="Tube_Q2_Ring_v237" unit="mm" x="0.0" y="25.980745" z="4080.0"/>
+        <position name="Tube_Q2_Ring_v238" unit="mm" x="0.0" y="24.748737" z="4089.748779"/>
+        <position name="Tube_Q2_Ring_v239" unit="mm" x="0.0" y="7.764528" z="3906.022217"/>
+        <position name="Tube_Q2_Ring_v240" unit="mm" x="0.0" y="14.999962" z="3909.019287"/>
+        <position name="Tube_Q2_Ring_v241" unit="mm" x="0.0" y="21.213173" z="3913.786621"/>
+        <position name="Tube_Q2_Ring_v242" unit="mm" x="0.0" y="25.980742" z="3920.0"/>
+        <position name="Tube_Q2_Ring_v243" unit="mm" x="0.0" y="28.977764" z="3927.235352"/>
+        <position name="Tube_Q2_Ring_v244" unit="mm" x="0.0" y="-30.0" z="4065.0"/>
+        <position name="Tube_Q2_Ring_v245" unit="mm" x="0.0" y="-33.807404" z="4074.058594"/>
+        <position name="Tube_Q2_Ring_v246" unit="mm" x="0.0" y="-28.977764" z="4072.764648"/>
+        <position name="Tube_Q2_Ring_v247" unit="mm" x="0.0" y="-30.310888" z="4082.5"/>
+        <position name="Tube_Q2_Ring_v248" unit="mm" x="0.0" y="-25.980745" z="4080.0"/>
+        <position name="Tube_Q2_Ring_v249" unit="mm" x="0.0" y="-24.748737" z="4089.748779"/>
+        <position name="Tube_Q2_Ring_v250" unit="mm" x="0.0" y="-21.213186" z="4086.213135"/>
+        <position name="Tube_Q2_Ring_v251" unit="mm" x="3935.0" y="35.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v252" unit="mm" x="3935.0" y="-35.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v253" unit="mm" x="3935.0" y="30.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v254" unit="mm" x="3913.786865" y="-21.213238" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v255" unit="mm" x="3906.195557" y="-19.882282" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v256" unit="mm" x="3911.790771" y="-26.197895" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v257" unit="mm" x="3909.019287" y="-15.000041" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v258" unit="mm" x="3902.274414" y="-12.411182" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v259" unit="mm" x="3920.0" y="-25.980787" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v260" unit="mm" x="3918.734619" y="-30.990976" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v261" unit="mm" x="3906.022217" y="-7.764616" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v262" unit="mm" x="3900.255127" y="-4.218788" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v263" unit="mm" x="3927.235352" y="-28.977787" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v264" unit="mm" x="3926.624023" y="-33.982975" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v265" unit="mm" x="3905.0" y="-4.5e-05" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v266" unit="mm" x="3900.255127" y="4.218788" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v267" unit="mm" x="3935.0" y="-30.0" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v268" unit="mm" x="3906.022217" y="7.764528" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v269" unit="mm" x="3902.274414" y="12.411182" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v270" unit="mm" x="3909.019287" y="14.999962" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v271" unit="mm" x="3906.195557" y="19.882282" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v272" unit="mm" x="3913.786621" y="21.213173" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v273" unit="mm" x="3911.790771" y="26.197895" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v274" unit="mm" x="3920.0" y="25.980742" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v275" unit="mm" x="3918.734619" y="30.990976" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v276" unit="mm" x="3927.235352" y="28.977764" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v277" unit="mm" x="3926.624023" y="33.982975" z="2000.0"/>
+        <position name="Tube_Q2_Ring_v278" unit="mm" x="3929.327637" y="30.0" z="1041.446045"/>
+        <position name="Tube_Q2_Ring_v279" unit="mm" x="3923.536133" y="30.0" z="1063.056641"/>
+        <position name="Tube_Q2_Ring_v280" unit="mm" x="3935.0" y="30.0" z="1089.445313"/>
+        <position name="Tube_Q2_Ring_v281" unit="mm" x="3916.972168" y="-30.0" z="1086.993042"/>
+        <position name="Tube_Q2_Ring_v282" unit="mm" x="3923.109131" y="-30.0" z="1064.631104"/>
+        <position name="Tube_Q2_Ring_v283" unit="mm" x="3929.118408" y="-30.0" z="1042.234375"/>
+        <position name="Tube_Q2_Ring_v284" unit="mm" x="3992.133057" y="-30.0" z="856.731079"/>
+        <position name="Tube_Q2_Ring_v285" unit="mm" x="3935.0" y="-30.0" z="1089.444946"/>
+        <position name="Tube_Q2_Ring_v286" unit="mm" x="4035.516357" y="-30.0" z="621.066406"/>
+        <position name="Tube_Q2_Ring_v287" unit="mm" x="3992.133057" y="30.0" z="856.731628"/>
+        <position name="Tube_Q2_Ring_v288" unit="mm" x="4035.516113" y="30.0" z="621.067139"/>
+        <position name="Tube_Q2_Ring_v289" unit="mm" x="4065.0" y="30.0" z="383.263611"/>
+        <position name="Tube_Q2_Ring_v290" unit="mm" x="3648.514404" y="-9.245555" z="1867.658691"/>
+        <position name="Tube_Q2_Ring_v291" unit="mm" x="3154.213623" y="-9.245555" z="2617.392334"/>
+        <position name="Tube_Q2_Ring_v292" unit="mm" x="3645.447021" y="-17.5" z="1866.088501"/>
+        <position name="Tube_Q2_Ring_v293" unit="mm" x="3151.561768" y="-17.5" z="2615.191895"/>
+        <position name="Tube_Q2_Ring_v294" unit="mm" x="2509.255859" y="-0.916791" z="3242.458252"/>
+        <position name="Tube_Q2_Ring_v295" unit="mm" x="1742.899902" y="-0.916791" z="3711.091553"/>
+        <position name="Tube_Q2_Ring_v296" unit="mm" x="2508.502441" y="-9.245555" z="3241.484619"/>
+        <position name="Tube_Q2_Ring_v297" unit="mm" x="2508.533447" y="9.058666" z="3241.524658"/>
+        <position name="Tube_Q2_Ring_v298" unit="mm" x="1742.376465" y="-9.245555" z="3709.977295"/>
+        <position name="Tube_Q2_Ring_v299" unit="mm" x="1742.398071" y="9.058666" z="3710.022949"/>
+        <position name="Tube_Q2_Ring_v300" unit="mm" x="3649.610352" y="-0.916791" z="1868.219604"/>
+        <position name="Tube_Q2_Ring_v301" unit="mm" x="3155.161133" y="-0.916791" z="2618.178711"/>
+        <position name="Tube_Q2_Ring_v302" unit="mm" x="2506.882324" y="16.036802" z="3239.391357"/>
+        <position name="Tube_Q2_Ring_v303" unit="mm" x="1741.251343" y="16.036802" z="3707.581299"/>
+        <position name="Tube_Q2_Ring_v304" unit="mm" x="3648.55957" y="9.058666" z="1867.681763"/>
+        <position name="Tube_Q2_Ring_v305" unit="mm" x="3154.252686" y="9.058666" z="2617.424805"/>
+        <position name="Tube_Q2_Ring_v306" unit="mm" x="1739.538086" y="22.174004" z="3703.933594"/>
+        <position name="Tube_Q2_Ring_v307" unit="mm" x="2504.416016" y="22.174004" z="3236.204102"/>
+        <position name="Tube_Q2_Ring_v308" unit="mm" x="1735.46582" y="30.310888" z="3695.262451"/>
+        <position name="Tube_Q2_Ring_v309" unit="mm" x="3152.176758" y="16.036802" z="2615.702148"/>
+        <position name="Tube_Q2_Ring_v310" unit="mm" x="3646.158203" y="16.036802" z="1866.452515"/>
+        <position name="Tube_Q2_Ring_v311" unit="mm" x="2498.552979" y="30.310888" z="3228.62793"/>
+        <position name="Tube_Q2_Ring_v312" unit="mm" x="3149.075195" y="22.174004" z="2613.128662"/>
+        <position name="Tube_Q2_Ring_v313" unit="mm" x="1731.877441" y="33.807404" z="3687.621826"/>
+        <position name="Tube_Q2_Ring_v314" unit="mm" x="3642.571045" y="22.174004" z="1864.616211"/>
+        <position name="Tube_Q2_Ring_v315" unit="mm" x="2493.386719" y="33.807404" z="3221.952148"/>
+        <position name="Tube_Q2_Ring_v316" unit="mm" x="3141.703125" y="30.310888" z="2607.01123"/>
+        <position name="Tube_Q2_Ring_v317" unit="mm" x="3634.043457" y="30.310888" z="1860.250977"/>
+        <position name="Tube_Q2_Ring_v318" unit="mm" x="887.233459" y="-33.807404" z="3976.275879"/>
+        <position name="Tube_Q2_Ring_v319" unit="mm" x="3135.207031" y="33.807404" z="2601.620605"/>
+        <position name="Tube_Q2_Ring_v320" unit="mm" x="3626.529541" y="33.807404" z="1856.404541"/>
+        <position name="Tube_Q2_Ring_v321" unit="mm" x="1731.877441" y="-33.807404" z="3687.621826"/>
+        <position name="Tube_Q2_Ring_v322" unit="mm" x="3902.593994" y="-13.223179" z="1248.397217"/>
+        <position name="Tube_Q2_Ring_v323" unit="mm" x="3626.529541" y="-33.807404" z="1856.404541"/>
+        <position name="Tube_Q2_Ring_v324" unit="mm" x="3907.552002" y="-21.716711" z="1216.209473"/>
+        <position name="Tube_Q2_Ring_v325" unit="mm" x="2493.386719" y="-33.807404" z="3221.952148"/>
+        <position name="Tube_Q2_Ring_v326" unit="mm" x="3135.207031" y="-33.807404" z="2601.620605"/>
+        <position name="Tube_Q2_Ring_v327" unit="mm" x="889.071777" y="-30.310888" z="3984.514648"/>
+        <position name="Tube_Q2_Ring_v328" unit="mm" x="1735.46582" y="-30.310888" z="3695.262451"/>
+        <position name="Tube_Q2_Ring_v329" unit="mm" x="2498.552979" y="-30.310888" z="3228.62793"/>
+        <position name="Tube_Q2_Ring_v330" unit="mm" x="3141.703125" y="-30.310888" z="2607.01123"/>
+        <position name="Tube_Q2_Ring_v331" unit="mm" x="3634.043457" y="-30.310888" z="1860.250977"/>
+        <position name="Tube_Q2_Ring_v332" unit="mm" x="890.650391" y="-24.748737" z="3991.589355"/>
+        <position name="Tube_Q2_Ring_v333" unit="mm" x="3901.243164" y="-9.245555" z="1257.02356"/>
+        <position name="Tube_Q2_Ring_v334" unit="mm" x="3640.49585" y="-24.748737" z="1863.553955"/>
+        <position name="Tube_Q2_Ring_v335" unit="mm" x="2502.989258" y="-24.748737" z="3234.360596"/>
+        <position name="Tube_Q2_Ring_v336" unit="mm" x="1738.547241" y="-24.748737" z="3701.823486"/>
+        <position name="Tube_Q2_Ring_v337" unit="mm" x="3147.281494" y="-24.748737" z="2611.640137"/>
+        <position name="Tube_Q2_Ring_v338" unit="mm" x="2506.393311" y="-17.5" z="3238.759521"/>
+        <position name="Tube_Q2_Ring_v339" unit="mm" x="891.861694" y="-17.5" z="3997.018066"/>
+        <position name="Tube_Q2_Ring_v340" unit="mm" x="3900.460449" y="-5.659198" z="1261.994873"/>
+        <position name="Tube_Q2_Ring_v341" unit="mm" x="1740.911621" y="-17.5" z="3706.858154"/>
+        <position name="Tube_Q2_Ring_v342" unit="mm" x="892.612122" y="-9.245555" z="4000.381348"/>
+        <position name="Tube_Q2_Ring_v343" unit="mm" x="3900.219971" y="-3.917683" z="1263.519165"/>
+        <position name="Tube_Q2_Ring_v344" unit="mm" x="3900.077393" y="-2.328209" z="1264.420654"/>
+        <position name="Tube_Q2_Ring_v345" unit="mm" x="3900.011963" y="-0.916791" z="1264.835083"/>
+        <position name="Tube_Q2_Ring_v346" unit="mm" x="892.880249" y="-0.916791" z="4001.583008"/>
+        <position name="Tube_Q2_Ring_v347" unit="mm" x="3900.000732" y="0.226508" z="1264.906372"/>
+        <position name="Tube_Q2_Ring_v348" unit="mm" x="3900.035889" y="1.583397" z="1264.684448"/>
+        <position name="Tube_Q2_Ring_v349" unit="mm" x="892.623108" y="9.058666" z="4000.430664"/>
+        <position name="Tube_Q2_Ring_v350" unit="mm" x="3900.145508" y="3.188002" z="1263.990601"/>
+        <position name="Tube_Q2_Ring_v351" unit="mm" x="3900.420898" y="5.412197" z="1262.245728"/>
+        <position name="Tube_Q2_Ring_v352" unit="mm" x="3901.232178" y="9.205065" z="1257.093994"/>
+        <position name="Tube_Q2_Ring_v353" unit="mm" x="892.035645" y="16.036802" z="3997.797852"/>
+        <position name="Tube_Q2_Ring_v354" unit="mm" x="3903.890137" y="16.036802" z="1240.063354"/>
+        <position name="Tube_Q2_Ring_v355" unit="mm" x="891.15802" y="22.174004" z="3993.864502"/>
+        <position name="Tube_Q2_Ring_v356" unit="mm" x="3907.920166" y="22.174004" z="1213.785889"/>
+        <position name="Tube_Q2_Ring_v357" unit="mm" x="3918.895752" y="31.074995" z="1139.151855"/>
+        <position name="Tube_Q2_Ring_v358" unit="mm" x="889.071777" y="30.310888" z="3984.514648"/>
+        <position name="Tube_Q2_Ring_v359" unit="mm" x="887.233459" y="33.807404" z="3976.275879"/>
+        <position name="Tube_Q2_Ring_v360" unit="mm" x="950.665588" y="8.550663" z="3788.796631"/>
+        <position name="Tube_Q2_Ring_v361" unit="mm" x="951.465637" y="15.854418" z="3791.985107"/>
+        <position name="Tube_Q2_Ring_v362" unit="mm" x="2626.4646" y="-6.855502" z="2890.831787"/>
+        <position name="Tube_Q2_Ring_v363" unit="mm" x="3251.039551" y="-6.855502" z="2164.709473"/>
+        <position name="Tube_Q2_Ring_v364" unit="mm" x="3250.410645" y="1.514616" z="2164.290527"/>
+        <position name="Tube_Q2_Ring_v365" unit="mm" x="3687.649658" y="21.213173" z="1311.093506"/>
+        <position name="Tube_Q2_Ring_v366" unit="mm" x="3693.503906" y="25.980742" z="1313.174805"/>
+        <position name="Tube_Q2_Ring_v367" unit="mm" x="950.37207" y="1.514616" z="3787.626709"/>
+        <position name="Tube_Q2_Ring_v368" unit="mm" x="2625.956543" y="1.514616" z="2890.272461"/>
+        <position name="Tube_Q2_Ring_v369" unit="mm" x="1844.164551" y="8.550663" z="3443.515869"/>
+        <position name="Tube_Q2_Ring_v370" unit="mm" x="3683.640381" y="15.854418" z="1309.668091"/>
+        <position name="Tube_Q2_Ring_v371" unit="mm" x="1843.595093" y="1.514616" z="3442.452637"/>
+        <position name="Tube_Q2_Ring_v372" unit="mm" x="2628.363037" y="-14.280412" z="2892.921143"/>
+        <position name="Tube_Q2_Ring_v373" unit="mm" x="3253.389404" y="-14.280412" z="2166.273926"/>
+        <position name="Tube_Q2_Ring_v374" unit="mm" x="3680.543213" y="8.550663" z="1308.566772"/>
+        <position name="Tube_Q2_Ring_v375" unit="mm" x="3903.796875" y="15.854418" z="211.678757"/>
+        <position name="Tube_Q2_Ring_v376" unit="mm" x="3906.217529" y="19.914173" z="222.737518"/>
+        <position name="Tube_Q2_Ring_v377" unit="mm" x="3911.046143" y="25.518837" z="253.097351"/>
+        <position name="Tube_Q2_Ring_v378" unit="mm" x="2631.8396" y="-21.213238" z="2896.747559"/>
+        <position name="Tube_Q2_Ring_v379" unit="mm" x="3257.692627" y="-21.213238" z="2169.139404"/>
+        <position name="Tube_Q2_Ring_v380" unit="mm" x="950.555969" y="-6.855502" z="3788.359619"/>
+        <position name="Tube_Q2_Ring_v381" unit="mm" x="3679.406738" y="1.514616" z="1308.162842"/>
+        <position name="Tube_Q2_Ring_v382" unit="mm" x="3901.798828" y="11.07649" z="203.836853"/>
+        <position name="Tube_Q2_Ring_v383" unit="mm" x="1843.951782" y="-6.855502" z="3443.118652"/>
+        <position name="Tube_Q2_Ring_v384" unit="mm" x="2636.017822" y="-25.980787" z="2901.346436"/>
+        <position name="Tube_Q2_Ring_v385" unit="mm" x="3262.864258" y="-25.980787" z="2172.583008"/>
+        <position name="Tube_Q2_Ring_v386" unit="mm" x="951.242981" y="-14.280412" z="3791.097656"/>
+        <position name="Tube_Q2_Ring_v387" unit="mm" x="3901.060547" y="8.550663" z="201.175705"/>
+        <position name="Tube_Q2_Ring_v388" unit="mm" x="1845.284546" y="-14.280412" z="3445.607422"/>
+        <position name="Tube_Q2_Ring_v389" unit="mm" x="3680.118652" y="-6.855502" z="1308.415894"/>
+        <position name="Tube_Q2_Ring_v390" unit="mm" x="2640.883301" y="-28.977787" z="2906.70166"/>
+        <position name="Tube_Q2_Ring_v391" unit="mm" x="2646.104248" y="-30.0" z="2912.44873"/>
+        <position name="Tube_Q2_Ring_v392" unit="mm" x="3275.349365" y="-30.0" z="2180.896973"/>
+        <position name="Tube_Q2_Ring_v393" unit="mm" x="3682.778564" y="-14.280412" z="1309.361572"/>
+        <position name="Tube_Q2_Ring_v394" unit="mm" x="3268.886719" y="-28.977787" z="2176.593018"/>
+        <position name="Tube_Q2_Ring_v395" unit="mm" x="3900.556396" y="6.2156" z="199.423431"/>
+        <position name="Tube_Q2_Ring_v396" unit="mm" x="3687.649658" y="-21.213238" z="1311.093506"/>
+        <position name="Tube_Q2_Ring_v397" unit="mm" x="3900.245117" y="4.135233" z="198.366898"/>
+        <position name="Tube_Q2_Ring_v398" unit="mm" x="952.501221" y="-21.213238" z="3796.112305"/>
+        <position name="Tube_Q2_Ring_v399" unit="mm" x="1847.725342" y="-21.213238" z="3450.165039"/>
+        <position name="Tube_Q2_Ring_v400" unit="mm" x="1854.074463" y="28.977764" z="3462.020264"/>
+        <position name="Tube_Q2_Ring_v401" unit="mm" x="2646.104492" y="30.0" z="2912.448242"/>
+        <position name="Tube_Q2_Ring_v402" unit="mm" x="1857.740234" y="30.0" z="3468.865234"/>
+        <position name="Tube_Q2_Ring_v403" unit="mm" x="3693.503906" y="-25.980787" z="1313.174927"/>
+        <position name="Tube_Q2_Ring_v404" unit="mm" x="3900.032715" y="1.514616" z="197.656418"/>
+        <position name="Tube_Q2_Ring_v405" unit="mm" x="3700.321289" y="-28.977787" z="1315.598755"/>
+        <position name="Tube_Q2_Ring_v406" unit="mm" x="3707.636963" y="-30.0" z="1318.200562"/>
+        <position name="Tube_Q2_Ring_v407" unit="mm" x="2640.883057" y="28.977764" z="2906.701416"/>
+        <position name="Tube_Q2_Ring_v408" unit="mm" x="3900.016846" y="-1.087803" z="197.603622"/>
+        <position name="Tube_Q2_Ring_v409" unit="mm" x="954.013306" y="-25.980787" z="3802.138672"/>
+        <position name="Tube_Q2_Ring_v410" unit="mm" x="1850.658691" y="-25.980787" z="3455.64209"/>
+        <position name="Tube_Q2_Ring_v411" unit="mm" x="1850.658569" y="25.980742" z="3455.64209"/>
+        <position name="Tube_Q2_Ring_v412" unit="mm" x="2636.017578" y="25.980742" z="2901.346191"/>
+        <position name="Tube_Q2_Ring_v413" unit="mm" x="3268.886719" y="28.977764" z="2176.593018"/>
+        <position name="Tube_Q2_Ring_v414" unit="mm" x="3707.637207" y="30.0" z="1318.199707"/>
+        <position name="Tube_Q2_Ring_v415" unit="mm" x="3275.349609" y="30.0" z="2180.89624"/>
+        <position name="Tube_Q2_Ring_v416" unit="mm" x="955.774231" y="-28.977787" z="3809.156494"/>
+        <position name="Tube_Q2_Ring_v417" unit="mm" x="1854.074585" y="-28.977787" z="3462.020508"/>
+        <position name="Tube_Q2_Ring_v418" unit="mm" x="957.663757" y="-30.0" z="3816.687744"/>
+        <position name="Tube_Q2_Ring_v419" unit="mm" x="1857.73999" y="-30.0" z="3468.865479"/>
+        <position name="Tube_Q2_Ring_v420" unit="mm" x="3700.321289" y="28.977764" z="1315.598633"/>
+        <position name="Tube_Q2_Ring_v421" unit="mm" x="1847.725342" y="21.213173" z="3450.164795"/>
+        <position name="Tube_Q2_Ring_v422" unit="mm" x="2631.8396" y="21.213173" z="2896.747559"/>
+        <position name="Tube_Q2_Ring_v423" unit="mm" x="2628.978271" y="15.854418" z="2893.598145"/>
+        <position name="Tube_Q2_Ring_v424" unit="mm" x="3262.864258" y="25.980742" z="2172.582764"/>
+        <position name="Tube_Q2_Ring_v425" unit="mm" x="3914.408691" y="-28.301996" z="288.830933"/>
+        <position name="Tube_Q2_Ring_v426" unit="mm" x="3900.677979" y="-6.855502" z="199.841507"/>
+        <position name="Tube_Q2_Ring_v427" unit="mm" x="3900.205322" y="-3.786365" z="198.233307"/>
+        <position name="Tube_Q2_Ring_v428" unit="mm" x="3901.68042" y="-10.714693" z="203.401764"/>
+        <position name="Tube_Q2_Ring_v429" unit="mm" x="1845.716431" y="15.854418" z="3446.413818"/>
+        <position name="Tube_Q2_Ring_v430" unit="mm" x="3903.045654" y="-14.280412" z="208.612427"/>
+        <position name="Tube_Q2_Ring_v431" unit="mm" x="3257.692627" y="21.213173" z="2169.139404"/>
+        <position name="Tube_Q2_Ring_v432" unit="mm" x="3904.695557" y="-17.511084" z="215.559296"/>
+        <position name="Tube_Q2_Ring_v433" unit="mm" x="3908.252686" y="-22.573929" z="233.822449"/>
+        <position name="Tube_Q2_Ring_v434" unit="mm" x="2626.767578" y="8.550663" z="2891.165283"/>
+        <position name="Tube_Q2_Ring_v435" unit="mm" x="3254.150879" y="15.854418" z="2166.781006"/>
+        <position name="Tube_Q2_Ring_v436" unit="mm" x="3251.414551" y="8.550663" z="2164.959229"/>
+        <position name="Tube_Q2_Ring_v437" unit="mm" x="955.77417" y="28.977764" z="3809.156494"/>
+        <position name="Tube_Q2_Ring_v438" unit="mm" x="957.663879" y="30.0" z="3816.6875"/>
+        <position name="Tube_Q2_Ring_v439" unit="mm" x="954.013306" y="25.980742" z="3802.138672"/>
+        <position name="Tube_Q2_Ring_v440" unit="mm" x="952.501221" y="21.213173" z="3796.112305"/>
+        <position name="Tube_Q2_Ring_v441" unit="mm" x="3505.836914" y="-30.0" z="2057.506348"/>
+        <position name="Tube_Q2_Ring_v442" unit="mm" x="2859.003418" y="-30.0" z="2889.692871"/>
+        <position name="Tube_Q2_Ring_v443" unit="mm" x="2019.95813" y="-30.0" z="3527.604492"/>
+        <position name="Tube_Q2_Ring_v444" unit="mm" x="1045.110596" y="-30.0" z="3928.354492"/>
+        <position name="Tube_Q2_Ring_v445" unit="mm" x="3505.836914" y="30.0" z="2057.506104"/>
+        <position name="Tube_Q2_Ring_v446" unit="mm" x="2859.003418" y="30.0" z="2889.692627"/>
+        <position name="Tube_Q2_Ring_v447" unit="mm" x="2019.958252" y="30.0" z="3527.604492"/>
+        <position name="Tube_Q2_Ring_v448" unit="mm" x="1045.110596" y="30.0" z="3928.354248"/>
+        <position name="Tube_Q2_Ring_v449" unit="mm" x="3918.741699" y="25.212423" z="1168.607544"/>
+        <position name="Tube_Q2_Ring_v450" unit="mm" x="3909.743652" y="16.190073" z="1221.216064"/>
+        <position name="Tube_Q2_Ring_v451" unit="mm" x="3906.498047" y="9.361611" z="1240.490845"/>
+        <position name="Tube_Q2_Ring_v452" unit="mm" x="3905.637939" y="6.153481" z="1245.601318"/>
+        <position name="Tube_Q2_Ring_v453" unit="mm" x="3905.342773" y="4.521999" z="1247.354248"/>
+        <position name="Tube_Q2_Ring_v454" unit="mm" x="3905.149902" y="2.996828" z="1248.498657"/>
+        <position name="Tube_Q2_Ring_v455" unit="mm" x="3905.061768" y="1.924462" z="1249.022949"/>
+        <position name="Tube_Q2_Ring_v456" unit="mm" x="3905.009277" y="0.749619" z="1249.334229"/>
+        <position name="Tube_Q2_Ring_v457" unit="mm" x="3905.0" y="-0.022972" z="1249.389771"/>
+        <position name="Tube_Q2_Ring_v458" unit="mm" x="3905.017334" y="-1.019172" z="1249.286987"/>
+        <position name="Tube_Q2_Ring_v459" unit="mm" x="3905.063232" y="-1.949147" z="1249.013428"/>
+        <position name="Tube_Q2_Ring_v460" unit="mm" x="3905.215088" y="-3.586479" z="1248.112061"/>
+        <position name="Tube_Q2_Ring_v461" unit="mm" x="3905.581543" y="-5.878165" z="1245.936035"/>
+        <position name="Tube_Q2_Ring_v462" unit="mm" x="3906.29541" y="-8.721028" z="1241.69397"/>
+        <position name="Tube_Q2_Ring_v463" unit="mm" x="3907.314209" y="-11.553998" z="1235.641846"/>
+        <position name="Tube_Q2_Ring_v464" unit="mm" x="3910.155762" y="-16.81575" z="1218.771851"/>
+        <position name="Tube_Q2_Ring_v465" unit="mm" x="3918.79834" y="-25.248991" z="1168.283813"/>
+        <position name="Tube_Q2_Ring_v466" unit="mm" x="1052.266235" y="-14.999986" z="3953.335205"/>
+        <position name="Tube_Q2_Ring_v467" unit="mm" x="1050.794189" y="-22.127396" z="3947.804932"/>
+        <position name="Tube_Q2_Ring_v468" unit="mm" x="2030.878052" y="-22.127396" z="3544.695313"/>
+        <position name="Tube_Q2_Ring_v469" unit="mm" x="1053.037109" y="-7.764563" z="3956.231445"/>
+        <position name="Tube_Q2_Ring_v470" unit="mm" x="2880.435059" y="-7.764563" z="2909.252197"/>
+        <position name="Tube_Q2_Ring_v471" unit="mm" x="3531.826172" y="-7.764563" z="2070.4729"/>
+        <position name="Tube_Q2_Ring_v472" unit="mm" x="3529.240723" y="-14.999986" z="2068.957275"/>
+        <position name="Tube_Q2_Ring_v473" unit="mm" x="2878.326416" y="-14.999986" z="2907.122559"/>
+        <position name="Tube_Q2_Ring_v474" unit="mm" x="2881.150635" y="-0.556249" z="2909.974854"/>
+        <position name="Tube_Q2_Ring_v475" unit="mm" x="3532.703613" y="-0.556249" z="2070.987305"/>
+        <position name="Tube_Q2_Ring_v476" unit="mm" x="2035.213013" y="-7.764563" z="3552.261475"/>
+        <position name="Tube_Q2_Ring_v477" unit="mm" x="1053.298706" y="-0.556249" z="3957.214355"/>
+        <position name="Tube_Q2_Ring_v478" unit="mm" x="3914.742188" y="-22.127396" z="1167.95752"/>
+        <position name="Tube_Q2_Ring_v479" unit="mm" x="2880.435059" y="7.764563" z="2909.252197"/>
+        <position name="Tube_Q2_Ring_v480" unit="mm" x="3531.826172" y="7.764563" z="2070.4729"/>
+        <position name="Tube_Q2_Ring_v481" unit="mm" x="2035.718628" y="-0.556249" z="3553.144043"/>
+        <position name="Tube_Q2_Ring_v482" unit="mm" x="2878.326416" y="14.999986" z="2907.122559"/>
+        <position name="Tube_Q2_Ring_v483" unit="mm" x="3529.240723" y="14.999986" z="2068.957275"/>
+        <position name="Tube_Q2_Ring_v484" unit="mm" x="1053.037109" y="7.764563" z="3956.231445"/>
+        <position name="Tube_Q2_Ring_v485" unit="mm" x="2035.213013" y="7.764563" z="3552.261475"/>
+        <position name="Tube_Q2_Ring_v486" unit="mm" x="2874.971924" y="21.213186" z="2903.734619"/>
+        <position name="Tube_Q2_Ring_v487" unit="mm" x="3525.127686" y="21.213186" z="2066.546143"/>
+        <position name="Tube_Q2_Ring_v488" unit="mm" x="2033.723145" y="14.999986" z="3549.661133"/>
+        <position name="Tube_Q2_Ring_v489" unit="mm" x="1052.266235" y="14.999986" z="3953.335205"/>
+        <position name="Tube_Q2_Ring_v490" unit="mm" x="2870.600586" y="25.980745" z="2899.319336"/>
+        <position name="Tube_Q2_Ring_v491" unit="mm" x="2031.353027" y="21.213186" z="3545.524414"/>
+        <position name="Tube_Q2_Ring_v492" unit="mm" x="3519.767578" y="25.980745" z="2063.403809"/>
+        <position name="Tube_Q2_Ring_v493" unit="mm" x="2866.383057" y="28.616318" z="2895.059814"/>
+        <position name="Tube_Q2_Ring_v494" unit="mm" x="2860.046875" y="30.0" z="2888.660156"/>
+        <position name="Tube_Q2_Ring_v495" unit="mm" x="3506.827393" y="30.0" z="2055.817871"/>
+        <position name="Tube_Q2_Ring_v496" unit="mm" x="1051.039917" y="21.213186" z="3948.728027"/>
+        <position name="Tube_Q2_Ring_v497" unit="mm" x="3514.59668" y="28.616318" z="2060.372314"/>
+        <position name="Tube_Q2_Ring_v498" unit="mm" x="2024.66748" y="-28.977764" z="3533.855225"/>
+        <position name="Tube_Q2_Ring_v499" unit="mm" x="2870.600586" y="-25.980745" z="2899.319336"/>
+        <position name="Tube_Q2_Ring_v500" unit="mm" x="2865.509766" y="-28.977764" z="2894.177734"/>
+        <position name="Tube_Q2_Ring_v501" unit="mm" x="2028.264282" y="25.980745" z="3540.133301"/>
+        <position name="Tube_Q2_Ring_v502" unit="mm" x="1049.441772" y="25.980745" z="3942.723877"/>
+        <position name="Tube_Q2_Ring_v503" unit="mm" x="1045.583496" y="30.0" z="3928.228516"/>
+        <position name="Tube_Q2_Ring_v504" unit="mm" x="1047.900024" y="28.616318" z="3936.931396"/>
+        <position name="Tube_Q2_Ring_v505" unit="mm" x="2020.807495" y="30.0" z="3527.118164"/>
+        <position name="Tube_Q2_Ring_v506" unit="mm" x="3513.525879" y="-28.977764" z="2059.744629"/>
+        <position name="Tube_Q2_Ring_v507" unit="mm" x="3907.464844" y="-11.908639" z="1216.783569"/>
+        <position name="Tube_Q2_Ring_v508" unit="mm" x="2025.284546" y="28.616318" z="3534.932373"/>
+        <position name="Tube_Q2_Ring_v509" unit="mm" x="2028.264282" y="-25.980745" z="3540.133301"/>
+        <position name="Tube_Q2_Ring_v510" unit="mm" x="3519.767578" y="-25.980745" z="2063.403809"/>
+        <position name="Tube_Q2_Ring_v511" unit="mm" x="3905.706543" y="-6.472634" z="1228.289429"/>
+        <position name="Tube_Q2_Ring_v512" unit="mm" x="2874.299805" y="-22.127396" z="2903.055664"/>
+        <position name="Tube_Q2_Ring_v513" unit="mm" x="3524.303467" y="-22.127396" z="2066.062988"/>
+        <position name="Tube_Q2_Ring_v514" unit="mm" x="3905.389648" y="-4.8201" z="1230.351196"/>
+        <position name="Tube_Q2_Ring_v515" unit="mm" x="2033.723145" y="-14.999986" z="3549.661133"/>
+        <position name="Tube_Q2_Ring_v516" unit="mm" x="3905.17627" y="-3.24834" z="1231.737793"/>
+        <position name="Tube_Q2_Ring_v517" unit="mm" x="3905.05127" y="-1.75517" z="1232.549316"/>
+        <position name="Tube_Q2_Ring_v518" unit="mm" x="3905.005127" y="-0.556249" z="1232.849365"/>
+        <position name="Tube_Q2_Ring_v519" unit="mm" x="3905.00415" y="0.504278" z="1232.855347"/>
+        <position name="Tube_Q2_Ring_v520" unit="mm" x="3905.049561" y="1.722785" z="1232.561523"/>
+        <position name="Tube_Q2_Ring_v521" unit="mm" x="3905.177246" y="3.255795" z="1231.732422"/>
+        <position name="Tube_Q2_Ring_v522" unit="mm" x="3905.474121" y="5.31234" z="1229.802612"/>
+        <position name="Tube_Q2_Ring_v523" unit="mm" x="3906.087891" y="8.005866" z="1225.802856"/>
+        <position name="Tube_Q2_Ring_v524" unit="mm" x="1047.580688" y="-28.977764" z="3935.731934"/>
+        <position name="Tube_Q2_Ring_v525" unit="mm" x="3906.90332" y="10.515744" z="1220.469482"/>
+        <position name="Tube_Q2_Ring_v526" unit="mm" x="1049.441772" y="-25.980745" z="3942.723877"/>
+        <position name="Tube_Q2_Ring_v527" unit="mm" x="3909.169189" y="15.256602" z="1205.526733"/>
+        <position name="Tube_Q2_Ring_v528" unit="mm" x="3915.935059" y="23.163025" z="1159.758667"/>
+        <position name="Tube_Q2_Ring_v529" unit="mm" x="3918.773193" y="25.232685" z="1168.428223"/>
+        <position name="Tube_Q2_Ring_v530" unit="mm" x="3910.08667" y="16.713182" z="1219.181396"/>
+        <position name="Tube_Q2_Ring_v531" unit="mm" x="3907.250488" y="11.400134" z="1236.020264"/>
+        <position name="Tube_Q2_Ring_v532" unit="mm" x="3906.239746" y="8.535423" z="1242.024902"/>
+        <position name="Tube_Q2_Ring_v533" unit="mm" x="3905.539551" y="5.664484" z="1246.184692"/>
+        <position name="Tube_Q2_Ring_v534" unit="mm" x="3905.189209" y="3.363492" z="1248.266357"/>
+        <position name="Tube_Q2_Ring_v535" unit="mm" x="3905.055664" y="1.828512" z="1249.058472"/>
+        <position name="Tube_Q2_Ring_v536" unit="mm" x="3905.003906" y="0.488768" z="1249.366089"/>
+        <position name="Tube_Q2_Ring_v537" unit="mm" x="3905.009277" y="-0.744114" z="1249.334839"/>
+        <position name="Tube_Q2_Ring_v538" unit="mm" x="3905.061279" y="-1.918389" z="1249.025024"/>
+        <position name="Tube_Q2_Ring_v539" unit="mm" x="3905.150146" y="-2.996799" z="1248.498535"/>
+        <position name="Tube_Q2_Ring_v540" unit="mm" x="3905.342773" y="-4.522035" z="1247.354004"/>
+        <position name="Tube_Q2_Ring_v541" unit="mm" x="3905.637939" y="-6.153451" z="1245.601196"/>
+        <position name="Tube_Q2_Ring_v542" unit="mm" x="3906.498047" y="-9.361594" z="1240.490723"/>
+        <position name="Tube_Q2_Ring_v543" unit="mm" x="3909.743652" y="-16.190075" z="1221.215942"/>
+        <position name="Tube_Q2_Ring_v544" unit="mm" x="3918.741699" y="-25.212435" z="1168.6073"/>
+    </define>
+
+    <solids>
+        <tessellated aunit="deg" lunit="mm" name="Tube_Q4_Ring-SOL">
+             <triangular vertex1="Tube_Q2_Ring_v0" vertex2="Tube_Q2_Ring_v1" vertex3="Tube_Q2_Ring_v2"/>
+             <triangular vertex1="Tube_Q2_Ring_v3" vertex2="Tube_Q2_Ring_v1" vertex3="Tube_Q2_Ring_v0"/>
+             <triangular vertex1="Tube_Q2_Ring_v4" vertex2="Tube_Q2_Ring_v5" vertex3="Tube_Q2_Ring_v6"/>
+             <triangular vertex1="Tube_Q2_Ring_v7" vertex2="Tube_Q2_Ring_v8" vertex3="Tube_Q2_Ring_v9"/>
+             <triangular vertex1="Tube_Q2_Ring_v3" vertex2="Tube_Q2_Ring_v10" vertex3="Tube_Q2_Ring_v1"/>
+             <triangular vertex1="Tube_Q2_Ring_v11" vertex2="Tube_Q2_Ring_v10" vertex3="Tube_Q2_Ring_v3"/>
+             <triangular vertex1="Tube_Q2_Ring_v12" vertex2="Tube_Q2_Ring_v13" vertex3="Tube_Q2_Ring_v7"/>
+             <triangular vertex1="Tube_Q2_Ring_v4" vertex2="Tube_Q2_Ring_v14" vertex3="Tube_Q2_Ring_v5"/>
+             <triangular vertex1="Tube_Q2_Ring_v7" vertex2="Tube_Q2_Ring_v13" vertex3="Tube_Q2_Ring_v8"/>
+             <triangular vertex1="Tube_Q2_Ring_v11" vertex2="Tube_Q2_Ring_v15" vertex3="Tube_Q2_Ring_v10"/>
+             <triangular vertex1="Tube_Q2_Ring_v9" vertex2="Tube_Q2_Ring_v16" vertex3="Tube_Q2_Ring_v17"/>
+             <triangular vertex1="Tube_Q2_Ring_v8" vertex2="Tube_Q2_Ring_v16" vertex3="Tube_Q2_Ring_v9"/>
+             <triangular vertex1="Tube_Q2_Ring_v18" vertex2="Tube_Q2_Ring_v19" vertex3="Tube_Q2_Ring_v12"/>
+             <triangular vertex1="Tube_Q2_Ring_v12" vertex2="Tube_Q2_Ring_v19" vertex3="Tube_Q2_Ring_v13"/>
+             <triangular vertex1="Tube_Q2_Ring_v17" vertex2="Tube_Q2_Ring_v20" vertex3="Tube_Q2_Ring_v21"/>
+             <triangular vertex1="Tube_Q2_Ring_v16" vertex2="Tube_Q2_Ring_v20" vertex3="Tube_Q2_Ring_v17"/>
+             <triangular vertex1="Tube_Q2_Ring_v15" vertex2="Tube_Q2_Ring_v22" vertex3="Tube_Q2_Ring_v10"/>
+             <triangular vertex1="Tube_Q2_Ring_v23" vertex2="Tube_Q2_Ring_v22" vertex3="Tube_Q2_Ring_v15"/>
+             <triangular vertex1="Tube_Q2_Ring_v14" vertex2="Tube_Q2_Ring_v24" vertex3="Tube_Q2_Ring_v5"/>
+             <triangular vertex1="Tube_Q2_Ring_v25" vertex2="Tube_Q2_Ring_v26" vertex3="Tube_Q2_Ring_v18"/>
+             <triangular vertex1="Tube_Q2_Ring_v5" vertex2="Tube_Q2_Ring_v24" vertex3="Tube_Q2_Ring_v27"/>
+             <triangular vertex1="Tube_Q2_Ring_v18" vertex2="Tube_Q2_Ring_v26" vertex3="Tube_Q2_Ring_v19"/>
+             <triangular vertex1="Tube_Q2_Ring_v28" vertex2="Tube_Q2_Ring_v29" vertex3="Tube_Q2_Ring_v23"/>
+             <triangular vertex1="Tube_Q2_Ring_v21" vertex2="Tube_Q2_Ring_v30" vertex3="Tube_Q2_Ring_v31"/>
+             <triangular vertex1="Tube_Q2_Ring_v23" vertex2="Tube_Q2_Ring_v29" vertex3="Tube_Q2_Ring_v22"/>
+             <triangular vertex1="Tube_Q2_Ring_v20" vertex2="Tube_Q2_Ring_v30" vertex3="Tube_Q2_Ring_v21"/>
+             <triangular vertex1="Tube_Q2_Ring_v27" vertex2="Tube_Q2_Ring_v32" vertex3="Tube_Q2_Ring_v33"/>
+             <triangular vertex1="Tube_Q2_Ring_v24" vertex2="Tube_Q2_Ring_v32" vertex3="Tube_Q2_Ring_v27"/>
+             <triangular vertex1="Tube_Q2_Ring_v28" vertex2="Tube_Q2_Ring_v34" vertex3="Tube_Q2_Ring_v29"/>
+             <triangular vertex1="Tube_Q2_Ring_v33" vertex2="Tube_Q2_Ring_v34" vertex3="Tube_Q2_Ring_v28"/>
+             <triangular vertex1="Tube_Q2_Ring_v25" vertex2="Tube_Q2_Ring_v35" vertex3="Tube_Q2_Ring_v26"/>
+             <triangular vertex1="Tube_Q2_Ring_v32" vertex2="Tube_Q2_Ring_v34" vertex3="Tube_Q2_Ring_v33"/>
+             <triangular vertex1="Tube_Q2_Ring_v25" vertex2="Tube_Q2_Ring_v36" vertex3="Tube_Q2_Ring_v35"/>
+             <triangular vertex1="Tube_Q2_Ring_v36" vertex2="Tube_Q2_Ring_v37" vertex3="Tube_Q2_Ring_v35"/>
+             <triangular vertex1="Tube_Q2_Ring_v36" vertex2="Tube_Q2_Ring_v38" vertex3="Tube_Q2_Ring_v37"/>
+             <triangular vertex1="Tube_Q2_Ring_v38" vertex2="Tube_Q2_Ring_v39" vertex3="Tube_Q2_Ring_v37"/>
+             <triangular vertex1="Tube_Q2_Ring_v38" vertex2="Tube_Q2_Ring_v40" vertex3="Tube_Q2_Ring_v39"/>
+             <triangular vertex1="Tube_Q2_Ring_v40" vertex2="Tube_Q2_Ring_v41" vertex3="Tube_Q2_Ring_v39"/>
+             <triangular vertex1="Tube_Q2_Ring_v40" vertex2="Tube_Q2_Ring_v42" vertex3="Tube_Q2_Ring_v41"/>
+             <triangular vertex1="Tube_Q2_Ring_v42" vertex2="Tube_Q2_Ring_v43" vertex3="Tube_Q2_Ring_v41"/>
+             <triangular vertex1="Tube_Q2_Ring_v42" vertex2="Tube_Q2_Ring_v44" vertex3="Tube_Q2_Ring_v43"/>
+             <triangular vertex1="Tube_Q2_Ring_v44" vertex2="Tube_Q2_Ring_v6" vertex3="Tube_Q2_Ring_v43"/>
+             <triangular vertex1="Tube_Q2_Ring_v44" vertex2="Tube_Q2_Ring_v4" vertex3="Tube_Q2_Ring_v6"/>
+             <triangular vertex1="Tube_Q2_Ring_v30" vertex2="Tube_Q2_Ring_v45" vertex3="Tube_Q2_Ring_v31"/>
+             <triangular vertex1="Tube_Q2_Ring_v30" vertex2="Tube_Q2_Ring_v46" vertex3="Tube_Q2_Ring_v45"/>
+             <triangular vertex1="Tube_Q2_Ring_v46" vertex2="Tube_Q2_Ring_v47" vertex3="Tube_Q2_Ring_v45"/>
+             <triangular vertex1="Tube_Q2_Ring_v46" vertex2="Tube_Q2_Ring_v48" vertex3="Tube_Q2_Ring_v47"/>
+             <triangular vertex1="Tube_Q2_Ring_v48" vertex2="Tube_Q2_Ring_v49" vertex3="Tube_Q2_Ring_v47"/>
+             <triangular vertex1="Tube_Q2_Ring_v48" vertex2="Tube_Q2_Ring_v50" vertex3="Tube_Q2_Ring_v49"/>
+             <triangular vertex1="Tube_Q2_Ring_v50" vertex2="Tube_Q2_Ring_v51" vertex3="Tube_Q2_Ring_v49"/>
+             <triangular vertex1="Tube_Q2_Ring_v50" vertex2="Tube_Q2_Ring_v52" vertex3="Tube_Q2_Ring_v51"/>
+             <triangular vertex1="Tube_Q2_Ring_v52" vertex2="Tube_Q2_Ring_v2" vertex3="Tube_Q2_Ring_v51"/>
+             <triangular vertex1="Tube_Q2_Ring_v0" vertex2="Tube_Q2_Ring_v2" vertex3="Tube_Q2_Ring_v52"/>
+             <triangular vertex1="Tube_Q2_Ring_v53" vertex2="Tube_Q2_Ring_v54" vertex3="Tube_Q2_Ring_v55"/>
+             <triangular vertex1="Tube_Q2_Ring_v56" vertex2="Tube_Q2_Ring_v57" vertex3="Tube_Q2_Ring_v58"/>
+             <triangular vertex1="Tube_Q2_Ring_v59" vertex2="Tube_Q2_Ring_v54" vertex3="Tube_Q2_Ring_v60"/>
+             <triangular vertex1="Tube_Q2_Ring_v61" vertex2="Tube_Q2_Ring_v62" vertex3="Tube_Q2_Ring_v57"/>
+             <triangular vertex1="Tube_Q2_Ring_v60" vertex2="Tube_Q2_Ring_v54" vertex3="Tube_Q2_Ring_v53"/>
+             <triangular vertex1="Tube_Q2_Ring_v63" vertex2="Tube_Q2_Ring_v64" vertex3="Tube_Q2_Ring_v65"/>
+             <triangular vertex1="Tube_Q2_Ring_v66" vertex2="Tube_Q2_Ring_v62" vertex3="Tube_Q2_Ring_v61"/>
+             <triangular vertex1="Tube_Q2_Ring_v44" vertex2="Tube_Q2_Ring_v67" vertex3="Tube_Q2_Ring_v68"/>
+             <triangular vertex1="Tube_Q2_Ring_v66" vertex2="Tube_Q2_Ring_v69" vertex3="Tube_Q2_Ring_v62"/>
+             <triangular vertex1="Tube_Q2_Ring_v70" vertex2="Tube_Q2_Ring_v64" vertex3="Tube_Q2_Ring_v63"/>
+             <triangular vertex1="Tube_Q2_Ring_v40" vertex2="Tube_Q2_Ring_v71" vertex3="Tube_Q2_Ring_v42"/>
+             <triangular vertex1="Tube_Q2_Ring_v72" vertex2="Tube_Q2_Ring_v69" vertex3="Tube_Q2_Ring_v66"/>
+             <triangular vertex1="Tube_Q2_Ring_v73" vertex2="Tube_Q2_Ring_v74" vertex3="Tube_Q2_Ring_v75"/>
+             <triangular vertex1="Tube_Q2_Ring_v42" vertex2="Tube_Q2_Ring_v71" vertex3="Tube_Q2_Ring_v67"/>
+             <triangular vertex1="Tube_Q2_Ring_v72" vertex2="Tube_Q2_Ring_v74" vertex3="Tube_Q2_Ring_v69"/>
+             <triangular vertex1="Tube_Q2_Ring_v75" vertex2="Tube_Q2_Ring_v74" vertex3="Tube_Q2_Ring_v76"/>
+             <triangular vertex1="Tube_Q2_Ring_v76" vertex2="Tube_Q2_Ring_v74" vertex3="Tube_Q2_Ring_v72"/>
+             <triangular vertex1="Tube_Q2_Ring_v70" vertex2="Tube_Q2_Ring_v77" vertex3="Tube_Q2_Ring_v64"/>
+             <triangular vertex1="Tube_Q2_Ring_v78" vertex2="Tube_Q2_Ring_v79" vertex3="Tube_Q2_Ring_v80"/>
+             <triangular vertex1="Tube_Q2_Ring_v38" vertex2="Tube_Q2_Ring_v81" vertex3="Tube_Q2_Ring_v40"/>
+             <triangular vertex1="Tube_Q2_Ring_v82" vertex2="Tube_Q2_Ring_v77" vertex3="Tube_Q2_Ring_v70"/>
+             <triangular vertex1="Tube_Q2_Ring_v83" vertex2="Tube_Q2_Ring_v79" vertex3="Tube_Q2_Ring_v78"/>
+             <triangular vertex1="Tube_Q2_Ring_v40" vertex2="Tube_Q2_Ring_v81" vertex3="Tube_Q2_Ring_v71"/>
+             <triangular vertex1="Tube_Q2_Ring_v36" vertex2="Tube_Q2_Ring_v84" vertex3="Tube_Q2_Ring_v38"/>
+             <triangular vertex1="Tube_Q2_Ring_v82" vertex2="Tube_Q2_Ring_v85" vertex3="Tube_Q2_Ring_v77"/>
+             <triangular vertex1="Tube_Q2_Ring_v80" vertex2="Tube_Q2_Ring_v79" vertex3="Tube_Q2_Ring_v86"/>
+             <triangular vertex1="Tube_Q2_Ring_v87" vertex2="Tube_Q2_Ring_v85" vertex3="Tube_Q2_Ring_v82"/>
+             <triangular vertex1="Tube_Q2_Ring_v38" vertex2="Tube_Q2_Ring_v84" vertex3="Tube_Q2_Ring_v81"/>
+             <triangular vertex1="Tube_Q2_Ring_v86" vertex2="Tube_Q2_Ring_v88" vertex3="Tube_Q2_Ring_v89"/>
+             <triangular vertex1="Tube_Q2_Ring_v90" vertex2="Tube_Q2_Ring_v91" vertex3="Tube_Q2_Ring_v87"/>
+             <triangular vertex1="Tube_Q2_Ring_v25" vertex2="Tube_Q2_Ring_v92" vertex3="Tube_Q2_Ring_v36"/>
+             <triangular vertex1="Tube_Q2_Ring_v87" vertex2="Tube_Q2_Ring_v91" vertex3="Tube_Q2_Ring_v85"/>
+             <triangular vertex1="Tube_Q2_Ring_v93" vertex2="Tube_Q2_Ring_v88" vertex3="Tube_Q2_Ring_v83"/>
+             <triangular vertex1="Tube_Q2_Ring_v36" vertex2="Tube_Q2_Ring_v92" vertex3="Tube_Q2_Ring_v84"/>
+             <triangular vertex1="Tube_Q2_Ring_v79" vertex2="Tube_Q2_Ring_v88" vertex3="Tube_Q2_Ring_v86"/>
+             <triangular vertex1="Tube_Q2_Ring_v94" vertex2="Tube_Q2_Ring_v95" vertex3="Tube_Q2_Ring_v90"/>
+             <triangular vertex1="Tube_Q2_Ring_v18" vertex2="Tube_Q2_Ring_v96" vertex3="Tube_Q2_Ring_v25"/>
+             <triangular vertex1="Tube_Q2_Ring_v83" vertex2="Tube_Q2_Ring_v88" vertex3="Tube_Q2_Ring_v79"/>
+             <triangular vertex1="Tube_Q2_Ring_v93" vertex2="Tube_Q2_Ring_v97" vertex3="Tube_Q2_Ring_v88"/>
+             <triangular vertex1="Tube_Q2_Ring_v90" vertex2="Tube_Q2_Ring_v95" vertex3="Tube_Q2_Ring_v91"/>
+             <triangular vertex1="Tube_Q2_Ring_v89" vertex2="Tube_Q2_Ring_v97" vertex3="Tube_Q2_Ring_v98"/>
+             <triangular vertex1="Tube_Q2_Ring_v25" vertex2="Tube_Q2_Ring_v96" vertex3="Tube_Q2_Ring_v92"/>
+             <triangular vertex1="Tube_Q2_Ring_v99" vertex2="Tube_Q2_Ring_v100" vertex3="Tube_Q2_Ring_v94"/>
+             <triangular vertex1="Tube_Q2_Ring_v12" vertex2="Tube_Q2_Ring_v101" vertex3="Tube_Q2_Ring_v18"/>
+             <triangular vertex1="Tube_Q2_Ring_v94" vertex2="Tube_Q2_Ring_v100" vertex3="Tube_Q2_Ring_v95"/>
+             <triangular vertex1="Tube_Q2_Ring_v18" vertex2="Tube_Q2_Ring_v101" vertex3="Tube_Q2_Ring_v96"/>
+             <triangular vertex1="Tube_Q2_Ring_v102" vertex2="Tube_Q2_Ring_v97" vertex3="Tube_Q2_Ring_v93"/>
+             <triangular vertex1="Tube_Q2_Ring_v88" vertex2="Tube_Q2_Ring_v97" vertex3="Tube_Q2_Ring_v89"/>
+             <triangular vertex1="Tube_Q2_Ring_v7" vertex2="Tube_Q2_Ring_v103" vertex3="Tube_Q2_Ring_v12"/>
+             <triangular vertex1="Tube_Q2_Ring_v102" vertex2="Tube_Q2_Ring_v104" vertex3="Tube_Q2_Ring_v97"/>
+             <triangular vertex1="Tube_Q2_Ring_v12" vertex2="Tube_Q2_Ring_v103" vertex3="Tube_Q2_Ring_v101"/>
+             <triangular vertex1="Tube_Q2_Ring_v99" vertex2="Tube_Q2_Ring_v105" vertex3="Tube_Q2_Ring_v100"/>
+             <triangular vertex1="Tube_Q2_Ring_v98" vertex2="Tube_Q2_Ring_v104" vertex3="Tube_Q2_Ring_v106"/>
+             <triangular vertex1="Tube_Q2_Ring_v107" vertex2="Tube_Q2_Ring_v105" vertex3="Tube_Q2_Ring_v99"/>
+             <triangular vertex1="Tube_Q2_Ring_v9" vertex2="Tube_Q2_Ring_v108" vertex3="Tube_Q2_Ring_v7"/>
+             <triangular vertex1="Tube_Q2_Ring_v109" vertex2="Tube_Q2_Ring_v56" vertex3="Tube_Q2_Ring_v107"/>
+             <triangular vertex1="Tube_Q2_Ring_v7" vertex2="Tube_Q2_Ring_v108" vertex3="Tube_Q2_Ring_v103"/>
+             <triangular vertex1="Tube_Q2_Ring_v110" vertex2="Tube_Q2_Ring_v104" vertex3="Tube_Q2_Ring_v102"/>
+             <triangular vertex1="Tube_Q2_Ring_v97" vertex2="Tube_Q2_Ring_v104" vertex3="Tube_Q2_Ring_v98"/>
+             <triangular vertex1="Tube_Q2_Ring_v107" vertex2="Tube_Q2_Ring_v56" vertex3="Tube_Q2_Ring_v105"/>
+             <triangular vertex1="Tube_Q2_Ring_v17" vertex2="Tube_Q2_Ring_v53" vertex3="Tube_Q2_Ring_v9"/>
+             <triangular vertex1="Tube_Q2_Ring_v9" vertex2="Tube_Q2_Ring_v53" vertex3="Tube_Q2_Ring_v108"/>
+             <triangular vertex1="Tube_Q2_Ring_v104" vertex2="Tube_Q2_Ring_v111" vertex3="Tube_Q2_Ring_v106"/>
+             <triangular vertex1="Tube_Q2_Ring_v59" vertex2="Tube_Q2_Ring_v60" vertex3="Tube_Q2_Ring_v31"/>
+             <triangular vertex1="Tube_Q2_Ring_v17" vertex2="Tube_Q2_Ring_v60" vertex3="Tube_Q2_Ring_v53"/>
+             <triangular vertex1="Tube_Q2_Ring_v110" vertex2="Tube_Q2_Ring_v111" vertex3="Tube_Q2_Ring_v104"/>
+             <triangular vertex1="Tube_Q2_Ring_v112" vertex2="Tube_Q2_Ring_v61" vertex3="Tube_Q2_Ring_v109"/>
+             <triangular vertex1="Tube_Q2_Ring_v21" vertex2="Tube_Q2_Ring_v60" vertex3="Tube_Q2_Ring_v17"/>
+             <triangular vertex1="Tube_Q2_Ring_v109" vertex2="Tube_Q2_Ring_v61" vertex3="Tube_Q2_Ring_v56"/>
+             <triangular vertex1="Tube_Q2_Ring_v31" vertex2="Tube_Q2_Ring_v60" vertex3="Tube_Q2_Ring_v21"/>
+             <triangular vertex1="Tube_Q2_Ring_v106" vertex2="Tube_Q2_Ring_v111" vertex3="Tube_Q2_Ring_v113"/>
+             <triangular vertex1="Tube_Q2_Ring_v114" vertex2="Tube_Q2_Ring_v66" vertex3="Tube_Q2_Ring_v112"/>
+             <triangular vertex1="Tube_Q2_Ring_v115" vertex2="Tube_Q2_Ring_v70" vertex3="Tube_Q2_Ring_v63"/>
+             <triangular vertex1="Tube_Q2_Ring_v112" vertex2="Tube_Q2_Ring_v66" vertex3="Tube_Q2_Ring_v61"/>
+             <triangular vertex1="Tube_Q2_Ring_v116" vertex2="Tube_Q2_Ring_v111" vertex3="Tube_Q2_Ring_v110"/>
+             <triangular vertex1="Tube_Q2_Ring_v55" vertex2="Tube_Q2_Ring_v72" vertex3="Tube_Q2_Ring_v114"/>
+             <triangular vertex1="Tube_Q2_Ring_v114" vertex2="Tube_Q2_Ring_v72" vertex3="Tube_Q2_Ring_v66"/>
+             <triangular vertex1="Tube_Q2_Ring_v68" vertex2="Tube_Q2_Ring_v70" vertex3="Tube_Q2_Ring_v115"/>
+             <triangular vertex1="Tube_Q2_Ring_v116" vertex2="Tube_Q2_Ring_v117" vertex3="Tube_Q2_Ring_v111"/>
+             <triangular vertex1="Tube_Q2_Ring_v75" vertex2="Tube_Q2_Ring_v76" vertex3="Tube_Q2_Ring_v118"/>
+             <triangular vertex1="Tube_Q2_Ring_v113" vertex2="Tube_Q2_Ring_v117" vertex3="Tube_Q2_Ring_v119"/>
+             <triangular vertex1="Tube_Q2_Ring_v118" vertex2="Tube_Q2_Ring_v76" vertex3="Tube_Q2_Ring_v54"/>
+             <triangular vertex1="Tube_Q2_Ring_v54" vertex2="Tube_Q2_Ring_v76" vertex3="Tube_Q2_Ring_v55"/>
+             <triangular vertex1="Tube_Q2_Ring_v55" vertex2="Tube_Q2_Ring_v76" vertex3="Tube_Q2_Ring_v72"/>
+             <triangular vertex1="Tube_Q2_Ring_v68" vertex2="Tube_Q2_Ring_v82" vertex3="Tube_Q2_Ring_v70"/>
+             <triangular vertex1="Tube_Q2_Ring_v65" vertex2="Tube_Q2_Ring_v83" vertex3="Tube_Q2_Ring_v78"/>
+             <triangular vertex1="Tube_Q2_Ring_v120" vertex2="Tube_Q2_Ring_v117" vertex3="Tube_Q2_Ring_v116"/>
+             <triangular vertex1="Tube_Q2_Ring_v111" vertex2="Tube_Q2_Ring_v117" vertex3="Tube_Q2_Ring_v113"/>
+             <triangular vertex1="Tube_Q2_Ring_v64" vertex2="Tube_Q2_Ring_v83" vertex3="Tube_Q2_Ring_v65"/>
+             <triangular vertex1="Tube_Q2_Ring_v67" vertex2="Tube_Q2_Ring_v82" vertex3="Tube_Q2_Ring_v68"/>
+             <triangular vertex1="Tube_Q2_Ring_v67" vertex2="Tube_Q2_Ring_v87" vertex3="Tube_Q2_Ring_v82"/>
+             <triangular vertex1="Tube_Q2_Ring_v117" vertex2="Tube_Q2_Ring_v121" vertex3="Tube_Q2_Ring_v119"/>
+             <triangular vertex1="Tube_Q2_Ring_v119" vertex2="Tube_Q2_Ring_v121" vertex3="Tube_Q2_Ring_v122"/>
+             <triangular vertex1="Tube_Q2_Ring_v71" vertex2="Tube_Q2_Ring_v87" vertex3="Tube_Q2_Ring_v67"/>
+             <triangular vertex1="Tube_Q2_Ring_v120" vertex2="Tube_Q2_Ring_v121" vertex3="Tube_Q2_Ring_v117"/>
+             <triangular vertex1="Tube_Q2_Ring_v80" vertex2="Tube_Q2_Ring_v86" vertex3="Tube_Q2_Ring_v123"/>
+             <triangular vertex1="Tube_Q2_Ring_v124" vertex2="Tube_Q2_Ring_v121" vertex3="Tube_Q2_Ring_v120"/>
+             <triangular vertex1="Tube_Q2_Ring_v77" vertex2="Tube_Q2_Ring_v93" vertex3="Tube_Q2_Ring_v64"/>
+             <triangular vertex1="Tube_Q2_Ring_v64" vertex2="Tube_Q2_Ring_v93" vertex3="Tube_Q2_Ring_v83"/>
+             <triangular vertex1="Tube_Q2_Ring_v81" vertex2="Tube_Q2_Ring_v90" vertex3="Tube_Q2_Ring_v71"/>
+             <triangular vertex1="Tube_Q2_Ring_v121" vertex2="Tube_Q2_Ring_v125" vertex3="Tube_Q2_Ring_v122"/>
+             <triangular vertex1="Tube_Q2_Ring_v122" vertex2="Tube_Q2_Ring_v125" vertex3="Tube_Q2_Ring_v126"/>
+             <triangular vertex1="Tube_Q2_Ring_v124" vertex2="Tube_Q2_Ring_v125" vertex3="Tube_Q2_Ring_v121"/>
+             <triangular vertex1="Tube_Q2_Ring_v58" vertex2="Tube_Q2_Ring_v125" vertex3="Tube_Q2_Ring_v124"/>
+             <triangular vertex1="Tube_Q2_Ring_v85" vertex2="Tube_Q2_Ring_v102" vertex3="Tube_Q2_Ring_v77"/>
+             <triangular vertex1="Tube_Q2_Ring_v71" vertex2="Tube_Q2_Ring_v90" vertex3="Tube_Q2_Ring_v87"/>
+             <triangular vertex1="Tube_Q2_Ring_v57" vertex2="Tube_Q2_Ring_v127" vertex3="Tube_Q2_Ring_v58"/>
+             <triangular vertex1="Tube_Q2_Ring_v125" vertex2="Tube_Q2_Ring_v127" vertex3="Tube_Q2_Ring_v126"/>
+             <triangular vertex1="Tube_Q2_Ring_v84" vertex2="Tube_Q2_Ring_v94" vertex3="Tube_Q2_Ring_v81"/>
+             <triangular vertex1="Tube_Q2_Ring_v77" vertex2="Tube_Q2_Ring_v102" vertex3="Tube_Q2_Ring_v93"/>
+             <triangular vertex1="Tube_Q2_Ring_v81" vertex2="Tube_Q2_Ring_v94" vertex3="Tube_Q2_Ring_v90"/>
+             <triangular vertex1="Tube_Q2_Ring_v58" vertex2="Tube_Q2_Ring_v127" vertex3="Tube_Q2_Ring_v125"/>
+             <triangular vertex1="Tube_Q2_Ring_v126" vertex2="Tube_Q2_Ring_v127" vertex3="Tube_Q2_Ring_v128"/>
+             <triangular vertex1="Tube_Q2_Ring_v91" vertex2="Tube_Q2_Ring_v110" vertex3="Tube_Q2_Ring_v85"/>
+             <triangular vertex1="Tube_Q2_Ring_v62" vertex2="Tube_Q2_Ring_v129" vertex3="Tube_Q2_Ring_v57"/>
+             <triangular vertex1="Tube_Q2_Ring_v85" vertex2="Tube_Q2_Ring_v110" vertex3="Tube_Q2_Ring_v102"/>
+             <triangular vertex1="Tube_Q2_Ring_v84" vertex2="Tube_Q2_Ring_v99" vertex3="Tube_Q2_Ring_v94"/>
+             <triangular vertex1="Tube_Q2_Ring_v128" vertex2="Tube_Q2_Ring_v129" vertex3="Tube_Q2_Ring_v130"/>
+             <triangular vertex1="Tube_Q2_Ring_v92" vertex2="Tube_Q2_Ring_v99" vertex3="Tube_Q2_Ring_v84"/>
+             <triangular vertex1="Tube_Q2_Ring_v57" vertex2="Tube_Q2_Ring_v129" vertex3="Tube_Q2_Ring_v127"/>
+             <triangular vertex1="Tube_Q2_Ring_v127" vertex2="Tube_Q2_Ring_v129" vertex3="Tube_Q2_Ring_v128"/>
+             <triangular vertex1="Tube_Q2_Ring_v69" vertex2="Tube_Q2_Ring_v131" vertex3="Tube_Q2_Ring_v62"/>
+             <triangular vertex1="Tube_Q2_Ring_v95" vertex2="Tube_Q2_Ring_v116" vertex3="Tube_Q2_Ring_v91"/>
+             <triangular vertex1="Tube_Q2_Ring_v96" vertex2="Tube_Q2_Ring_v107" vertex3="Tube_Q2_Ring_v92"/>
+             <triangular vertex1="Tube_Q2_Ring_v92" vertex2="Tube_Q2_Ring_v107" vertex3="Tube_Q2_Ring_v99"/>
+             <triangular vertex1="Tube_Q2_Ring_v130" vertex2="Tube_Q2_Ring_v131" vertex3="Tube_Q2_Ring_v132"/>
+             <triangular vertex1="Tube_Q2_Ring_v91" vertex2="Tube_Q2_Ring_v116" vertex3="Tube_Q2_Ring_v110"/>
+             <triangular vertex1="Tube_Q2_Ring_v62" vertex2="Tube_Q2_Ring_v131" vertex3="Tube_Q2_Ring_v129"/>
+             <triangular vertex1="Tube_Q2_Ring_v129" vertex2="Tube_Q2_Ring_v131" vertex3="Tube_Q2_Ring_v130"/>
+             <triangular vertex1="Tube_Q2_Ring_v69" vertex2="Tube_Q2_Ring_v133" vertex3="Tube_Q2_Ring_v131"/>
+             <triangular vertex1="Tube_Q2_Ring_v134" vertex2="Tube_Q2_Ring_v133" vertex3="Tube_Q2_Ring_v73"/>
+             <triangular vertex1="Tube_Q2_Ring_v100" vertex2="Tube_Q2_Ring_v120" vertex3="Tube_Q2_Ring_v95"/>
+             <triangular vertex1="Tube_Q2_Ring_v74" vertex2="Tube_Q2_Ring_v133" vertex3="Tube_Q2_Ring_v69"/>
+             <triangular vertex1="Tube_Q2_Ring_v135" vertex2="Tube_Q2_Ring_v133" vertex3="Tube_Q2_Ring_v134"/>
+             <triangular vertex1="Tube_Q2_Ring_v96" vertex2="Tube_Q2_Ring_v109" vertex3="Tube_Q2_Ring_v107"/>
+             <triangular vertex1="Tube_Q2_Ring_v132" vertex2="Tube_Q2_Ring_v133" vertex3="Tube_Q2_Ring_v135"/>
+             <triangular vertex1="Tube_Q2_Ring_v131" vertex2="Tube_Q2_Ring_v133" vertex3="Tube_Q2_Ring_v132"/>
+             <triangular vertex1="Tube_Q2_Ring_v73" vertex2="Tube_Q2_Ring_v133" vertex3="Tube_Q2_Ring_v74"/>
+             <triangular vertex1="Tube_Q2_Ring_v95" vertex2="Tube_Q2_Ring_v120" vertex3="Tube_Q2_Ring_v116"/>
+             <triangular vertex1="Tube_Q2_Ring_v101" vertex2="Tube_Q2_Ring_v109" vertex3="Tube_Q2_Ring_v96"/>
+             <triangular vertex1="Tube_Q2_Ring_v105" vertex2="Tube_Q2_Ring_v124" vertex3="Tube_Q2_Ring_v100"/>
+             <triangular vertex1="Tube_Q2_Ring_v101" vertex2="Tube_Q2_Ring_v112" vertex3="Tube_Q2_Ring_v109"/>
+             <triangular vertex1="Tube_Q2_Ring_v103" vertex2="Tube_Q2_Ring_v112" vertex3="Tube_Q2_Ring_v101"/>
+             <triangular vertex1="Tube_Q2_Ring_v134" vertex2="Tube_Q2_Ring_v136" vertex3="Tube_Q2_Ring_v135"/>
+             <triangular vertex1="Tube_Q2_Ring_v100" vertex2="Tube_Q2_Ring_v124" vertex3="Tube_Q2_Ring_v120"/>
+             <triangular vertex1="Tube_Q2_Ring_v4" vertex2="Tube_Q2_Ring_v68" vertex3="Tube_Q2_Ring_v115"/>
+             <triangular vertex1="Tube_Q2_Ring_v103" vertex2="Tube_Q2_Ring_v114" vertex3="Tube_Q2_Ring_v112"/>
+             <triangular vertex1="Tube_Q2_Ring_v108" vertex2="Tube_Q2_Ring_v114" vertex3="Tube_Q2_Ring_v103"/>
+             <triangular vertex1="Tube_Q2_Ring_v44" vertex2="Tube_Q2_Ring_v68" vertex3="Tube_Q2_Ring_v4"/>
+             <triangular vertex1="Tube_Q2_Ring_v56" vertex2="Tube_Q2_Ring_v58" vertex3="Tube_Q2_Ring_v105"/>
+             <triangular vertex1="Tube_Q2_Ring_v108" vertex2="Tube_Q2_Ring_v55" vertex3="Tube_Q2_Ring_v114"/>
+             <triangular vertex1="Tube_Q2_Ring_v105" vertex2="Tube_Q2_Ring_v58" vertex3="Tube_Q2_Ring_v124"/>
+             <triangular vertex1="Tube_Q2_Ring_v53" vertex2="Tube_Q2_Ring_v55" vertex3="Tube_Q2_Ring_v108"/>
+             <triangular vertex1="Tube_Q2_Ring_v61" vertex2="Tube_Q2_Ring_v57" vertex3="Tube_Q2_Ring_v56"/>
+             <triangular vertex1="Tube_Q2_Ring_v118" vertex2="Tube_Q2_Ring_v54" vertex3="Tube_Q2_Ring_v59"/>
+             <triangular vertex1="Tube_Q2_Ring_v42" vertex2="Tube_Q2_Ring_v67" vertex3="Tube_Q2_Ring_v44"/>
+             <triangular vertex1="Tube_Q2_Ring_v4" vertex2="Tube_Q2_Ring_v137" vertex3="Tube_Q2_Ring_v138"/>
+             <triangular vertex1="Tube_Q2_Ring_v14" vertex2="Tube_Q2_Ring_v4" vertex3="Tube_Q2_Ring_v138"/>
+             <triangular vertex1="Tube_Q2_Ring_v4" vertex2="Tube_Q2_Ring_v139" vertex3="Tube_Q2_Ring_v137"/>
+             <triangular vertex1="Tube_Q2_Ring_v140" vertex2="Tube_Q2_Ring_v31" vertex3="Tube_Q2_Ring_v141"/>
+             <triangular vertex1="Tube_Q2_Ring_v31" vertex2="Tube_Q2_Ring_v45" vertex3="Tube_Q2_Ring_v141"/>
+             <triangular vertex1="Tube_Q2_Ring_v142" vertex2="Tube_Q2_Ring_v31" vertex3="Tube_Q2_Ring_v140"/>
+             <triangular vertex1="Tube_Q2_Ring_v143" vertex2="Tube_Q2_Ring_v45" vertex3="Tube_Q2_Ring_v144"/>
+             <triangular vertex1="Tube_Q2_Ring_v144" vertex2="Tube_Q2_Ring_v47" vertex3="Tube_Q2_Ring_v145"/>
+             <triangular vertex1="Tube_Q2_Ring_v45" vertex2="Tube_Q2_Ring_v47" vertex3="Tube_Q2_Ring_v144"/>
+             <triangular vertex1="Tube_Q2_Ring_v145" vertex2="Tube_Q2_Ring_v49" vertex3="Tube_Q2_Ring_v146"/>
+             <triangular vertex1="Tube_Q2_Ring_v47" vertex2="Tube_Q2_Ring_v49" vertex3="Tube_Q2_Ring_v145"/>
+             <triangular vertex1="Tube_Q2_Ring_v146" vertex2="Tube_Q2_Ring_v51" vertex3="Tube_Q2_Ring_v147"/>
+             <triangular vertex1="Tube_Q2_Ring_v49" vertex2="Tube_Q2_Ring_v51" vertex3="Tube_Q2_Ring_v146"/>
+             <triangular vertex1="Tube_Q2_Ring_v51" vertex2="Tube_Q2_Ring_v2" vertex3="Tube_Q2_Ring_v147"/>
+             <triangular vertex1="Tube_Q2_Ring_v147" vertex2="Tube_Q2_Ring_v1" vertex3="Tube_Q2_Ring_v148"/>
+             <triangular vertex1="Tube_Q2_Ring_v2" vertex2="Tube_Q2_Ring_v1" vertex3="Tube_Q2_Ring_v147"/>
+             <triangular vertex1="Tube_Q2_Ring_v148" vertex2="Tube_Q2_Ring_v10" vertex3="Tube_Q2_Ring_v149"/>
+             <triangular vertex1="Tube_Q2_Ring_v149" vertex2="Tube_Q2_Ring_v10" vertex3="Tube_Q2_Ring_v150"/>
+             <triangular vertex1="Tube_Q2_Ring_v1" vertex2="Tube_Q2_Ring_v10" vertex3="Tube_Q2_Ring_v148"/>
+             <triangular vertex1="Tube_Q2_Ring_v150" vertex2="Tube_Q2_Ring_v22" vertex3="Tube_Q2_Ring_v151"/>
+             <triangular vertex1="Tube_Q2_Ring_v10" vertex2="Tube_Q2_Ring_v22" vertex3="Tube_Q2_Ring_v150"/>
+             <triangular vertex1="Tube_Q2_Ring_v22" vertex2="Tube_Q2_Ring_v29" vertex3="Tube_Q2_Ring_v151"/>
+             <triangular vertex1="Tube_Q2_Ring_v151" vertex2="Tube_Q2_Ring_v34" vertex3="Tube_Q2_Ring_v152"/>
+             <triangular vertex1="Tube_Q2_Ring_v152" vertex2="Tube_Q2_Ring_v34" vertex3="Tube_Q2_Ring_v153"/>
+             <triangular vertex1="Tube_Q2_Ring_v29" vertex2="Tube_Q2_Ring_v34" vertex3="Tube_Q2_Ring_v151"/>
+             <triangular vertex1="Tube_Q2_Ring_v34" vertex2="Tube_Q2_Ring_v32" vertex3="Tube_Q2_Ring_v153"/>
+             <triangular vertex1="Tube_Q2_Ring_v153" vertex2="Tube_Q2_Ring_v24" vertex3="Tube_Q2_Ring_v154"/>
+             <triangular vertex1="Tube_Q2_Ring_v32" vertex2="Tube_Q2_Ring_v24" vertex3="Tube_Q2_Ring_v153"/>
+             <triangular vertex1="Tube_Q2_Ring_v154" vertex2="Tube_Q2_Ring_v14" vertex3="Tube_Q2_Ring_v155"/>
+             <triangular vertex1="Tube_Q2_Ring_v24" vertex2="Tube_Q2_Ring_v14" vertex3="Tube_Q2_Ring_v154"/>
+             <triangular vertex1="Tube_Q2_Ring_v156" vertex2="Tube_Q2_Ring_v16" vertex3="Tube_Q2_Ring_v8"/>
+             <triangular vertex1="Tube_Q2_Ring_v156" vertex2="Tube_Q2_Ring_v8" vertex3="Tube_Q2_Ring_v157"/>
+             <triangular vertex1="Tube_Q2_Ring_v43" vertex2="Tube_Q2_Ring_v6" vertex3="Tube_Q2_Ring_v158"/>
+             <triangular vertex1="Tube_Q2_Ring_v43" vertex2="Tube_Q2_Ring_v158" vertex3="Tube_Q2_Ring_v159"/>
+             <triangular vertex1="Tube_Q2_Ring_v43" vertex2="Tube_Q2_Ring_v159" vertex3="Tube_Q2_Ring_v160"/>
+             <triangular vertex1="Tube_Q2_Ring_v161" vertex2="Tube_Q2_Ring_v20" vertex3="Tube_Q2_Ring_v16"/>
+             <triangular vertex1="Tube_Q2_Ring_v161" vertex2="Tube_Q2_Ring_v30" vertex3="Tube_Q2_Ring_v20"/>
+             <triangular vertex1="Tube_Q2_Ring_v161" vertex2="Tube_Q2_Ring_v156" vertex3="Tube_Q2_Ring_v162"/>
+             <triangular vertex1="Tube_Q2_Ring_v161" vertex2="Tube_Q2_Ring_v16" vertex3="Tube_Q2_Ring_v156"/>
+             <triangular vertex1="Tube_Q2_Ring_v163" vertex2="Tube_Q2_Ring_v41" vertex3="Tube_Q2_Ring_v43"/>
+             <triangular vertex1="Tube_Q2_Ring_v163" vertex2="Tube_Q2_Ring_v43" vertex3="Tube_Q2_Ring_v160"/>
+             <triangular vertex1="Tube_Q2_Ring_v164" vertex2="Tube_Q2_Ring_v161" vertex3="Tube_Q2_Ring_v162"/>
+             <triangular vertex1="Tube_Q2_Ring_v164" vertex2="Tube_Q2_Ring_v162" vertex3="Tube_Q2_Ring_v165"/>
+             <triangular vertex1="Tube_Q2_Ring_v166" vertex2="Tube_Q2_Ring_v164" vertex3="Tube_Q2_Ring_v165"/>
+             <triangular vertex1="Tube_Q2_Ring_v167" vertex2="Tube_Q2_Ring_v163" vertex3="Tube_Q2_Ring_v168"/>
+             <triangular vertex1="Tube_Q2_Ring_v169" vertex2="Tube_Q2_Ring_v39" vertex3="Tube_Q2_Ring_v41"/>
+             <triangular vertex1="Tube_Q2_Ring_v169" vertex2="Tube_Q2_Ring_v41" vertex3="Tube_Q2_Ring_v163"/>
+             <triangular vertex1="Tube_Q2_Ring_v169" vertex2="Tube_Q2_Ring_v163" vertex3="Tube_Q2_Ring_v167"/>
+             <triangular vertex1="Tube_Q2_Ring_v170" vertex2="Tube_Q2_Ring_v167" vertex3="Tube_Q2_Ring_v168"/>
+             <triangular vertex1="Tube_Q2_Ring_v171" vertex2="Tube_Q2_Ring_v37" vertex3="Tube_Q2_Ring_v39"/>
+             <triangular vertex1="Tube_Q2_Ring_v171" vertex2="Tube_Q2_Ring_v39" vertex3="Tube_Q2_Ring_v169"/>
+             <triangular vertex1="Tube_Q2_Ring_v172" vertex2="Tube_Q2_Ring_v37" vertex3="Tube_Q2_Ring_v171"/>
+             <triangular vertex1="Tube_Q2_Ring_v173" vertex2="Tube_Q2_Ring_v35" vertex3="Tube_Q2_Ring_v37"/>
+             <triangular vertex1="Tube_Q2_Ring_v173" vertex2="Tube_Q2_Ring_v37" vertex3="Tube_Q2_Ring_v172"/>
+             <triangular vertex1="Tube_Q2_Ring_v174" vertex2="Tube_Q2_Ring_v35" vertex3="Tube_Q2_Ring_v173"/>
+             <triangular vertex1="Tube_Q2_Ring_v175" vertex2="Tube_Q2_Ring_v26" vertex3="Tube_Q2_Ring_v35"/>
+             <triangular vertex1="Tube_Q2_Ring_v175" vertex2="Tube_Q2_Ring_v35" vertex3="Tube_Q2_Ring_v174"/>
+             <triangular vertex1="Tube_Q2_Ring_v176" vertex2="Tube_Q2_Ring_v26" vertex3="Tube_Q2_Ring_v175"/>
+             <triangular vertex1="Tube_Q2_Ring_v177" vertex2="Tube_Q2_Ring_v26" vertex3="Tube_Q2_Ring_v176"/>
+             <triangular vertex1="Tube_Q2_Ring_v178" vertex2="Tube_Q2_Ring_v19" vertex3="Tube_Q2_Ring_v26"/>
+             <triangular vertex1="Tube_Q2_Ring_v178" vertex2="Tube_Q2_Ring_v26" vertex3="Tube_Q2_Ring_v177"/>
+             <triangular vertex1="Tube_Q2_Ring_v179" vertex2="Tube_Q2_Ring_v19" vertex3="Tube_Q2_Ring_v178"/>
+             <triangular vertex1="Tube_Q2_Ring_v180" vertex2="Tube_Q2_Ring_v13" vertex3="Tube_Q2_Ring_v19"/>
+             <triangular vertex1="Tube_Q2_Ring_v180" vertex2="Tube_Q2_Ring_v19" vertex3="Tube_Q2_Ring_v179"/>
+             <triangular vertex1="Tube_Q2_Ring_v157" vertex2="Tube_Q2_Ring_v8" vertex3="Tube_Q2_Ring_v13"/>
+             <triangular vertex1="Tube_Q2_Ring_v157" vertex2="Tube_Q2_Ring_v13" vertex3="Tube_Q2_Ring_v180"/>
+             <triangular vertex1="Tube_Q2_Ring_v30" vertex2="Tube_Q2_Ring_v181" vertex3="Tube_Q2_Ring_v182"/>
+             <triangular vertex1="Tube_Q2_Ring_v46" vertex2="Tube_Q2_Ring_v30" vertex3="Tube_Q2_Ring_v182"/>
+             <triangular vertex1="Tube_Q2_Ring_v30" vertex2="Tube_Q2_Ring_v183" vertex3="Tube_Q2_Ring_v181"/>
+             <triangular vertex1="Tube_Q2_Ring_v184" vertex2="Tube_Q2_Ring_v185" vertex3="Tube_Q2_Ring_v186"/>
+             <triangular vertex1="Tube_Q2_Ring_v48" vertex2="Tube_Q2_Ring_v46" vertex3="Tube_Q2_Ring_v184"/>
+             <triangular vertex1="Tube_Q2_Ring_v48" vertex2="Tube_Q2_Ring_v184" vertex3="Tube_Q2_Ring_v186"/>
+             <triangular vertex1="Tube_Q2_Ring_v50" vertex2="Tube_Q2_Ring_v186" vertex3="Tube_Q2_Ring_v187"/>
+             <triangular vertex1="Tube_Q2_Ring_v50" vertex2="Tube_Q2_Ring_v48" vertex3="Tube_Q2_Ring_v186"/>
+             <triangular vertex1="Tube_Q2_Ring_v52" vertex2="Tube_Q2_Ring_v187" vertex3="Tube_Q2_Ring_v188"/>
+             <triangular vertex1="Tube_Q2_Ring_v52" vertex2="Tube_Q2_Ring_v188" vertex3="Tube_Q2_Ring_v189"/>
+             <triangular vertex1="Tube_Q2_Ring_v52" vertex2="Tube_Q2_Ring_v50" vertex3="Tube_Q2_Ring_v187"/>
+             <triangular vertex1="Tube_Q2_Ring_v0" vertex2="Tube_Q2_Ring_v52" vertex3="Tube_Q2_Ring_v189"/>
+             <triangular vertex1="Tube_Q2_Ring_v3" vertex2="Tube_Q2_Ring_v189" vertex3="Tube_Q2_Ring_v190"/>
+             <triangular vertex1="Tube_Q2_Ring_v3" vertex2="Tube_Q2_Ring_v190" vertex3="Tube_Q2_Ring_v191"/>
+             <triangular vertex1="Tube_Q2_Ring_v3" vertex2="Tube_Q2_Ring_v0" vertex3="Tube_Q2_Ring_v189"/>
+             <triangular vertex1="Tube_Q2_Ring_v11" vertex2="Tube_Q2_Ring_v191" vertex3="Tube_Q2_Ring_v192"/>
+             <triangular vertex1="Tube_Q2_Ring_v11" vertex2="Tube_Q2_Ring_v3" vertex3="Tube_Q2_Ring_v191"/>
+             <triangular vertex1="Tube_Q2_Ring_v15" vertex2="Tube_Q2_Ring_v11" vertex3="Tube_Q2_Ring_v192"/>
+             <triangular vertex1="Tube_Q2_Ring_v23" vertex2="Tube_Q2_Ring_v192" vertex3="Tube_Q2_Ring_v193"/>
+             <triangular vertex1="Tube_Q2_Ring_v23" vertex2="Tube_Q2_Ring_v193" vertex3="Tube_Q2_Ring_v194"/>
+             <triangular vertex1="Tube_Q2_Ring_v23" vertex2="Tube_Q2_Ring_v15" vertex3="Tube_Q2_Ring_v192"/>
+             <triangular vertex1="Tube_Q2_Ring_v28" vertex2="Tube_Q2_Ring_v23" vertex3="Tube_Q2_Ring_v194"/>
+             <triangular vertex1="Tube_Q2_Ring_v33" vertex2="Tube_Q2_Ring_v194" vertex3="Tube_Q2_Ring_v195"/>
+             <triangular vertex1="Tube_Q2_Ring_v33" vertex2="Tube_Q2_Ring_v195" vertex3="Tube_Q2_Ring_v196"/>
+             <triangular vertex1="Tube_Q2_Ring_v33" vertex2="Tube_Q2_Ring_v28" vertex3="Tube_Q2_Ring_v194"/>
+             <triangular vertex1="Tube_Q2_Ring_v27" vertex2="Tube_Q2_Ring_v33" vertex3="Tube_Q2_Ring_v196"/>
+             <triangular vertex1="Tube_Q2_Ring_v197" vertex2="Tube_Q2_Ring_v196" vertex3="Tube_Q2_Ring_v198"/>
+             <triangular vertex1="Tube_Q2_Ring_v197" vertex2="Tube_Q2_Ring_v27" vertex3="Tube_Q2_Ring_v196"/>
+             <triangular vertex1="Tube_Q2_Ring_v5" vertex2="Tube_Q2_Ring_v27" vertex3="Tube_Q2_Ring_v197"/>
+             <triangular vertex1="Tube_Q2_Ring_v199" vertex2="Tube_Q2_Ring_v6" vertex3="Tube_Q2_Ring_v200"/>
+             <triangular vertex1="Tube_Q2_Ring_v6" vertex2="Tube_Q2_Ring_v5" vertex3="Tube_Q2_Ring_v200"/>
+             <triangular vertex1="Tube_Q2_Ring_v201" vertex2="Tube_Q2_Ring_v6" vertex3="Tube_Q2_Ring_v199"/>
+             <triangular vertex1="Tube_Q2_Ring_v115" vertex2="Tube_Q2_Ring_v139" vertex3="Tube_Q2_Ring_v4"/>
+             <triangular vertex1="Tube_Q2_Ring_v202" vertex2="Tube_Q2_Ring_v139" vertex3="Tube_Q2_Ring_v115"/>
+             <triangular vertex1="Tube_Q2_Ring_v63" vertex2="Tube_Q2_Ring_v202" vertex3="Tube_Q2_Ring_v115"/>
+             <triangular vertex1="Tube_Q2_Ring_v203" vertex2="Tube_Q2_Ring_v202" vertex3="Tube_Q2_Ring_v63"/>
+             <triangular vertex1="Tube_Q2_Ring_v65" vertex2="Tube_Q2_Ring_v203" vertex3="Tube_Q2_Ring_v63"/>
+             <triangular vertex1="Tube_Q2_Ring_v204" vertex2="Tube_Q2_Ring_v203" vertex3="Tube_Q2_Ring_v65"/>
+             <triangular vertex1="Tube_Q2_Ring_v78" vertex2="Tube_Q2_Ring_v204" vertex3="Tube_Q2_Ring_v65"/>
+             <triangular vertex1="Tube_Q2_Ring_v205" vertex2="Tube_Q2_Ring_v204" vertex3="Tube_Q2_Ring_v78"/>
+             <triangular vertex1="Tube_Q2_Ring_v80" vertex2="Tube_Q2_Ring_v205" vertex3="Tube_Q2_Ring_v78"/>
+             <triangular vertex1="Tube_Q2_Ring_v206" vertex2="Tube_Q2_Ring_v205" vertex3="Tube_Q2_Ring_v80"/>
+             <triangular vertex1="Tube_Q2_Ring_v123" vertex2="Tube_Q2_Ring_v206" vertex3="Tube_Q2_Ring_v80"/>
+             <triangular vertex1="Tube_Q2_Ring_v207" vertex2="Tube_Q2_Ring_v206" vertex3="Tube_Q2_Ring_v123"/>
+             <triangular vertex1="Tube_Q2_Ring_v142" vertex2="Tube_Q2_Ring_v59" vertex3="Tube_Q2_Ring_v31"/>
+             <triangular vertex1="Tube_Q2_Ring_v142" vertex2="Tube_Q2_Ring_v208" vertex3="Tube_Q2_Ring_v59"/>
+             <triangular vertex1="Tube_Q2_Ring_v208" vertex2="Tube_Q2_Ring_v118" vertex3="Tube_Q2_Ring_v59"/>
+             <triangular vertex1="Tube_Q2_Ring_v208" vertex2="Tube_Q2_Ring_v209" vertex3="Tube_Q2_Ring_v118"/>
+             <triangular vertex1="Tube_Q2_Ring_v209" vertex2="Tube_Q2_Ring_v75" vertex3="Tube_Q2_Ring_v118"/>
+             <triangular vertex1="Tube_Q2_Ring_v209" vertex2="Tube_Q2_Ring_v210" vertex3="Tube_Q2_Ring_v75"/>
+             <triangular vertex1="Tube_Q2_Ring_v210" vertex2="Tube_Q2_Ring_v73" vertex3="Tube_Q2_Ring_v75"/>
+             <triangular vertex1="Tube_Q2_Ring_v210" vertex2="Tube_Q2_Ring_v211" vertex3="Tube_Q2_Ring_v73"/>
+             <triangular vertex1="Tube_Q2_Ring_v211" vertex2="Tube_Q2_Ring_v134" vertex3="Tube_Q2_Ring_v73"/>
+             <triangular vertex1="Tube_Q2_Ring_v211" vertex2="Tube_Q2_Ring_v212" vertex3="Tube_Q2_Ring_v134"/>
+             <triangular vertex1="Tube_Q2_Ring_v212" vertex2="Tube_Q2_Ring_v136" vertex3="Tube_Q2_Ring_v134"/>
+             <triangular vertex1="Tube_Q2_Ring_v212" vertex2="Tube_Q2_Ring_v213" vertex3="Tube_Q2_Ring_v136"/>
+             <triangular vertex1="Tube_Q2_Ring_v214" vertex2="Tube_Q2_Ring_v215" vertex3="Tube_Q2_Ring_v216"/>
+             <triangular vertex1="Tube_Q2_Ring_v214" vertex2="Tube_Q2_Ring_v217" vertex3="Tube_Q2_Ring_v215"/>
+             <triangular vertex1="Tube_Q2_Ring_v218" vertex2="Tube_Q2_Ring_v123" vertex3="Tube_Q2_Ring_v219"/>
+             <triangular vertex1="Tube_Q2_Ring_v220" vertex2="Tube_Q2_Ring_v128" vertex3="Tube_Q2_Ring_v130"/>
+             <triangular vertex1="Tube_Q2_Ring_v221" vertex2="Tube_Q2_Ring_v217" vertex3="Tube_Q2_Ring_v214"/>
+             <triangular vertex1="Tube_Q2_Ring_v221" vertex2="Tube_Q2_Ring_v222" vertex3="Tube_Q2_Ring_v217"/>
+             <triangular vertex1="Tube_Q2_Ring_v223" vertex2="Tube_Q2_Ring_v126" vertex3="Tube_Q2_Ring_v128"/>
+             <triangular vertex1="Tube_Q2_Ring_v207" vertex2="Tube_Q2_Ring_v123" vertex3="Tube_Q2_Ring_v218"/>
+             <triangular vertex1="Tube_Q2_Ring_v223" vertex2="Tube_Q2_Ring_v128" vertex3="Tube_Q2_Ring_v220"/>
+             <triangular vertex1="Tube_Q2_Ring_v224" vertex2="Tube_Q2_Ring_v222" vertex3="Tube_Q2_Ring_v221"/>
+             <triangular vertex1="Tube_Q2_Ring_v225" vertex2="Tube_Q2_Ring_v130" vertex3="Tube_Q2_Ring_v132"/>
+             <triangular vertex1="Tube_Q2_Ring_v225" vertex2="Tube_Q2_Ring_v220" vertex3="Tube_Q2_Ring_v130"/>
+             <triangular vertex1="Tube_Q2_Ring_v226" vertex2="Tube_Q2_Ring_v122" vertex3="Tube_Q2_Ring_v126"/>
+             <triangular vertex1="Tube_Q2_Ring_v226" vertex2="Tube_Q2_Ring_v126" vertex3="Tube_Q2_Ring_v223"/>
+             <triangular vertex1="Tube_Q2_Ring_v227" vertex2="Tube_Q2_Ring_v132" vertex3="Tube_Q2_Ring_v135"/>
+             <triangular vertex1="Tube_Q2_Ring_v227" vertex2="Tube_Q2_Ring_v225" vertex3="Tube_Q2_Ring_v132"/>
+             <triangular vertex1="Tube_Q2_Ring_v228" vertex2="Tube_Q2_Ring_v224" vertex3="Tube_Q2_Ring_v221"/>
+             <triangular vertex1="Tube_Q2_Ring_v228" vertex2="Tube_Q2_Ring_v229" vertex3="Tube_Q2_Ring_v224"/>
+             <triangular vertex1="Tube_Q2_Ring_v230" vertex2="Tube_Q2_Ring_v207" vertex3="Tube_Q2_Ring_v218"/>
+             <triangular vertex1="Tube_Q2_Ring_v231" vertex2="Tube_Q2_Ring_v119" vertex3="Tube_Q2_Ring_v122"/>
+             <triangular vertex1="Tube_Q2_Ring_v230" vertex2="Tube_Q2_Ring_v218" vertex3="Tube_Q2_Ring_v232"/>
+             <triangular vertex1="Tube_Q2_Ring_v231" vertex2="Tube_Q2_Ring_v122" vertex3="Tube_Q2_Ring_v226"/>
+             <triangular vertex1="Tube_Q2_Ring_v233" vertex2="Tube_Q2_Ring_v234" vertex3="Tube_Q2_Ring_v229"/>
+             <triangular vertex1="Tube_Q2_Ring_v235" vertex2="Tube_Q2_Ring_v135" vertex3="Tube_Q2_Ring_v136"/>
+             <triangular vertex1="Tube_Q2_Ring_v233" vertex2="Tube_Q2_Ring_v229" vertex3="Tube_Q2_Ring_v228"/>
+             <triangular vertex1="Tube_Q2_Ring_v235" vertex2="Tube_Q2_Ring_v227" vertex3="Tube_Q2_Ring_v135"/>
+             <triangular vertex1="Tube_Q2_Ring_v236" vertex2="Tube_Q2_Ring_v232" vertex3="Tube_Q2_Ring_v237"/>
+             <triangular vertex1="Tube_Q2_Ring_v236" vertex2="Tube_Q2_Ring_v230" vertex3="Tube_Q2_Ring_v232"/>
+             <triangular vertex1="Tube_Q2_Ring_v238" vertex2="Tube_Q2_Ring_v234" vertex3="Tube_Q2_Ring_v233"/>
+             <triangular vertex1="Tube_Q2_Ring_v238" vertex2="Tube_Q2_Ring_v237" vertex3="Tube_Q2_Ring_v234"/>
+             <triangular vertex1="Tube_Q2_Ring_v239" vertex2="Tube_Q2_Ring_v119" vertex3="Tube_Q2_Ring_v231"/>
+             <triangular vertex1="Tube_Q2_Ring_v238" vertex2="Tube_Q2_Ring_v236" vertex3="Tube_Q2_Ring_v237"/>
+             <triangular vertex1="Tube_Q2_Ring_v113" vertex2="Tube_Q2_Ring_v119" vertex3="Tube_Q2_Ring_v239"/>
+             <triangular vertex1="Tube_Q2_Ring_v240" vertex2="Tube_Q2_Ring_v113" vertex3="Tube_Q2_Ring_v239"/>
+             <triangular vertex1="Tube_Q2_Ring_v106" vertex2="Tube_Q2_Ring_v113" vertex3="Tube_Q2_Ring_v240"/>
+             <triangular vertex1="Tube_Q2_Ring_v241" vertex2="Tube_Q2_Ring_v106" vertex3="Tube_Q2_Ring_v240"/>
+             <triangular vertex1="Tube_Q2_Ring_v98" vertex2="Tube_Q2_Ring_v106" vertex3="Tube_Q2_Ring_v241"/>
+             <triangular vertex1="Tube_Q2_Ring_v242" vertex2="Tube_Q2_Ring_v98" vertex3="Tube_Q2_Ring_v241"/>
+             <triangular vertex1="Tube_Q2_Ring_v89" vertex2="Tube_Q2_Ring_v98" vertex3="Tube_Q2_Ring_v242"/>
+             <triangular vertex1="Tube_Q2_Ring_v243" vertex2="Tube_Q2_Ring_v89" vertex3="Tube_Q2_Ring_v242"/>
+             <triangular vertex1="Tube_Q2_Ring_v86" vertex2="Tube_Q2_Ring_v89" vertex3="Tube_Q2_Ring_v243"/>
+             <triangular vertex1="Tube_Q2_Ring_v219" vertex2="Tube_Q2_Ring_v86" vertex3="Tube_Q2_Ring_v243"/>
+             <triangular vertex1="Tube_Q2_Ring_v123" vertex2="Tube_Q2_Ring_v86" vertex3="Tube_Q2_Ring_v219"/>
+             <triangular vertex1="Tube_Q2_Ring_v213" vertex2="Tube_Q2_Ring_v235" vertex3="Tube_Q2_Ring_v136"/>
+             <triangular vertex1="Tube_Q2_Ring_v244" vertex2="Tube_Q2_Ring_v235" vertex3="Tube_Q2_Ring_v213"/>
+             <triangular vertex1="Tube_Q2_Ring_v245" vertex2="Tube_Q2_Ring_v244" vertex3="Tube_Q2_Ring_v213"/>
+             <triangular vertex1="Tube_Q2_Ring_v246" vertex2="Tube_Q2_Ring_v244" vertex3="Tube_Q2_Ring_v245"/>
+             <triangular vertex1="Tube_Q2_Ring_v247" vertex2="Tube_Q2_Ring_v246" vertex3="Tube_Q2_Ring_v245"/>
+             <triangular vertex1="Tube_Q2_Ring_v248" vertex2="Tube_Q2_Ring_v246" vertex3="Tube_Q2_Ring_v247"/>
+             <triangular vertex1="Tube_Q2_Ring_v249" vertex2="Tube_Q2_Ring_v248" vertex3="Tube_Q2_Ring_v247"/>
+             <triangular vertex1="Tube_Q2_Ring_v250" vertex2="Tube_Q2_Ring_v248" vertex3="Tube_Q2_Ring_v249"/>
+             <triangular vertex1="Tube_Q2_Ring_v216" vertex2="Tube_Q2_Ring_v250" vertex3="Tube_Q2_Ring_v249"/>
+             <triangular vertex1="Tube_Q2_Ring_v216" vertex2="Tube_Q2_Ring_v215" vertex3="Tube_Q2_Ring_v250"/>
+             <triangular vertex1="Tube_Q2_Ring_v139" vertex2="Tube_Q2_Ring_v251" vertex3="Tube_Q2_Ring_v155"/>
+             <triangular vertex1="Tube_Q2_Ring_v155" vertex2="Tube_Q2_Ring_v14" vertex3="Tube_Q2_Ring_v138"/>
+             <triangular vertex1="Tube_Q2_Ring_v155" vertex2="Tube_Q2_Ring_v138" vertex3="Tube_Q2_Ring_v137"/>
+             <triangular vertex1="Tube_Q2_Ring_v155" vertex2="Tube_Q2_Ring_v137" vertex3="Tube_Q2_Ring_v139"/>
+             <triangular vertex1="Tube_Q2_Ring_v252" vertex2="Tube_Q2_Ring_v142" vertex3="Tube_Q2_Ring_v143"/>
+             <triangular vertex1="Tube_Q2_Ring_v45" vertex2="Tube_Q2_Ring_v143" vertex3="Tube_Q2_Ring_v141"/>
+             <triangular vertex1="Tube_Q2_Ring_v141" vertex2="Tube_Q2_Ring_v143" vertex3="Tube_Q2_Ring_v140"/>
+             <triangular vertex1="Tube_Q2_Ring_v140" vertex2="Tube_Q2_Ring_v143" vertex3="Tube_Q2_Ring_v142"/>
+             <triangular vertex1="Tube_Q2_Ring_v148" vertex2="Tube_Q2_Ring_v189" vertex3="Tube_Q2_Ring_v147"/>
+             <triangular vertex1="Tube_Q2_Ring_v148" vertex2="Tube_Q2_Ring_v190" vertex3="Tube_Q2_Ring_v189"/>
+             <triangular vertex1="Tube_Q2_Ring_v198" vertex2="Tube_Q2_Ring_v251" vertex3="Tube_Q2_Ring_v253"/>
+             <triangular vertex1="Tube_Q2_Ring_v254" vertex2="Tube_Q2_Ring_v255" vertex3="Tube_Q2_Ring_v256"/>
+             <triangular vertex1="Tube_Q2_Ring_v149" vertex2="Tube_Q2_Ring_v190" vertex3="Tube_Q2_Ring_v148"/>
+             <triangular vertex1="Tube_Q2_Ring_v149" vertex2="Tube_Q2_Ring_v191" vertex3="Tube_Q2_Ring_v190"/>
+             <triangular vertex1="Tube_Q2_Ring_v155" vertex2="Tube_Q2_Ring_v251" vertex3="Tube_Q2_Ring_v198"/>
+             <triangular vertex1="Tube_Q2_Ring_v257" vertex2="Tube_Q2_Ring_v258" vertex3="Tube_Q2_Ring_v255"/>
+             <triangular vertex1="Tube_Q2_Ring_v257" vertex2="Tube_Q2_Ring_v255" vertex3="Tube_Q2_Ring_v254"/>
+             <triangular vertex1="Tube_Q2_Ring_v192" vertex2="Tube_Q2_Ring_v191" vertex3="Tube_Q2_Ring_v149"/>
+             <triangular vertex1="Tube_Q2_Ring_v259" vertex2="Tube_Q2_Ring_v256" vertex3="Tube_Q2_Ring_v260"/>
+             <triangular vertex1="Tube_Q2_Ring_v259" vertex2="Tube_Q2_Ring_v254" vertex3="Tube_Q2_Ring_v256"/>
+             <triangular vertex1="Tube_Q2_Ring_v261" vertex2="Tube_Q2_Ring_v262" vertex3="Tube_Q2_Ring_v258"/>
+             <triangular vertex1="Tube_Q2_Ring_v261" vertex2="Tube_Q2_Ring_v258" vertex3="Tube_Q2_Ring_v257"/>
+             <triangular vertex1="Tube_Q2_Ring_v263" vertex2="Tube_Q2_Ring_v260" vertex3="Tube_Q2_Ring_v264"/>
+             <triangular vertex1="Tube_Q2_Ring_v263" vertex2="Tube_Q2_Ring_v259" vertex3="Tube_Q2_Ring_v260"/>
+             <triangular vertex1="Tube_Q2_Ring_v150" vertex2="Tube_Q2_Ring_v192" vertex3="Tube_Q2_Ring_v149"/>
+             <triangular vertex1="Tube_Q2_Ring_v150" vertex2="Tube_Q2_Ring_v193" vertex3="Tube_Q2_Ring_v192"/>
+             <triangular vertex1="Tube_Q2_Ring_v154" vertex2="Tube_Q2_Ring_v155" vertex3="Tube_Q2_Ring_v198"/>
+             <triangular vertex1="Tube_Q2_Ring_v265" vertex2="Tube_Q2_Ring_v266" vertex3="Tube_Q2_Ring_v262"/>
+             <triangular vertex1="Tube_Q2_Ring_v154" vertex2="Tube_Q2_Ring_v198" vertex3="Tube_Q2_Ring_v196"/>
+             <triangular vertex1="Tube_Q2_Ring_v265" vertex2="Tube_Q2_Ring_v262" vertex3="Tube_Q2_Ring_v261"/>
+             <triangular vertex1="Tube_Q2_Ring_v151" vertex2="Tube_Q2_Ring_v194" vertex3="Tube_Q2_Ring_v193"/>
+             <triangular vertex1="Tube_Q2_Ring_v151" vertex2="Tube_Q2_Ring_v193" vertex3="Tube_Q2_Ring_v150"/>
+             <triangular vertex1="Tube_Q2_Ring_v267" vertex2="Tube_Q2_Ring_v264" vertex3="Tube_Q2_Ring_v252"/>
+             <triangular vertex1="Tube_Q2_Ring_v267" vertex2="Tube_Q2_Ring_v263" vertex3="Tube_Q2_Ring_v264"/>
+             <triangular vertex1="Tube_Q2_Ring_v153" vertex2="Tube_Q2_Ring_v196" vertex3="Tube_Q2_Ring_v195"/>
+             <triangular vertex1="Tube_Q2_Ring_v153" vertex2="Tube_Q2_Ring_v154" vertex3="Tube_Q2_Ring_v196"/>
+             <triangular vertex1="Tube_Q2_Ring_v152" vertex2="Tube_Q2_Ring_v194" vertex3="Tube_Q2_Ring_v151"/>
+             <triangular vertex1="Tube_Q2_Ring_v152" vertex2="Tube_Q2_Ring_v195" vertex3="Tube_Q2_Ring_v194"/>
+             <triangular vertex1="Tube_Q2_Ring_v268" vertex2="Tube_Q2_Ring_v266" vertex3="Tube_Q2_Ring_v265"/>
+             <triangular vertex1="Tube_Q2_Ring_v152" vertex2="Tube_Q2_Ring_v153" vertex3="Tube_Q2_Ring_v195"/>
+             <triangular vertex1="Tube_Q2_Ring_v269" vertex2="Tube_Q2_Ring_v266" vertex3="Tube_Q2_Ring_v268"/>
+             <triangular vertex1="Tube_Q2_Ring_v270" vertex2="Tube_Q2_Ring_v269" vertex3="Tube_Q2_Ring_v268"/>
+             <triangular vertex1="Tube_Q2_Ring_v271" vertex2="Tube_Q2_Ring_v269" vertex3="Tube_Q2_Ring_v270"/>
+             <triangular vertex1="Tube_Q2_Ring_v272" vertex2="Tube_Q2_Ring_v271" vertex3="Tube_Q2_Ring_v270"/>
+             <triangular vertex1="Tube_Q2_Ring_v273" vertex2="Tube_Q2_Ring_v271" vertex3="Tube_Q2_Ring_v272"/>
+             <triangular vertex1="Tube_Q2_Ring_v274" vertex2="Tube_Q2_Ring_v273" vertex3="Tube_Q2_Ring_v272"/>
+             <triangular vertex1="Tube_Q2_Ring_v275" vertex2="Tube_Q2_Ring_v273" vertex3="Tube_Q2_Ring_v274"/>
+             <triangular vertex1="Tube_Q2_Ring_v276" vertex2="Tube_Q2_Ring_v275" vertex3="Tube_Q2_Ring_v274"/>
+             <triangular vertex1="Tube_Q2_Ring_v277" vertex2="Tube_Q2_Ring_v275" vertex3="Tube_Q2_Ring_v276"/>
+             <triangular vertex1="Tube_Q2_Ring_v253" vertex2="Tube_Q2_Ring_v277" vertex3="Tube_Q2_Ring_v276"/>
+             <triangular vertex1="Tube_Q2_Ring_v251" vertex2="Tube_Q2_Ring_v277" vertex3="Tube_Q2_Ring_v253"/>
+             <triangular vertex1="Tube_Q2_Ring_v143" vertex2="Tube_Q2_Ring_v267" vertex3="Tube_Q2_Ring_v252"/>
+             <triangular vertex1="Tube_Q2_Ring_v185" vertex2="Tube_Q2_Ring_v267" vertex3="Tube_Q2_Ring_v143"/>
+             <triangular vertex1="Tube_Q2_Ring_v144" vertex2="Tube_Q2_Ring_v185" vertex3="Tube_Q2_Ring_v143"/>
+             <triangular vertex1="Tube_Q2_Ring_v186" vertex2="Tube_Q2_Ring_v185" vertex3="Tube_Q2_Ring_v144"/>
+             <triangular vertex1="Tube_Q2_Ring_v145" vertex2="Tube_Q2_Ring_v186" vertex3="Tube_Q2_Ring_v144"/>
+             <triangular vertex1="Tube_Q2_Ring_v187" vertex2="Tube_Q2_Ring_v186" vertex3="Tube_Q2_Ring_v145"/>
+             <triangular vertex1="Tube_Q2_Ring_v146" vertex2="Tube_Q2_Ring_v187" vertex3="Tube_Q2_Ring_v145"/>
+             <triangular vertex1="Tube_Q2_Ring_v188" vertex2="Tube_Q2_Ring_v187" vertex3="Tube_Q2_Ring_v146"/>
+             <triangular vertex1="Tube_Q2_Ring_v147" vertex2="Tube_Q2_Ring_v188" vertex3="Tube_Q2_Ring_v146"/>
+             <triangular vertex1="Tube_Q2_Ring_v147" vertex2="Tube_Q2_Ring_v189" vertex3="Tube_Q2_Ring_v188"/>
+             <triangular vertex1="Tube_Q2_Ring_v201" vertex2="Tube_Q2_Ring_v278" vertex3="Tube_Q2_Ring_v279"/>
+             <triangular vertex1="Tube_Q2_Ring_v201" vertex2="Tube_Q2_Ring_v279" vertex3="Tube_Q2_Ring_v280"/>
+             <triangular vertex1="Tube_Q2_Ring_v201" vertex2="Tube_Q2_Ring_v280" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v201" vertex2="Tube_Q2_Ring_v170" vertex3="Tube_Q2_Ring_v168"/>
+             <triangular vertex1="Tube_Q2_Ring_v201" vertex2="Tube_Q2_Ring_v168" vertex3="Tube_Q2_Ring_v163"/>
+             <triangular vertex1="Tube_Q2_Ring_v163" vertex2="Tube_Q2_Ring_v160" vertex3="Tube_Q2_Ring_v201"/>
+             <triangular vertex1="Tube_Q2_Ring_v183" vertex2="Tube_Q2_Ring_v30" vertex3="Tube_Q2_Ring_v161"/>
+             <triangular vertex1="Tube_Q2_Ring_v183" vertex2="Tube_Q2_Ring_v161" vertex3="Tube_Q2_Ring_v164"/>
+             <triangular vertex1="Tube_Q2_Ring_v183" vertex2="Tube_Q2_Ring_v164" vertex3="Tube_Q2_Ring_v166"/>
+             <triangular vertex1="Tube_Q2_Ring_v166" vertex2="Tube_Q2_Ring_v281" vertex3="Tube_Q2_Ring_v282"/>
+             <triangular vertex1="Tube_Q2_Ring_v166" vertex2="Tube_Q2_Ring_v282" vertex3="Tube_Q2_Ring_v283"/>
+             <triangular vertex1="Tube_Q2_Ring_v166" vertex2="Tube_Q2_Ring_v283" vertex3="Tube_Q2_Ring_v183"/>
+             <triangular vertex1="Tube_Q2_Ring_v284" vertex2="Tube_Q2_Ring_v183" vertex3="Tube_Q2_Ring_v285"/>
+             <triangular vertex1="Tube_Q2_Ring_v181" vertex2="Tube_Q2_Ring_v183" vertex3="Tube_Q2_Ring_v284"/>
+             <triangular vertex1="Tube_Q2_Ring_v286" vertex2="Tube_Q2_Ring_v181" vertex3="Tube_Q2_Ring_v284"/>
+             <triangular vertex1="Tube_Q2_Ring_v182" vertex2="Tube_Q2_Ring_v286" vertex3="Tube_Q2_Ring_v184"/>
+             <triangular vertex1="Tube_Q2_Ring_v182" vertex2="Tube_Q2_Ring_v181" vertex3="Tube_Q2_Ring_v286"/>
+             <triangular vertex1="Tube_Q2_Ring_v46" vertex2="Tube_Q2_Ring_v182" vertex3="Tube_Q2_Ring_v184"/>
+             <triangular vertex1="Tube_Q2_Ring_v285" vertex2="Tube_Q2_Ring_v267" vertex3="Tube_Q2_Ring_v185"/>
+             <triangular vertex1="Tube_Q2_Ring_v185" vertex2="Tube_Q2_Ring_v184" vertex3="Tube_Q2_Ring_v286"/>
+             <triangular vertex1="Tube_Q2_Ring_v185" vertex2="Tube_Q2_Ring_v286" vertex3="Tube_Q2_Ring_v284"/>
+             <triangular vertex1="Tube_Q2_Ring_v185" vertex2="Tube_Q2_Ring_v284" vertex3="Tube_Q2_Ring_v285"/>
+             <triangular vertex1="Tube_Q2_Ring_v201" vertex2="Tube_Q2_Ring_v287" vertex3="Tube_Q2_Ring_v280"/>
+             <triangular vertex1="Tube_Q2_Ring_v201" vertex2="Tube_Q2_Ring_v199" vertex3="Tube_Q2_Ring_v287"/>
+             <triangular vertex1="Tube_Q2_Ring_v199" vertex2="Tube_Q2_Ring_v288" vertex3="Tube_Q2_Ring_v287"/>
+             <triangular vertex1="Tube_Q2_Ring_v288" vertex2="Tube_Q2_Ring_v200" vertex3="Tube_Q2_Ring_v197"/>
+             <triangular vertex1="Tube_Q2_Ring_v199" vertex2="Tube_Q2_Ring_v200" vertex3="Tube_Q2_Ring_v288"/>
+             <triangular vertex1="Tube_Q2_Ring_v200" vertex2="Tube_Q2_Ring_v5" vertex3="Tube_Q2_Ring_v197"/>
+             <triangular vertex1="Tube_Q2_Ring_v198" vertex2="Tube_Q2_Ring_v197" vertex3="Tube_Q2_Ring_v289"/>
+             <triangular vertex1="Tube_Q2_Ring_v198" vertex2="Tube_Q2_Ring_v198" vertex3="Tube_Q2_Ring_v289"/>
+             <triangular vertex1="Tube_Q2_Ring_v198" vertex2="Tube_Q2_Ring_v198" vertex3="Tube_Q2_Ring_v289"/>
+             <triangular vertex1="Tube_Q2_Ring_v198" vertex2="Tube_Q2_Ring_v198" vertex3="Tube_Q2_Ring_v289"/>
+             <triangular vertex1="Tube_Q2_Ring_v290" vertex2="Tube_Q2_Ring_v291" vertex3="Tube_Q2_Ring_v292"/>
+             <triangular vertex1="Tube_Q2_Ring_v292" vertex2="Tube_Q2_Ring_v291" vertex3="Tube_Q2_Ring_v293"/>
+             <triangular vertex1="Tube_Q2_Ring_v294" vertex2="Tube_Q2_Ring_v295" vertex3="Tube_Q2_Ring_v296"/>
+             <triangular vertex1="Tube_Q2_Ring_v297" vertex2="Tube_Q2_Ring_v295" vertex3="Tube_Q2_Ring_v294"/>
+             <triangular vertex1="Tube_Q2_Ring_v296" vertex2="Tube_Q2_Ring_v295" vertex3="Tube_Q2_Ring_v298"/>
+             <triangular vertex1="Tube_Q2_Ring_v297" vertex2="Tube_Q2_Ring_v299" vertex3="Tube_Q2_Ring_v295"/>
+             <triangular vertex1="Tube_Q2_Ring_v300" vertex2="Tube_Q2_Ring_v301" vertex3="Tube_Q2_Ring_v290"/>
+             <triangular vertex1="Tube_Q2_Ring_v290" vertex2="Tube_Q2_Ring_v301" vertex3="Tube_Q2_Ring_v291"/>
+             <triangular vertex1="Tube_Q2_Ring_v302" vertex2="Tube_Q2_Ring_v303" vertex3="Tube_Q2_Ring_v297"/>
+             <triangular vertex1="Tube_Q2_Ring_v297" vertex2="Tube_Q2_Ring_v303" vertex3="Tube_Q2_Ring_v299"/>
+             <triangular vertex1="Tube_Q2_Ring_v304" vertex2="Tube_Q2_Ring_v305" vertex3="Tube_Q2_Ring_v300"/>
+             <triangular vertex1="Tube_Q2_Ring_v300" vertex2="Tube_Q2_Ring_v305" vertex3="Tube_Q2_Ring_v301"/>
+             <triangular vertex1="Tube_Q2_Ring_v302" vertex2="Tube_Q2_Ring_v306" vertex3="Tube_Q2_Ring_v303"/>
+             <triangular vertex1="Tube_Q2_Ring_v307" vertex2="Tube_Q2_Ring_v306" vertex3="Tube_Q2_Ring_v302"/>
+             <triangular vertex1="Tube_Q2_Ring_v307" vertex2="Tube_Q2_Ring_v308" vertex3="Tube_Q2_Ring_v306"/>
+             <triangular vertex1="Tube_Q2_Ring_v304" vertex2="Tube_Q2_Ring_v309" vertex3="Tube_Q2_Ring_v305"/>
+             <triangular vertex1="Tube_Q2_Ring_v310" vertex2="Tube_Q2_Ring_v309" vertex3="Tube_Q2_Ring_v304"/>
+             <triangular vertex1="Tube_Q2_Ring_v311" vertex2="Tube_Q2_Ring_v308" vertex3="Tube_Q2_Ring_v307"/>
+             <triangular vertex1="Tube_Q2_Ring_v310" vertex2="Tube_Q2_Ring_v312" vertex3="Tube_Q2_Ring_v309"/>
+             <triangular vertex1="Tube_Q2_Ring_v311" vertex2="Tube_Q2_Ring_v313" vertex3="Tube_Q2_Ring_v308"/>
+             <triangular vertex1="Tube_Q2_Ring_v205" vertex2="Tube_Q2_Ring_v313" vertex3="Tube_Q2_Ring_v204"/>
+             <triangular vertex1="Tube_Q2_Ring_v314" vertex2="Tube_Q2_Ring_v312" vertex3="Tube_Q2_Ring_v310"/>
+             <triangular vertex1="Tube_Q2_Ring_v204" vertex2="Tube_Q2_Ring_v313" vertex3="Tube_Q2_Ring_v315"/>
+             <triangular vertex1="Tube_Q2_Ring_v315" vertex2="Tube_Q2_Ring_v313" vertex3="Tube_Q2_Ring_v311"/>
+             <triangular vertex1="Tube_Q2_Ring_v314" vertex2="Tube_Q2_Ring_v316" vertex3="Tube_Q2_Ring_v312"/>
+             <triangular vertex1="Tube_Q2_Ring_v317" vertex2="Tube_Q2_Ring_v316" vertex3="Tube_Q2_Ring_v314"/>
+             <triangular vertex1="Tube_Q2_Ring_v213" vertex2="Tube_Q2_Ring_v318" vertex3="Tube_Q2_Ring_v245"/>
+             <triangular vertex1="Tube_Q2_Ring_v203" vertex2="Tube_Q2_Ring_v319" vertex3="Tube_Q2_Ring_v202"/>
+             <triangular vertex1="Tube_Q2_Ring_v317" vertex2="Tube_Q2_Ring_v319" vertex3="Tube_Q2_Ring_v316"/>
+             <triangular vertex1="Tube_Q2_Ring_v206" vertex2="Tube_Q2_Ring_v207" vertex3="Tube_Q2_Ring_v230"/>
+             <triangular vertex1="Tube_Q2_Ring_v211" vertex2="Tube_Q2_Ring_v318" vertex3="Tube_Q2_Ring_v212"/>
+             <triangular vertex1="Tube_Q2_Ring_v202" vertex2="Tube_Q2_Ring_v319" vertex3="Tube_Q2_Ring_v320"/>
+             <triangular vertex1="Tube_Q2_Ring_v212" vertex2="Tube_Q2_Ring_v318" vertex3="Tube_Q2_Ring_v213"/>
+             <triangular vertex1="Tube_Q2_Ring_v320" vertex2="Tube_Q2_Ring_v319" vertex3="Tube_Q2_Ring_v317"/>
+             <triangular vertex1="Tube_Q2_Ring_v321" vertex2="Tube_Q2_Ring_v318" vertex3="Tube_Q2_Ring_v211"/>
+             <triangular vertex1="Tube_Q2_Ring_v322" vertex2="Tube_Q2_Ring_v323" vertex3="Tube_Q2_Ring_v324"/>
+             <triangular vertex1="Tube_Q2_Ring_v209" vertex2="Tube_Q2_Ring_v325" vertex3="Tube_Q2_Ring_v210"/>
+             <triangular vertex1="Tube_Q2_Ring_v326" vertex2="Tube_Q2_Ring_v325" vertex3="Tube_Q2_Ring_v209"/>
+             <triangular vertex1="Tube_Q2_Ring_v321" vertex2="Tube_Q2_Ring_v327" vertex3="Tube_Q2_Ring_v318"/>
+             <triangular vertex1="Tube_Q2_Ring_v245" vertex2="Tube_Q2_Ring_v327" vertex3="Tube_Q2_Ring_v247"/>
+             <triangular vertex1="Tube_Q2_Ring_v324" vertex2="Tube_Q2_Ring_v323" vertex3="Tube_Q2_Ring_v208"/>
+             <triangular vertex1="Tube_Q2_Ring_v328" vertex2="Tube_Q2_Ring_v327" vertex3="Tube_Q2_Ring_v321"/>
+             <triangular vertex1="Tube_Q2_Ring_v326" vertex2="Tube_Q2_Ring_v329" vertex3="Tube_Q2_Ring_v325"/>
+             <triangular vertex1="Tube_Q2_Ring_v318" vertex2="Tube_Q2_Ring_v327" vertex3="Tube_Q2_Ring_v245"/>
+             <triangular vertex1="Tube_Q2_Ring_v330" vertex2="Tube_Q2_Ring_v329" vertex3="Tube_Q2_Ring_v326"/>
+             <triangular vertex1="Tube_Q2_Ring_v322" vertex2="Tube_Q2_Ring_v331" vertex3="Tube_Q2_Ring_v323"/>
+             <triangular vertex1="Tube_Q2_Ring_v327" vertex2="Tube_Q2_Ring_v332" vertex3="Tube_Q2_Ring_v247"/>
+             <triangular vertex1="Tube_Q2_Ring_v247" vertex2="Tube_Q2_Ring_v332" vertex3="Tube_Q2_Ring_v249"/>
+             <triangular vertex1="Tube_Q2_Ring_v333" vertex2="Tube_Q2_Ring_v334" vertex3="Tube_Q2_Ring_v322"/>
+             <triangular vertex1="Tube_Q2_Ring_v330" vertex2="Tube_Q2_Ring_v335" vertex3="Tube_Q2_Ring_v329"/>
+             <triangular vertex1="Tube_Q2_Ring_v328" vertex2="Tube_Q2_Ring_v332" vertex3="Tube_Q2_Ring_v327"/>
+             <triangular vertex1="Tube_Q2_Ring_v336" vertex2="Tube_Q2_Ring_v332" vertex3="Tube_Q2_Ring_v328"/>
+             <triangular vertex1="Tube_Q2_Ring_v337" vertex2="Tube_Q2_Ring_v335" vertex3="Tube_Q2_Ring_v330"/>
+             <triangular vertex1="Tube_Q2_Ring_v322" vertex2="Tube_Q2_Ring_v334" vertex3="Tube_Q2_Ring_v331"/>
+             <triangular vertex1="Tube_Q2_Ring_v337" vertex2="Tube_Q2_Ring_v338" vertex3="Tube_Q2_Ring_v335"/>
+             <triangular vertex1="Tube_Q2_Ring_v249" vertex2="Tube_Q2_Ring_v339" vertex3="Tube_Q2_Ring_v216"/>
+             <triangular vertex1="Tube_Q2_Ring_v340" vertex2="Tube_Q2_Ring_v292" vertex3="Tube_Q2_Ring_v333"/>
+             <triangular vertex1="Tube_Q2_Ring_v293" vertex2="Tube_Q2_Ring_v338" vertex3="Tube_Q2_Ring_v337"/>
+             <triangular vertex1="Tube_Q2_Ring_v332" vertex2="Tube_Q2_Ring_v339" vertex3="Tube_Q2_Ring_v249"/>
+             <triangular vertex1="Tube_Q2_Ring_v341" vertex2="Tube_Q2_Ring_v339" vertex3="Tube_Q2_Ring_v336"/>
+             <triangular vertex1="Tube_Q2_Ring_v336" vertex2="Tube_Q2_Ring_v339" vertex3="Tube_Q2_Ring_v332"/>
+             <triangular vertex1="Tube_Q2_Ring_v333" vertex2="Tube_Q2_Ring_v292" vertex3="Tube_Q2_Ring_v334"/>
+             <triangular vertex1="Tube_Q2_Ring_v293" vertex2="Tube_Q2_Ring_v296" vertex3="Tube_Q2_Ring_v338"/>
+             <triangular vertex1="Tube_Q2_Ring_v291" vertex2="Tube_Q2_Ring_v296" vertex3="Tube_Q2_Ring_v293"/>
+             <triangular vertex1="Tube_Q2_Ring_v341" vertex2="Tube_Q2_Ring_v342" vertex3="Tube_Q2_Ring_v339"/>
+             <triangular vertex1="Tube_Q2_Ring_v343" vertex2="Tube_Q2_Ring_v290" vertex3="Tube_Q2_Ring_v340"/>
+             <triangular vertex1="Tube_Q2_Ring_v344" vertex2="Tube_Q2_Ring_v290" vertex3="Tube_Q2_Ring_v343"/>
+             <triangular vertex1="Tube_Q2_Ring_v216" vertex2="Tube_Q2_Ring_v342" vertex3="Tube_Q2_Ring_v214"/>
+             <triangular vertex1="Tube_Q2_Ring_v301" vertex2="Tube_Q2_Ring_v294" vertex3="Tube_Q2_Ring_v291"/>
+             <triangular vertex1="Tube_Q2_Ring_v298" vertex2="Tube_Q2_Ring_v342" vertex3="Tube_Q2_Ring_v341"/>
+             <triangular vertex1="Tube_Q2_Ring_v339" vertex2="Tube_Q2_Ring_v342" vertex3="Tube_Q2_Ring_v216"/>
+             <triangular vertex1="Tube_Q2_Ring_v291" vertex2="Tube_Q2_Ring_v294" vertex3="Tube_Q2_Ring_v296"/>
+             <triangular vertex1="Tube_Q2_Ring_v340" vertex2="Tube_Q2_Ring_v290" vertex3="Tube_Q2_Ring_v292"/>
+             <triangular vertex1="Tube_Q2_Ring_v301" vertex2="Tube_Q2_Ring_v297" vertex3="Tube_Q2_Ring_v294"/>
+             <triangular vertex1="Tube_Q2_Ring_v305" vertex2="Tube_Q2_Ring_v297" vertex3="Tube_Q2_Ring_v301"/>
+             <triangular vertex1="Tube_Q2_Ring_v345" vertex2="Tube_Q2_Ring_v300" vertex3="Tube_Q2_Ring_v344"/>
+             <triangular vertex1="Tube_Q2_Ring_v342" vertex2="Tube_Q2_Ring_v346" vertex3="Tube_Q2_Ring_v214"/>
+             <triangular vertex1="Tube_Q2_Ring_v347" vertex2="Tube_Q2_Ring_v300" vertex3="Tube_Q2_Ring_v345"/>
+             <triangular vertex1="Tube_Q2_Ring_v214" vertex2="Tube_Q2_Ring_v346" vertex3="Tube_Q2_Ring_v221"/>
+             <triangular vertex1="Tube_Q2_Ring_v348" vertex2="Tube_Q2_Ring_v300" vertex3="Tube_Q2_Ring_v347"/>
+             <triangular vertex1="Tube_Q2_Ring_v295" vertex2="Tube_Q2_Ring_v346" vertex3="Tube_Q2_Ring_v298"/>
+             <triangular vertex1="Tube_Q2_Ring_v305" vertex2="Tube_Q2_Ring_v302" vertex3="Tube_Q2_Ring_v297"/>
+             <triangular vertex1="Tube_Q2_Ring_v298" vertex2="Tube_Q2_Ring_v346" vertex3="Tube_Q2_Ring_v342"/>
+             <triangular vertex1="Tube_Q2_Ring_v309" vertex2="Tube_Q2_Ring_v302" vertex3="Tube_Q2_Ring_v305"/>
+             <triangular vertex1="Tube_Q2_Ring_v344" vertex2="Tube_Q2_Ring_v300" vertex3="Tube_Q2_Ring_v290"/>
+             <triangular vertex1="Tube_Q2_Ring_v348" vertex2="Tube_Q2_Ring_v304" vertex3="Tube_Q2_Ring_v300"/>
+             <triangular vertex1="Tube_Q2_Ring_v324" vertex2="Tube_Q2_Ring_v208" vertex3="Tube_Q2_Ring_v142"/>
+             <triangular vertex1="Tube_Q2_Ring_v295" vertex2="Tube_Q2_Ring_v349" vertex3="Tube_Q2_Ring_v346"/>
+             <triangular vertex1="Tube_Q2_Ring_v350" vertex2="Tube_Q2_Ring_v304" vertex3="Tube_Q2_Ring_v348"/>
+             <triangular vertex1="Tube_Q2_Ring_v346" vertex2="Tube_Q2_Ring_v349" vertex3="Tube_Q2_Ring_v221"/>
+             <triangular vertex1="Tube_Q2_Ring_v312" vertex2="Tube_Q2_Ring_v307" vertex3="Tube_Q2_Ring_v309"/>
+             <triangular vertex1="Tube_Q2_Ring_v351" vertex2="Tube_Q2_Ring_v304" vertex3="Tube_Q2_Ring_v350"/>
+             <triangular vertex1="Tube_Q2_Ring_v221" vertex2="Tube_Q2_Ring_v349" vertex3="Tube_Q2_Ring_v228"/>
+             <triangular vertex1="Tube_Q2_Ring_v309" vertex2="Tube_Q2_Ring_v307" vertex3="Tube_Q2_Ring_v302"/>
+             <triangular vertex1="Tube_Q2_Ring_v352" vertex2="Tube_Q2_Ring_v310" vertex3="Tube_Q2_Ring_v351"/>
+             <triangular vertex1="Tube_Q2_Ring_v299" vertex2="Tube_Q2_Ring_v349" vertex3="Tube_Q2_Ring_v295"/>
+             <triangular vertex1="Tube_Q2_Ring_v316" vertex2="Tube_Q2_Ring_v311" vertex3="Tube_Q2_Ring_v312"/>
+             <triangular vertex1="Tube_Q2_Ring_v312" vertex2="Tube_Q2_Ring_v311" vertex3="Tube_Q2_Ring_v307"/>
+             <triangular vertex1="Tube_Q2_Ring_v349" vertex2="Tube_Q2_Ring_v353" vertex3="Tube_Q2_Ring_v228"/>
+             <triangular vertex1="Tube_Q2_Ring_v351" vertex2="Tube_Q2_Ring_v310" vertex3="Tube_Q2_Ring_v304"/>
+             <triangular vertex1="Tube_Q2_Ring_v204" vertex2="Tube_Q2_Ring_v315" vertex3="Tube_Q2_Ring_v203"/>
+             <triangular vertex1="Tube_Q2_Ring_v299" vertex2="Tube_Q2_Ring_v353" vertex3="Tube_Q2_Ring_v349"/>
+             <triangular vertex1="Tube_Q2_Ring_v228" vertex2="Tube_Q2_Ring_v353" vertex3="Tube_Q2_Ring_v233"/>
+             <triangular vertex1="Tube_Q2_Ring_v203" vertex2="Tube_Q2_Ring_v315" vertex3="Tube_Q2_Ring_v319"/>
+             <triangular vertex1="Tube_Q2_Ring_v352" vertex2="Tube_Q2_Ring_v314" vertex3="Tube_Q2_Ring_v310"/>
+             <triangular vertex1="Tube_Q2_Ring_v319" vertex2="Tube_Q2_Ring_v315" vertex3="Tube_Q2_Ring_v316"/>
+             <triangular vertex1="Tube_Q2_Ring_v316" vertex2="Tube_Q2_Ring_v315" vertex3="Tube_Q2_Ring_v311"/>
+             <triangular vertex1="Tube_Q2_Ring_v354" vertex2="Tube_Q2_Ring_v317" vertex3="Tube_Q2_Ring_v352"/>
+             <triangular vertex1="Tube_Q2_Ring_v303" vertex2="Tube_Q2_Ring_v353" vertex3="Tube_Q2_Ring_v299"/>
+             <triangular vertex1="Tube_Q2_Ring_v210" vertex2="Tube_Q2_Ring_v321" vertex3="Tube_Q2_Ring_v211"/>
+             <triangular vertex1="Tube_Q2_Ring_v352" vertex2="Tube_Q2_Ring_v317" vertex3="Tube_Q2_Ring_v314"/>
+             <triangular vertex1="Tube_Q2_Ring_v353" vertex2="Tube_Q2_Ring_v355" vertex3="Tube_Q2_Ring_v233"/>
+             <triangular vertex1="Tube_Q2_Ring_v303" vertex2="Tube_Q2_Ring_v355" vertex3="Tube_Q2_Ring_v353"/>
+             <triangular vertex1="Tube_Q2_Ring_v356" vertex2="Tube_Q2_Ring_v202" vertex3="Tube_Q2_Ring_v354"/>
+             <triangular vertex1="Tube_Q2_Ring_v233" vertex2="Tube_Q2_Ring_v355" vertex3="Tube_Q2_Ring_v238"/>
+             <triangular vertex1="Tube_Q2_Ring_v202" vertex2="Tube_Q2_Ring_v320" vertex3="Tube_Q2_Ring_v354"/>
+             <triangular vertex1="Tube_Q2_Ring_v357" vertex2="Tube_Q2_Ring_v202" vertex3="Tube_Q2_Ring_v356"/>
+             <triangular vertex1="Tube_Q2_Ring_v354" vertex2="Tube_Q2_Ring_v320" vertex3="Tube_Q2_Ring_v317"/>
+             <triangular vertex1="Tube_Q2_Ring_v139" vertex2="Tube_Q2_Ring_v202" vertex3="Tube_Q2_Ring_v357"/>
+             <triangular vertex1="Tube_Q2_Ring_v306" vertex2="Tube_Q2_Ring_v355" vertex3="Tube_Q2_Ring_v303"/>
+             <triangular vertex1="Tube_Q2_Ring_v325" vertex2="Tube_Q2_Ring_v321" vertex3="Tube_Q2_Ring_v210"/>
+             <triangular vertex1="Tube_Q2_Ring_v208" vertex2="Tube_Q2_Ring_v326" vertex3="Tube_Q2_Ring_v209"/>
+             <triangular vertex1="Tube_Q2_Ring_v238" vertex2="Tube_Q2_Ring_v358" vertex3="Tube_Q2_Ring_v236"/>
+             <triangular vertex1="Tube_Q2_Ring_v355" vertex2="Tube_Q2_Ring_v358" vertex3="Tube_Q2_Ring_v238"/>
+             <triangular vertex1="Tube_Q2_Ring_v323" vertex2="Tube_Q2_Ring_v326" vertex3="Tube_Q2_Ring_v208"/>
+             <triangular vertex1="Tube_Q2_Ring_v306" vertex2="Tube_Q2_Ring_v358" vertex3="Tube_Q2_Ring_v355"/>
+             <triangular vertex1="Tube_Q2_Ring_v308" vertex2="Tube_Q2_Ring_v358" vertex3="Tube_Q2_Ring_v306"/>
+             <triangular vertex1="Tube_Q2_Ring_v325" vertex2="Tube_Q2_Ring_v328" vertex3="Tube_Q2_Ring_v321"/>
+             <triangular vertex1="Tube_Q2_Ring_v313" vertex2="Tube_Q2_Ring_v359" vertex3="Tube_Q2_Ring_v308"/>
+             <triangular vertex1="Tube_Q2_Ring_v329" vertex2="Tube_Q2_Ring_v328" vertex3="Tube_Q2_Ring_v325"/>
+             <triangular vertex1="Tube_Q2_Ring_v230" vertex2="Tube_Q2_Ring_v359" vertex3="Tube_Q2_Ring_v206"/>
+             <triangular vertex1="Tube_Q2_Ring_v331" vertex2="Tube_Q2_Ring_v330" vertex3="Tube_Q2_Ring_v323"/>
+             <triangular vertex1="Tube_Q2_Ring_v206" vertex2="Tube_Q2_Ring_v359" vertex3="Tube_Q2_Ring_v205"/>
+             <triangular vertex1="Tube_Q2_Ring_v308" vertex2="Tube_Q2_Ring_v359" vertex3="Tube_Q2_Ring_v358"/>
+             <triangular vertex1="Tube_Q2_Ring_v236" vertex2="Tube_Q2_Ring_v359" vertex3="Tube_Q2_Ring_v230"/>
+             <triangular vertex1="Tube_Q2_Ring_v358" vertex2="Tube_Q2_Ring_v359" vertex3="Tube_Q2_Ring_v236"/>
+             <triangular vertex1="Tube_Q2_Ring_v335" vertex2="Tube_Q2_Ring_v336" vertex3="Tube_Q2_Ring_v329"/>
+             <triangular vertex1="Tube_Q2_Ring_v205" vertex2="Tube_Q2_Ring_v359" vertex3="Tube_Q2_Ring_v313"/>
+             <triangular vertex1="Tube_Q2_Ring_v323" vertex2="Tube_Q2_Ring_v330" vertex3="Tube_Q2_Ring_v326"/>
+             <triangular vertex1="Tube_Q2_Ring_v329" vertex2="Tube_Q2_Ring_v336" vertex3="Tube_Q2_Ring_v328"/>
+             <triangular vertex1="Tube_Q2_Ring_v331" vertex2="Tube_Q2_Ring_v337" vertex3="Tube_Q2_Ring_v330"/>
+             <triangular vertex1="Tube_Q2_Ring_v338" vertex2="Tube_Q2_Ring_v341" vertex3="Tube_Q2_Ring_v335"/>
+             <triangular vertex1="Tube_Q2_Ring_v334" vertex2="Tube_Q2_Ring_v337" vertex3="Tube_Q2_Ring_v331"/>
+             <triangular vertex1="Tube_Q2_Ring_v335" vertex2="Tube_Q2_Ring_v341" vertex3="Tube_Q2_Ring_v336"/>
+             <triangular vertex1="Tube_Q2_Ring_v296" vertex2="Tube_Q2_Ring_v298" vertex3="Tube_Q2_Ring_v338"/>
+             <triangular vertex1="Tube_Q2_Ring_v292" vertex2="Tube_Q2_Ring_v293" vertex3="Tube_Q2_Ring_v334"/>
+             <triangular vertex1="Tube_Q2_Ring_v334" vertex2="Tube_Q2_Ring_v293" vertex3="Tube_Q2_Ring_v337"/>
+             <triangular vertex1="Tube_Q2_Ring_v338" vertex2="Tube_Q2_Ring_v298" vertex3="Tube_Q2_Ring_v341"/>
+             <triangular vertex1="Tube_Q2_Ring_v360" vertex2="Tube_Q2_Ring_v361" vertex3="Tube_Q2_Ring_v240"/>
+             <triangular vertex1="Tube_Q2_Ring_v362" vertex2="Tube_Q2_Ring_v363" vertex3="Tube_Q2_Ring_v364"/>
+             <triangular vertex1="Tube_Q2_Ring_v365" vertex2="Tube_Q2_Ring_v170" vertex3="Tube_Q2_Ring_v366"/>
+             <triangular vertex1="Tube_Q2_Ring_v367" vertex2="Tube_Q2_Ring_v360" vertex3="Tube_Q2_Ring_v239"/>
+             <triangular vertex1="Tube_Q2_Ring_v362" vertex2="Tube_Q2_Ring_v364" vertex3="Tube_Q2_Ring_v368"/>
+             <triangular vertex1="Tube_Q2_Ring_v367" vertex2="Tube_Q2_Ring_v369" vertex3="Tube_Q2_Ring_v360"/>
+             <triangular vertex1="Tube_Q2_Ring_v367" vertex2="Tube_Q2_Ring_v239" vertex3="Tube_Q2_Ring_v231"/>
+             <triangular vertex1="Tube_Q2_Ring_v370" vertex2="Tube_Q2_Ring_v170" vertex3="Tube_Q2_Ring_v365"/>
+             <triangular vertex1="Tube_Q2_Ring_v367" vertex2="Tube_Q2_Ring_v371" vertex3="Tube_Q2_Ring_v369"/>
+             <triangular vertex1="Tube_Q2_Ring_v372" vertex2="Tube_Q2_Ring_v363" vertex3="Tube_Q2_Ring_v362"/>
+             <triangular vertex1="Tube_Q2_Ring_v372" vertex2="Tube_Q2_Ring_v373" vertex3="Tube_Q2_Ring_v363"/>
+             <triangular vertex1="Tube_Q2_Ring_v374" vertex2="Tube_Q2_Ring_v170" vertex3="Tube_Q2_Ring_v370"/>
+             <triangular vertex1="Tube_Q2_Ring_v375" vertex2="Tube_Q2_Ring_v376" vertex3="Tube_Q2_Ring_v377"/>
+             <triangular vertex1="Tube_Q2_Ring_v378" vertex2="Tube_Q2_Ring_v379" vertex3="Tube_Q2_Ring_v373"/>
+             <triangular vertex1="Tube_Q2_Ring_v380" vertex2="Tube_Q2_Ring_v367" vertex3="Tube_Q2_Ring_v231"/>
+             <triangular vertex1="Tube_Q2_Ring_v378" vertex2="Tube_Q2_Ring_v373" vertex3="Tube_Q2_Ring_v372"/>
+             <triangular vertex1="Tube_Q2_Ring_v380" vertex2="Tube_Q2_Ring_v371" vertex3="Tube_Q2_Ring_v367"/>
+             <triangular vertex1="Tube_Q2_Ring_v381" vertex2="Tube_Q2_Ring_v170" vertex3="Tube_Q2_Ring_v374"/>
+             <triangular vertex1="Tube_Q2_Ring_v382" vertex2="Tube_Q2_Ring_v377" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v380" vertex2="Tube_Q2_Ring_v231" vertex3="Tube_Q2_Ring_v226"/>
+             <triangular vertex1="Tube_Q2_Ring_v382" vertex2="Tube_Q2_Ring_v375" vertex3="Tube_Q2_Ring_v377"/>
+             <triangular vertex1="Tube_Q2_Ring_v380" vertex2="Tube_Q2_Ring_v383" vertex3="Tube_Q2_Ring_v371"/>
+             <triangular vertex1="Tube_Q2_Ring_v384" vertex2="Tube_Q2_Ring_v385" vertex3="Tube_Q2_Ring_v379"/>
+             <triangular vertex1="Tube_Q2_Ring_v381" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v386" vertex2="Tube_Q2_Ring_v383" vertex3="Tube_Q2_Ring_v380"/>
+             <triangular vertex1="Tube_Q2_Ring_v387" vertex2="Tube_Q2_Ring_v382" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v386" vertex2="Tube_Q2_Ring_v388" vertex3="Tube_Q2_Ring_v383"/>
+             <triangular vertex1="Tube_Q2_Ring_v384" vertex2="Tube_Q2_Ring_v379" vertex3="Tube_Q2_Ring_v378"/>
+             <triangular vertex1="Tube_Q2_Ring_v389" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v381"/>
+             <triangular vertex1="Tube_Q2_Ring_v390" vertex2="Tube_Q2_Ring_v391" vertex3="Tube_Q2_Ring_v392"/>
+             <triangular vertex1="Tube_Q2_Ring_v393" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v389"/>
+             <triangular vertex1="Tube_Q2_Ring_v386" vertex2="Tube_Q2_Ring_v380" vertex3="Tube_Q2_Ring_v226"/>
+             <triangular vertex1="Tube_Q2_Ring_v390" vertex2="Tube_Q2_Ring_v392" vertex3="Tube_Q2_Ring_v394"/>
+             <triangular vertex1="Tube_Q2_Ring_v386" vertex2="Tube_Q2_Ring_v226" vertex3="Tube_Q2_Ring_v223"/>
+             <triangular vertex1="Tube_Q2_Ring_v390" vertex2="Tube_Q2_Ring_v394" vertex3="Tube_Q2_Ring_v385"/>
+             <triangular vertex1="Tube_Q2_Ring_v395" vertex2="Tube_Q2_Ring_v387" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v390" vertex2="Tube_Q2_Ring_v385" vertex3="Tube_Q2_Ring_v384"/>
+             <triangular vertex1="Tube_Q2_Ring_v396" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v393"/>
+             <triangular vertex1="Tube_Q2_Ring_v397" vertex2="Tube_Q2_Ring_v395" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v398" vertex2="Tube_Q2_Ring_v399" vertex3="Tube_Q2_Ring_v388"/>
+             <triangular vertex1="Tube_Q2_Ring_v400" vertex2="Tube_Q2_Ring_v401" vertex3="Tube_Q2_Ring_v402"/>
+             <triangular vertex1="Tube_Q2_Ring_v403" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v396"/>
+             <triangular vertex1="Tube_Q2_Ring_v404" vertex2="Tube_Q2_Ring_v397" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v398" vertex2="Tube_Q2_Ring_v388" vertex3="Tube_Q2_Ring_v386"/>
+             <triangular vertex1="Tube_Q2_Ring_v398" vertex2="Tube_Q2_Ring_v223" vertex3="Tube_Q2_Ring_v220"/>
+             <triangular vertex1="Tube_Q2_Ring_v405" vertex2="Tube_Q2_Ring_v406" vertex3="Tube_Q2_Ring_v166"/>
+             <triangular vertex1="Tube_Q2_Ring_v398" vertex2="Tube_Q2_Ring_v386" vertex3="Tube_Q2_Ring_v223"/>
+             <triangular vertex1="Tube_Q2_Ring_v400" vertex2="Tube_Q2_Ring_v407" vertex3="Tube_Q2_Ring_v401"/>
+             <triangular vertex1="Tube_Q2_Ring_v408" vertex2="Tube_Q2_Ring_v404" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v405" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v403"/>
+             <triangular vertex1="Tube_Q2_Ring_v409" vertex2="Tube_Q2_Ring_v410" vertex3="Tube_Q2_Ring_v399"/>
+             <triangular vertex1="Tube_Q2_Ring_v409" vertex2="Tube_Q2_Ring_v399" vertex3="Tube_Q2_Ring_v398"/>
+             <triangular vertex1="Tube_Q2_Ring_v409" vertex2="Tube_Q2_Ring_v220" vertex3="Tube_Q2_Ring_v225"/>
+             <triangular vertex1="Tube_Q2_Ring_v411" vertex2="Tube_Q2_Ring_v412" vertex3="Tube_Q2_Ring_v407"/>
+             <triangular vertex1="Tube_Q2_Ring_v409" vertex2="Tube_Q2_Ring_v398" vertex3="Tube_Q2_Ring_v220"/>
+             <triangular vertex1="Tube_Q2_Ring_v413" vertex2="Tube_Q2_Ring_v414" vertex3="Tube_Q2_Ring_v415"/>
+             <triangular vertex1="Tube_Q2_Ring_v416" vertex2="Tube_Q2_Ring_v417" vertex3="Tube_Q2_Ring_v410"/>
+             <triangular vertex1="Tube_Q2_Ring_v416" vertex2="Tube_Q2_Ring_v418" vertex3="Tube_Q2_Ring_v419"/>
+             <triangular vertex1="Tube_Q2_Ring_v413" vertex2="Tube_Q2_Ring_v420" vertex3="Tube_Q2_Ring_v414"/>
+             <triangular vertex1="Tube_Q2_Ring_v416" vertex2="Tube_Q2_Ring_v227" vertex3="Tube_Q2_Ring_v418"/>
+             <triangular vertex1="Tube_Q2_Ring_v416" vertex2="Tube_Q2_Ring_v225" vertex3="Tube_Q2_Ring_v227"/>
+             <triangular vertex1="Tube_Q2_Ring_v411" vertex2="Tube_Q2_Ring_v407" vertex3="Tube_Q2_Ring_v400"/>
+             <triangular vertex1="Tube_Q2_Ring_v416" vertex2="Tube_Q2_Ring_v409" vertex3="Tube_Q2_Ring_v225"/>
+             <triangular vertex1="Tube_Q2_Ring_v416" vertex2="Tube_Q2_Ring_v419" vertex3="Tube_Q2_Ring_v417"/>
+             <triangular vertex1="Tube_Q2_Ring_v416" vertex2="Tube_Q2_Ring_v410" vertex3="Tube_Q2_Ring_v409"/>
+             <triangular vertex1="Tube_Q2_Ring_v421" vertex2="Tube_Q2_Ring_v422" vertex3="Tube_Q2_Ring_v412"/>
+             <triangular vertex1="Tube_Q2_Ring_v421" vertex2="Tube_Q2_Ring_v423" vertex3="Tube_Q2_Ring_v422"/>
+             <triangular vertex1="Tube_Q2_Ring_v424" vertex2="Tube_Q2_Ring_v366" vertex3="Tube_Q2_Ring_v420"/>
+             <triangular vertex1="Tube_Q2_Ring_v421" vertex2="Tube_Q2_Ring_v412" vertex3="Tube_Q2_Ring_v411"/>
+             <triangular vertex1="Tube_Q2_Ring_v424" vertex2="Tube_Q2_Ring_v420" vertex3="Tube_Q2_Ring_v413"/>
+             <triangular vertex1="Tube_Q2_Ring_v425" vertex2="Tube_Q2_Ring_v426" vertex3="Tube_Q2_Ring_v427"/>
+             <triangular vertex1="Tube_Q2_Ring_v425" vertex2="Tube_Q2_Ring_v428" vertex3="Tube_Q2_Ring_v426"/>
+             <triangular vertex1="Tube_Q2_Ring_v429" vertex2="Tube_Q2_Ring_v423" vertex3="Tube_Q2_Ring_v421"/>
+             <triangular vertex1="Tube_Q2_Ring_v425" vertex2="Tube_Q2_Ring_v430" vertex3="Tube_Q2_Ring_v428"/>
+             <triangular vertex1="Tube_Q2_Ring_v431" vertex2="Tube_Q2_Ring_v365" vertex3="Tube_Q2_Ring_v366"/>
+             <triangular vertex1="Tube_Q2_Ring_v425" vertex2="Tube_Q2_Ring_v432" vertex3="Tube_Q2_Ring_v430"/>
+             <triangular vertex1="Tube_Q2_Ring_v431" vertex2="Tube_Q2_Ring_v366" vertex3="Tube_Q2_Ring_v424"/>
+             <triangular vertex1="Tube_Q2_Ring_v425" vertex2="Tube_Q2_Ring_v433" vertex3="Tube_Q2_Ring_v432"/>
+             <triangular vertex1="Tube_Q2_Ring_v369" vertex2="Tube_Q2_Ring_v434" vertex3="Tube_Q2_Ring_v423"/>
+             <triangular vertex1="Tube_Q2_Ring_v435" vertex2="Tube_Q2_Ring_v370" vertex3="Tube_Q2_Ring_v365"/>
+             <triangular vertex1="Tube_Q2_Ring_v369" vertex2="Tube_Q2_Ring_v423" vertex3="Tube_Q2_Ring_v429"/>
+             <triangular vertex1="Tube_Q2_Ring_v435" vertex2="Tube_Q2_Ring_v374" vertex3="Tube_Q2_Ring_v370"/>
+             <triangular vertex1="Tube_Q2_Ring_v166" vertex2="Tube_Q2_Ring_v427" vertex3="Tube_Q2_Ring_v408"/>
+             <triangular vertex1="Tube_Q2_Ring_v166" vertex2="Tube_Q2_Ring_v408" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v166" vertex2="Tube_Q2_Ring_v425" vertex3="Tube_Q2_Ring_v427"/>
+             <triangular vertex1="Tube_Q2_Ring_v435" vertex2="Tube_Q2_Ring_v365" vertex3="Tube_Q2_Ring_v431"/>
+             <triangular vertex1="Tube_Q2_Ring_v371" vertex2="Tube_Q2_Ring_v434" vertex3="Tube_Q2_Ring_v369"/>
+             <triangular vertex1="Tube_Q2_Ring_v371" vertex2="Tube_Q2_Ring_v368" vertex3="Tube_Q2_Ring_v434"/>
+             <triangular vertex1="Tube_Q2_Ring_v436" vertex2="Tube_Q2_Ring_v374" vertex3="Tube_Q2_Ring_v435"/>
+             <triangular vertex1="Tube_Q2_Ring_v383" vertex2="Tube_Q2_Ring_v362" vertex3="Tube_Q2_Ring_v368"/>
+             <triangular vertex1="Tube_Q2_Ring_v364" vertex2="Tube_Q2_Ring_v381" vertex3="Tube_Q2_Ring_v374"/>
+             <triangular vertex1="Tube_Q2_Ring_v364" vertex2="Tube_Q2_Ring_v389" vertex3="Tube_Q2_Ring_v381"/>
+             <triangular vertex1="Tube_Q2_Ring_v383" vertex2="Tube_Q2_Ring_v368" vertex3="Tube_Q2_Ring_v371"/>
+             <triangular vertex1="Tube_Q2_Ring_v364" vertex2="Tube_Q2_Ring_v374" vertex3="Tube_Q2_Ring_v436"/>
+             <triangular vertex1="Tube_Q2_Ring_v388" vertex2="Tube_Q2_Ring_v372" vertex3="Tube_Q2_Ring_v362"/>
+             <triangular vertex1="Tube_Q2_Ring_v363" vertex2="Tube_Q2_Ring_v389" vertex3="Tube_Q2_Ring_v364"/>
+             <triangular vertex1="Tube_Q2_Ring_v388" vertex2="Tube_Q2_Ring_v362" vertex3="Tube_Q2_Ring_v383"/>
+             <triangular vertex1="Tube_Q2_Ring_v399" vertex2="Tube_Q2_Ring_v378" vertex3="Tube_Q2_Ring_v372"/>
+             <triangular vertex1="Tube_Q2_Ring_v373" vertex2="Tube_Q2_Ring_v389" vertex3="Tube_Q2_Ring_v363"/>
+             <triangular vertex1="Tube_Q2_Ring_v399" vertex2="Tube_Q2_Ring_v372" vertex3="Tube_Q2_Ring_v388"/>
+             <triangular vertex1="Tube_Q2_Ring_v373" vertex2="Tube_Q2_Ring_v393" vertex3="Tube_Q2_Ring_v389"/>
+             <triangular vertex1="Tube_Q2_Ring_v410" vertex2="Tube_Q2_Ring_v378" vertex3="Tube_Q2_Ring_v399"/>
+             <triangular vertex1="Tube_Q2_Ring_v410" vertex2="Tube_Q2_Ring_v384" vertex3="Tube_Q2_Ring_v378"/>
+             <triangular vertex1="Tube_Q2_Ring_v379" vertex2="Tube_Q2_Ring_v393" vertex3="Tube_Q2_Ring_v373"/>
+             <triangular vertex1="Tube_Q2_Ring_v417" vertex2="Tube_Q2_Ring_v384" vertex3="Tube_Q2_Ring_v410"/>
+             <triangular vertex1="Tube_Q2_Ring_v417" vertex2="Tube_Q2_Ring_v419" vertex3="Tube_Q2_Ring_v391"/>
+             <triangular vertex1="Tube_Q2_Ring_v417" vertex2="Tube_Q2_Ring_v391" vertex3="Tube_Q2_Ring_v390"/>
+             <triangular vertex1="Tube_Q2_Ring_v379" vertex2="Tube_Q2_Ring_v396" vertex3="Tube_Q2_Ring_v393"/>
+             <triangular vertex1="Tube_Q2_Ring_v417" vertex2="Tube_Q2_Ring_v390" vertex3="Tube_Q2_Ring_v384"/>
+             <triangular vertex1="Tube_Q2_Ring_v385" vertex2="Tube_Q2_Ring_v396" vertex3="Tube_Q2_Ring_v379"/>
+             <triangular vertex1="Tube_Q2_Ring_v437" vertex2="Tube_Q2_Ring_v219" vertex3="Tube_Q2_Ring_v243"/>
+             <triangular vertex1="Tube_Q2_Ring_v385" vertex2="Tube_Q2_Ring_v403" vertex3="Tube_Q2_Ring_v396"/>
+             <triangular vertex1="Tube_Q2_Ring_v394" vertex2="Tube_Q2_Ring_v392" vertex3="Tube_Q2_Ring_v406"/>
+             <triangular vertex1="Tube_Q2_Ring_v437" vertex2="Tube_Q2_Ring_v402" vertex3="Tube_Q2_Ring_v438"/>
+             <triangular vertex1="Tube_Q2_Ring_v394" vertex2="Tube_Q2_Ring_v403" vertex3="Tube_Q2_Ring_v385"/>
+             <triangular vertex1="Tube_Q2_Ring_v437" vertex2="Tube_Q2_Ring_v438" vertex3="Tube_Q2_Ring_v219"/>
+             <triangular vertex1="Tube_Q2_Ring_v394" vertex2="Tube_Q2_Ring_v406" vertex3="Tube_Q2_Ring_v405"/>
+             <triangular vertex1="Tube_Q2_Ring_v394" vertex2="Tube_Q2_Ring_v405" vertex3="Tube_Q2_Ring_v403"/>
+             <triangular vertex1="Tube_Q2_Ring_v407" vertex2="Tube_Q2_Ring_v413" vertex3="Tube_Q2_Ring_v415"/>
+             <triangular vertex1="Tube_Q2_Ring_v407" vertex2="Tube_Q2_Ring_v415" vertex3="Tube_Q2_Ring_v401"/>
+             <triangular vertex1="Tube_Q2_Ring_v437" vertex2="Tube_Q2_Ring_v400" vertex3="Tube_Q2_Ring_v402"/>
+             <triangular vertex1="Tube_Q2_Ring_v439" vertex2="Tube_Q2_Ring_v400" vertex3="Tube_Q2_Ring_v437"/>
+             <triangular vertex1="Tube_Q2_Ring_v439" vertex2="Tube_Q2_Ring_v243" vertex3="Tube_Q2_Ring_v242"/>
+             <triangular vertex1="Tube_Q2_Ring_v439" vertex2="Tube_Q2_Ring_v411" vertex3="Tube_Q2_Ring_v400"/>
+             <triangular vertex1="Tube_Q2_Ring_v412" vertex2="Tube_Q2_Ring_v413" vertex3="Tube_Q2_Ring_v407"/>
+             <triangular vertex1="Tube_Q2_Ring_v439" vertex2="Tube_Q2_Ring_v437" vertex3="Tube_Q2_Ring_v243"/>
+             <triangular vertex1="Tube_Q2_Ring_v412" vertex2="Tube_Q2_Ring_v424" vertex3="Tube_Q2_Ring_v413"/>
+             <triangular vertex1="Tube_Q2_Ring_v440" vertex2="Tube_Q2_Ring_v439" vertex3="Tube_Q2_Ring_v242"/>
+             <triangular vertex1="Tube_Q2_Ring_v440" vertex2="Tube_Q2_Ring_v242" vertex3="Tube_Q2_Ring_v241"/>
+             <triangular vertex1="Tube_Q2_Ring_v422" vertex2="Tube_Q2_Ring_v424" vertex3="Tube_Q2_Ring_v412"/>
+             <triangular vertex1="Tube_Q2_Ring_v422" vertex2="Tube_Q2_Ring_v435" vertex3="Tube_Q2_Ring_v431"/>
+             <triangular vertex1="Tube_Q2_Ring_v440" vertex2="Tube_Q2_Ring_v411" vertex3="Tube_Q2_Ring_v439"/>
+             <triangular vertex1="Tube_Q2_Ring_v422" vertex2="Tube_Q2_Ring_v431" vertex3="Tube_Q2_Ring_v424"/>
+             <triangular vertex1="Tube_Q2_Ring_v440" vertex2="Tube_Q2_Ring_v421" vertex3="Tube_Q2_Ring_v411"/>
+             <triangular vertex1="Tube_Q2_Ring_v440" vertex2="Tube_Q2_Ring_v429" vertex3="Tube_Q2_Ring_v421"/>
+             <triangular vertex1="Tube_Q2_Ring_v423" vertex2="Tube_Q2_Ring_v435" vertex3="Tube_Q2_Ring_v422"/>
+             <triangular vertex1="Tube_Q2_Ring_v361" vertex2="Tube_Q2_Ring_v429" vertex3="Tube_Q2_Ring_v440"/>
+             <triangular vertex1="Tube_Q2_Ring_v361" vertex2="Tube_Q2_Ring_v241" vertex3="Tube_Q2_Ring_v240"/>
+             <triangular vertex1="Tube_Q2_Ring_v235" vertex2="Tube_Q2_Ring_v418" vertex3="Tube_Q2_Ring_v227"/>
+             <triangular vertex1="Tube_Q2_Ring_v434" vertex2="Tube_Q2_Ring_v435" vertex3="Tube_Q2_Ring_v423"/>
+             <triangular vertex1="Tube_Q2_Ring_v434" vertex2="Tube_Q2_Ring_v436" vertex3="Tube_Q2_Ring_v435"/>
+             <triangular vertex1="Tube_Q2_Ring_v361" vertex2="Tube_Q2_Ring_v440" vertex3="Tube_Q2_Ring_v241"/>
+             <triangular vertex1="Tube_Q2_Ring_v420" vertex2="Tube_Q2_Ring_v170" vertex3="Tube_Q2_Ring_v414"/>
+             <triangular vertex1="Tube_Q2_Ring_v360" vertex2="Tube_Q2_Ring_v240" vertex3="Tube_Q2_Ring_v239"/>
+             <triangular vertex1="Tube_Q2_Ring_v360" vertex2="Tube_Q2_Ring_v429" vertex3="Tube_Q2_Ring_v361"/>
+             <triangular vertex1="Tube_Q2_Ring_v368" vertex2="Tube_Q2_Ring_v436" vertex3="Tube_Q2_Ring_v434"/>
+             <triangular vertex1="Tube_Q2_Ring_v366" vertex2="Tube_Q2_Ring_v170" vertex3="Tube_Q2_Ring_v420"/>
+             <triangular vertex1="Tube_Q2_Ring_v360" vertex2="Tube_Q2_Ring_v369" vertex3="Tube_Q2_Ring_v429"/>
+             <triangular vertex1="Tube_Q2_Ring_v368" vertex2="Tube_Q2_Ring_v364" vertex3="Tube_Q2_Ring_v436"/>
+             <triangular vertex1="Tube_Q2_Ring_v406" vertex2="Tube_Q2_Ring_v281" vertex3="Tube_Q2_Ring_v166"/>
+             <triangular vertex1="Tube_Q2_Ring_v441" vertex2="Tube_Q2_Ring_v281" vertex3="Tube_Q2_Ring_v406"/>
+             <triangular vertex1="Tube_Q2_Ring_v392" vertex2="Tube_Q2_Ring_v441" vertex3="Tube_Q2_Ring_v406"/>
+             <triangular vertex1="Tube_Q2_Ring_v442" vertex2="Tube_Q2_Ring_v441" vertex3="Tube_Q2_Ring_v392"/>
+             <triangular vertex1="Tube_Q2_Ring_v391" vertex2="Tube_Q2_Ring_v442" vertex3="Tube_Q2_Ring_v392"/>
+             <triangular vertex1="Tube_Q2_Ring_v443" vertex2="Tube_Q2_Ring_v442" vertex3="Tube_Q2_Ring_v391"/>
+             <triangular vertex1="Tube_Q2_Ring_v419" vertex2="Tube_Q2_Ring_v443" vertex3="Tube_Q2_Ring_v391"/>
+             <triangular vertex1="Tube_Q2_Ring_v444" vertex2="Tube_Q2_Ring_v419" vertex3="Tube_Q2_Ring_v418"/>
+             <triangular vertex1="Tube_Q2_Ring_v444" vertex2="Tube_Q2_Ring_v443" vertex3="Tube_Q2_Ring_v419"/>
+             <triangular vertex1="Tube_Q2_Ring_v244" vertex2="Tube_Q2_Ring_v418" vertex3="Tube_Q2_Ring_v235"/>
+             <triangular vertex1="Tube_Q2_Ring_v244" vertex2="Tube_Q2_Ring_v444" vertex3="Tube_Q2_Ring_v418"/>
+             <triangular vertex1="Tube_Q2_Ring_v280" vertex2="Tube_Q2_Ring_v414" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v280" vertex2="Tube_Q2_Ring_v445" vertex3="Tube_Q2_Ring_v414"/>
+             <triangular vertex1="Tube_Q2_Ring_v445" vertex2="Tube_Q2_Ring_v415" vertex3="Tube_Q2_Ring_v414"/>
+             <triangular vertex1="Tube_Q2_Ring_v445" vertex2="Tube_Q2_Ring_v446" vertex3="Tube_Q2_Ring_v415"/>
+             <triangular vertex1="Tube_Q2_Ring_v446" vertex2="Tube_Q2_Ring_v401" vertex3="Tube_Q2_Ring_v415"/>
+             <triangular vertex1="Tube_Q2_Ring_v446" vertex2="Tube_Q2_Ring_v447" vertex3="Tube_Q2_Ring_v401"/>
+             <triangular vertex1="Tube_Q2_Ring_v447" vertex2="Tube_Q2_Ring_v402" vertex3="Tube_Q2_Ring_v401"/>
+             <triangular vertex1="Tube_Q2_Ring_v402" vertex2="Tube_Q2_Ring_v448" vertex3="Tube_Q2_Ring_v438"/>
+             <triangular vertex1="Tube_Q2_Ring_v447" vertex2="Tube_Q2_Ring_v448" vertex3="Tube_Q2_Ring_v402"/>
+             <triangular vertex1="Tube_Q2_Ring_v438" vertex2="Tube_Q2_Ring_v218" vertex3="Tube_Q2_Ring_v219"/>
+             <triangular vertex1="Tube_Q2_Ring_v448" vertex2="Tube_Q2_Ring_v218" vertex3="Tube_Q2_Ring_v438"/>
+             <triangular vertex1="Tube_Q2_Ring_v251" vertex2="Tube_Q2_Ring_v139" vertex3="Tube_Q2_Ring_v277"/>
+             <triangular vertex1="Tube_Q2_Ring_v277" vertex2="Tube_Q2_Ring_v357" vertex3="Tube_Q2_Ring_v275"/>
+             <triangular vertex1="Tube_Q2_Ring_v275" vertex2="Tube_Q2_Ring_v357" vertex3="Tube_Q2_Ring_v273"/>
+             <triangular vertex1="Tube_Q2_Ring_v139" vertex2="Tube_Q2_Ring_v357" vertex3="Tube_Q2_Ring_v277"/>
+             <triangular vertex1="Tube_Q2_Ring_v273" vertex2="Tube_Q2_Ring_v356" vertex3="Tube_Q2_Ring_v271"/>
+             <triangular vertex1="Tube_Q2_Ring_v357" vertex2="Tube_Q2_Ring_v356" vertex3="Tube_Q2_Ring_v273"/>
+             <triangular vertex1="Tube_Q2_Ring_v271" vertex2="Tube_Q2_Ring_v354" vertex3="Tube_Q2_Ring_v269"/>
+             <triangular vertex1="Tube_Q2_Ring_v356" vertex2="Tube_Q2_Ring_v354" vertex3="Tube_Q2_Ring_v271"/>
+             <triangular vertex1="Tube_Q2_Ring_v269" vertex2="Tube_Q2_Ring_v352" vertex3="Tube_Q2_Ring_v266"/>
+             <triangular vertex1="Tube_Q2_Ring_v354" vertex2="Tube_Q2_Ring_v352" vertex3="Tube_Q2_Ring_v269"/>
+             <triangular vertex1="Tube_Q2_Ring_v352" vertex2="Tube_Q2_Ring_v351" vertex3="Tube_Q2_Ring_v266"/>
+             <triangular vertex1="Tube_Q2_Ring_v351" vertex2="Tube_Q2_Ring_v350" vertex3="Tube_Q2_Ring_v266"/>
+             <triangular vertex1="Tube_Q2_Ring_v350" vertex2="Tube_Q2_Ring_v348" vertex3="Tube_Q2_Ring_v266"/>
+             <triangular vertex1="Tube_Q2_Ring_v266" vertex2="Tube_Q2_Ring_v347" vertex3="Tube_Q2_Ring_v262"/>
+             <triangular vertex1="Tube_Q2_Ring_v348" vertex2="Tube_Q2_Ring_v347" vertex3="Tube_Q2_Ring_v266"/>
+             <triangular vertex1="Tube_Q2_Ring_v347" vertex2="Tube_Q2_Ring_v345" vertex3="Tube_Q2_Ring_v262"/>
+             <triangular vertex1="Tube_Q2_Ring_v345" vertex2="Tube_Q2_Ring_v344" vertex3="Tube_Q2_Ring_v262"/>
+             <triangular vertex1="Tube_Q2_Ring_v344" vertex2="Tube_Q2_Ring_v343" vertex3="Tube_Q2_Ring_v262"/>
+             <triangular vertex1="Tube_Q2_Ring_v343" vertex2="Tube_Q2_Ring_v340" vertex3="Tube_Q2_Ring_v262"/>
+             <triangular vertex1="Tube_Q2_Ring_v262" vertex2="Tube_Q2_Ring_v333" vertex3="Tube_Q2_Ring_v258"/>
+             <triangular vertex1="Tube_Q2_Ring_v340" vertex2="Tube_Q2_Ring_v333" vertex3="Tube_Q2_Ring_v262"/>
+             <triangular vertex1="Tube_Q2_Ring_v258" vertex2="Tube_Q2_Ring_v322" vertex3="Tube_Q2_Ring_v255"/>
+             <triangular vertex1="Tube_Q2_Ring_v333" vertex2="Tube_Q2_Ring_v322" vertex3="Tube_Q2_Ring_v258"/>
+             <triangular vertex1="Tube_Q2_Ring_v255" vertex2="Tube_Q2_Ring_v324" vertex3="Tube_Q2_Ring_v256"/>
+             <triangular vertex1="Tube_Q2_Ring_v256" vertex2="Tube_Q2_Ring_v324" vertex3="Tube_Q2_Ring_v260"/>
+             <triangular vertex1="Tube_Q2_Ring_v322" vertex2="Tube_Q2_Ring_v324" vertex3="Tube_Q2_Ring_v255"/>
+             <triangular vertex1="Tube_Q2_Ring_v260" vertex2="Tube_Q2_Ring_v142" vertex3="Tube_Q2_Ring_v264"/>
+             <triangular vertex1="Tube_Q2_Ring_v264" vertex2="Tube_Q2_Ring_v142" vertex3="Tube_Q2_Ring_v252"/>
+             <triangular vertex1="Tube_Q2_Ring_v324" vertex2="Tube_Q2_Ring_v142" vertex3="Tube_Q2_Ring_v260"/>
+             <triangular vertex1="Tube_Q2_Ring_v280" vertex2="Tube_Q2_Ring_v253" vertex3="Tube_Q2_Ring_v276"/>
+             <triangular vertex1="Tube_Q2_Ring_v449" vertex2="Tube_Q2_Ring_v276" vertex3="Tube_Q2_Ring_v274"/>
+             <triangular vertex1="Tube_Q2_Ring_v449" vertex2="Tube_Q2_Ring_v274" vertex3="Tube_Q2_Ring_v272"/>
+             <triangular vertex1="Tube_Q2_Ring_v449" vertex2="Tube_Q2_Ring_v280" vertex3="Tube_Q2_Ring_v276"/>
+             <triangular vertex1="Tube_Q2_Ring_v450" vertex2="Tube_Q2_Ring_v272" vertex3="Tube_Q2_Ring_v270"/>
+             <triangular vertex1="Tube_Q2_Ring_v450" vertex2="Tube_Q2_Ring_v449" vertex3="Tube_Q2_Ring_v272"/>
+             <triangular vertex1="Tube_Q2_Ring_v451" vertex2="Tube_Q2_Ring_v270" vertex3="Tube_Q2_Ring_v268"/>
+             <triangular vertex1="Tube_Q2_Ring_v451" vertex2="Tube_Q2_Ring_v450" vertex3="Tube_Q2_Ring_v270"/>
+             <triangular vertex1="Tube_Q2_Ring_v452" vertex2="Tube_Q2_Ring_v451" vertex3="Tube_Q2_Ring_v268"/>
+             <triangular vertex1="Tube_Q2_Ring_v453" vertex2="Tube_Q2_Ring_v268" vertex3="Tube_Q2_Ring_v265"/>
+             <triangular vertex1="Tube_Q2_Ring_v453" vertex2="Tube_Q2_Ring_v452" vertex3="Tube_Q2_Ring_v268"/>
+             <triangular vertex1="Tube_Q2_Ring_v454" vertex2="Tube_Q2_Ring_v453" vertex3="Tube_Q2_Ring_v265"/>
+             <triangular vertex1="Tube_Q2_Ring_v455" vertex2="Tube_Q2_Ring_v454" vertex3="Tube_Q2_Ring_v265"/>
+             <triangular vertex1="Tube_Q2_Ring_v456" vertex2="Tube_Q2_Ring_v455" vertex3="Tube_Q2_Ring_v265"/>
+             <triangular vertex1="Tube_Q2_Ring_v457" vertex2="Tube_Q2_Ring_v456" vertex3="Tube_Q2_Ring_v265"/>
+             <triangular vertex1="Tube_Q2_Ring_v458" vertex2="Tube_Q2_Ring_v457" vertex3="Tube_Q2_Ring_v265"/>
+             <triangular vertex1="Tube_Q2_Ring_v459" vertex2="Tube_Q2_Ring_v458" vertex3="Tube_Q2_Ring_v265"/>
+             <triangular vertex1="Tube_Q2_Ring_v460" vertex2="Tube_Q2_Ring_v265" vertex3="Tube_Q2_Ring_v261"/>
+             <triangular vertex1="Tube_Q2_Ring_v460" vertex2="Tube_Q2_Ring_v459" vertex3="Tube_Q2_Ring_v265"/>
+             <triangular vertex1="Tube_Q2_Ring_v461" vertex2="Tube_Q2_Ring_v460" vertex3="Tube_Q2_Ring_v261"/>
+             <triangular vertex1="Tube_Q2_Ring_v462" vertex2="Tube_Q2_Ring_v461" vertex3="Tube_Q2_Ring_v261"/>
+             <triangular vertex1="Tube_Q2_Ring_v463" vertex2="Tube_Q2_Ring_v261" vertex3="Tube_Q2_Ring_v257"/>
+             <triangular vertex1="Tube_Q2_Ring_v463" vertex2="Tube_Q2_Ring_v462" vertex3="Tube_Q2_Ring_v261"/>
+             <triangular vertex1="Tube_Q2_Ring_v464" vertex2="Tube_Q2_Ring_v257" vertex3="Tube_Q2_Ring_v254"/>
+             <triangular vertex1="Tube_Q2_Ring_v464" vertex2="Tube_Q2_Ring_v463" vertex3="Tube_Q2_Ring_v257"/>
+             <triangular vertex1="Tube_Q2_Ring_v465" vertex2="Tube_Q2_Ring_v254" vertex3="Tube_Q2_Ring_v259"/>
+             <triangular vertex1="Tube_Q2_Ring_v465" vertex2="Tube_Q2_Ring_v259" vertex3="Tube_Q2_Ring_v263"/>
+             <triangular vertex1="Tube_Q2_Ring_v465" vertex2="Tube_Q2_Ring_v464" vertex3="Tube_Q2_Ring_v254"/>
+             <triangular vertex1="Tube_Q2_Ring_v285" vertex2="Tube_Q2_Ring_v263" vertex3="Tube_Q2_Ring_v267"/>
+             <triangular vertex1="Tube_Q2_Ring_v285" vertex2="Tube_Q2_Ring_v465" vertex3="Tube_Q2_Ring_v263"/>
+             <triangular vertex1="Tube_Q2_Ring_v253" vertex2="Tube_Q2_Ring_v280" vertex3="Tube_Q2_Ring_v198"/>
+             <triangular vertex1="Tube_Q2_Ring_v289" vertex2="Tube_Q2_Ring_v198" vertex3="Tube_Q2_Ring_v288"/>
+             <triangular vertex1="Tube_Q2_Ring_v288" vertex2="Tube_Q2_Ring_v198" vertex3="Tube_Q2_Ring_v287"/>
+             <triangular vertex1="Tube_Q2_Ring_v287" vertex2="Tube_Q2_Ring_v198" vertex3="Tube_Q2_Ring_v280"/>
+             <triangular vertex1="Tube_Q2_Ring_v466" vertex2="Tube_Q2_Ring_v467" vertex3="Tube_Q2_Ring_v250"/>
+             <triangular vertex1="Tube_Q2_Ring_v466" vertex2="Tube_Q2_Ring_v468" vertex3="Tube_Q2_Ring_v467"/>
+             <triangular vertex1="Tube_Q2_Ring_v469" vertex2="Tube_Q2_Ring_v215" vertex3="Tube_Q2_Ring_v217"/>
+             <triangular vertex1="Tube_Q2_Ring_v470" vertex2="Tube_Q2_Ring_v471" vertex3="Tube_Q2_Ring_v472"/>
+             <triangular vertex1="Tube_Q2_Ring_v470" vertex2="Tube_Q2_Ring_v472" vertex3="Tube_Q2_Ring_v473"/>
+             <triangular vertex1="Tube_Q2_Ring_v474" vertex2="Tube_Q2_Ring_v475" vertex3="Tube_Q2_Ring_v471"/>
+             <triangular vertex1="Tube_Q2_Ring_v246" vertex2="Tube_Q2_Ring_v444" vertex3="Tube_Q2_Ring_v244"/>
+             <triangular vertex1="Tube_Q2_Ring_v469" vertex2="Tube_Q2_Ring_v466" vertex3="Tube_Q2_Ring_v215"/>
+             <triangular vertex1="Tube_Q2_Ring_v469" vertex2="Tube_Q2_Ring_v476" vertex3="Tube_Q2_Ring_v466"/>
+             <triangular vertex1="Tube_Q2_Ring_v474" vertex2="Tube_Q2_Ring_v471" vertex3="Tube_Q2_Ring_v470"/>
+             <triangular vertex1="Tube_Q2_Ring_v477" vertex2="Tube_Q2_Ring_v217" vertex3="Tube_Q2_Ring_v222"/>
+             <triangular vertex1="Tube_Q2_Ring_v478" vertex2="Tube_Q2_Ring_v183" vertex3="Tube_Q2_Ring_v283"/>
+             <triangular vertex1="Tube_Q2_Ring_v478" vertex2="Tube_Q2_Ring_v283" vertex3="Tube_Q2_Ring_v282"/>
+             <triangular vertex1="Tube_Q2_Ring_v478" vertex2="Tube_Q2_Ring_v282" vertex3="Tube_Q2_Ring_v281"/>
+             <triangular vertex1="Tube_Q2_Ring_v479" vertex2="Tube_Q2_Ring_v480" vertex3="Tube_Q2_Ring_v475"/>
+             <triangular vertex1="Tube_Q2_Ring_v479" vertex2="Tube_Q2_Ring_v475" vertex3="Tube_Q2_Ring_v474"/>
+             <triangular vertex1="Tube_Q2_Ring_v477" vertex2="Tube_Q2_Ring_v469" vertex3="Tube_Q2_Ring_v217"/>
+             <triangular vertex1="Tube_Q2_Ring_v477" vertex2="Tube_Q2_Ring_v481" vertex3="Tube_Q2_Ring_v476"/>
+             <triangular vertex1="Tube_Q2_Ring_v477" vertex2="Tube_Q2_Ring_v476" vertex3="Tube_Q2_Ring_v469"/>
+             <triangular vertex1="Tube_Q2_Ring_v482" vertex2="Tube_Q2_Ring_v483" vertex3="Tube_Q2_Ring_v480"/>
+             <triangular vertex1="Tube_Q2_Ring_v484" vertex2="Tube_Q2_Ring_v481" vertex3="Tube_Q2_Ring_v477"/>
+             <triangular vertex1="Tube_Q2_Ring_v484" vertex2="Tube_Q2_Ring_v477" vertex3="Tube_Q2_Ring_v222"/>
+             <triangular vertex1="Tube_Q2_Ring_v484" vertex2="Tube_Q2_Ring_v222" vertex3="Tube_Q2_Ring_v224"/>
+             <triangular vertex1="Tube_Q2_Ring_v482" vertex2="Tube_Q2_Ring_v480" vertex3="Tube_Q2_Ring_v479"/>
+             <triangular vertex1="Tube_Q2_Ring_v484" vertex2="Tube_Q2_Ring_v485" vertex3="Tube_Q2_Ring_v481"/>
+             <triangular vertex1="Tube_Q2_Ring_v486" vertex2="Tube_Q2_Ring_v487" vertex3="Tube_Q2_Ring_v483"/>
+             <triangular vertex1="Tube_Q2_Ring_v484" vertex2="Tube_Q2_Ring_v488" vertex3="Tube_Q2_Ring_v485"/>
+             <triangular vertex1="Tube_Q2_Ring_v486" vertex2="Tube_Q2_Ring_v483" vertex3="Tube_Q2_Ring_v482"/>
+             <triangular vertex1="Tube_Q2_Ring_v489" vertex2="Tube_Q2_Ring_v224" vertex3="Tube_Q2_Ring_v229"/>
+             <triangular vertex1="Tube_Q2_Ring_v490" vertex2="Tube_Q2_Ring_v487" vertex3="Tube_Q2_Ring_v486"/>
+             <triangular vertex1="Tube_Q2_Ring_v489" vertex2="Tube_Q2_Ring_v491" vertex3="Tube_Q2_Ring_v488"/>
+             <triangular vertex1="Tube_Q2_Ring_v490" vertex2="Tube_Q2_Ring_v492" vertex3="Tube_Q2_Ring_v487"/>
+             <triangular vertex1="Tube_Q2_Ring_v493" vertex2="Tube_Q2_Ring_v494" vertex3="Tube_Q2_Ring_v495"/>
+             <triangular vertex1="Tube_Q2_Ring_v489" vertex2="Tube_Q2_Ring_v484" vertex3="Tube_Q2_Ring_v224"/>
+             <triangular vertex1="Tube_Q2_Ring_v489" vertex2="Tube_Q2_Ring_v488" vertex3="Tube_Q2_Ring_v484"/>
+             <triangular vertex1="Tube_Q2_Ring_v493" vertex2="Tube_Q2_Ring_v492" vertex3="Tube_Q2_Ring_v490"/>
+             <triangular vertex1="Tube_Q2_Ring_v496" vertex2="Tube_Q2_Ring_v229" vertex3="Tube_Q2_Ring_v234"/>
+             <triangular vertex1="Tube_Q2_Ring_v493" vertex2="Tube_Q2_Ring_v497" vertex3="Tube_Q2_Ring_v492"/>
+             <triangular vertex1="Tube_Q2_Ring_v493" vertex2="Tube_Q2_Ring_v495" vertex3="Tube_Q2_Ring_v497"/>
+             <triangular vertex1="Tube_Q2_Ring_v498" vertex2="Tube_Q2_Ring_v499" vertex3="Tube_Q2_Ring_v500"/>
+             <triangular vertex1="Tube_Q2_Ring_v496" vertex2="Tube_Q2_Ring_v501" vertex3="Tube_Q2_Ring_v491"/>
+             <triangular vertex1="Tube_Q2_Ring_v496" vertex2="Tube_Q2_Ring_v489" vertex3="Tube_Q2_Ring_v229"/>
+             <triangular vertex1="Tube_Q2_Ring_v496" vertex2="Tube_Q2_Ring_v491" vertex3="Tube_Q2_Ring_v489"/>
+             <triangular vertex1="Tube_Q2_Ring_v502" vertex2="Tube_Q2_Ring_v501" vertex3="Tube_Q2_Ring_v496"/>
+             <triangular vertex1="Tube_Q2_Ring_v498" vertex2="Tube_Q2_Ring_v442" vertex3="Tube_Q2_Ring_v443"/>
+             <triangular vertex1="Tube_Q2_Ring_v218" vertex2="Tube_Q2_Ring_v503" vertex3="Tube_Q2_Ring_v232"/>
+             <triangular vertex1="Tube_Q2_Ring_v502" vertex2="Tube_Q2_Ring_v496" vertex3="Tube_Q2_Ring_v234"/>
+             <triangular vertex1="Tube_Q2_Ring_v502" vertex2="Tube_Q2_Ring_v234" vertex3="Tube_Q2_Ring_v237"/>
+             <triangular vertex1="Tube_Q2_Ring_v498" vertex2="Tube_Q2_Ring_v500" vertex3="Tube_Q2_Ring_v442"/>
+             <triangular vertex1="Tube_Q2_Ring_v504" vertex2="Tube_Q2_Ring_v502" vertex3="Tube_Q2_Ring_v237"/>
+             <triangular vertex1="Tube_Q2_Ring_v504" vertex2="Tube_Q2_Ring_v503" vertex3="Tube_Q2_Ring_v505"/>
+             <triangular vertex1="Tube_Q2_Ring_v504" vertex2="Tube_Q2_Ring_v501" vertex3="Tube_Q2_Ring_v502"/>
+             <triangular vertex1="Tube_Q2_Ring_v504" vertex2="Tube_Q2_Ring_v232" vertex3="Tube_Q2_Ring_v503"/>
+             <triangular vertex1="Tube_Q2_Ring_v504" vertex2="Tube_Q2_Ring_v237" vertex3="Tube_Q2_Ring_v232"/>
+             <triangular vertex1="Tube_Q2_Ring_v506" vertex2="Tube_Q2_Ring_v507" vertex3="Tube_Q2_Ring_v441"/>
+             <triangular vertex1="Tube_Q2_Ring_v504" vertex2="Tube_Q2_Ring_v505" vertex3="Tube_Q2_Ring_v508"/>
+             <triangular vertex1="Tube_Q2_Ring_v504" vertex2="Tube_Q2_Ring_v508" vertex3="Tube_Q2_Ring_v501"/>
+             <triangular vertex1="Tube_Q2_Ring_v509" vertex2="Tube_Q2_Ring_v499" vertex3="Tube_Q2_Ring_v498"/>
+             <triangular vertex1="Tube_Q2_Ring_v510" vertex2="Tube_Q2_Ring_v511" vertex3="Tube_Q2_Ring_v507"/>
+             <triangular vertex1="Tube_Q2_Ring_v468" vertex2="Tube_Q2_Ring_v499" vertex3="Tube_Q2_Ring_v509"/>
+             <triangular vertex1="Tube_Q2_Ring_v510" vertex2="Tube_Q2_Ring_v507" vertex3="Tube_Q2_Ring_v506"/>
+             <triangular vertex1="Tube_Q2_Ring_v468" vertex2="Tube_Q2_Ring_v512" vertex3="Tube_Q2_Ring_v499"/>
+             <triangular vertex1="Tube_Q2_Ring_v513" vertex2="Tube_Q2_Ring_v514" vertex3="Tube_Q2_Ring_v511"/>
+             <triangular vertex1="Tube_Q2_Ring_v515" vertex2="Tube_Q2_Ring_v470" vertex3="Tube_Q2_Ring_v473"/>
+             <triangular vertex1="Tube_Q2_Ring_v515" vertex2="Tube_Q2_Ring_v473" vertex3="Tube_Q2_Ring_v512"/>
+             <triangular vertex1="Tube_Q2_Ring_v515" vertex2="Tube_Q2_Ring_v512" vertex3="Tube_Q2_Ring_v468"/>
+             <triangular vertex1="Tube_Q2_Ring_v513" vertex2="Tube_Q2_Ring_v511" vertex3="Tube_Q2_Ring_v510"/>
+             <triangular vertex1="Tube_Q2_Ring_v472" vertex2="Tube_Q2_Ring_v516" vertex3="Tube_Q2_Ring_v514"/>
+             <triangular vertex1="Tube_Q2_Ring_v476" vertex2="Tube_Q2_Ring_v470" vertex3="Tube_Q2_Ring_v515"/>
+             <triangular vertex1="Tube_Q2_Ring_v472" vertex2="Tube_Q2_Ring_v514" vertex3="Tube_Q2_Ring_v513"/>
+             <triangular vertex1="Tube_Q2_Ring_v481" vertex2="Tube_Q2_Ring_v474" vertex3="Tube_Q2_Ring_v470"/>
+             <triangular vertex1="Tube_Q2_Ring_v471" vertex2="Tube_Q2_Ring_v517" vertex3="Tube_Q2_Ring_v516"/>
+             <triangular vertex1="Tube_Q2_Ring_v481" vertex2="Tube_Q2_Ring_v470" vertex3="Tube_Q2_Ring_v476"/>
+             <triangular vertex1="Tube_Q2_Ring_v471" vertex2="Tube_Q2_Ring_v518" vertex3="Tube_Q2_Ring_v517"/>
+             <triangular vertex1="Tube_Q2_Ring_v485" vertex2="Tube_Q2_Ring_v474" vertex3="Tube_Q2_Ring_v481"/>
+             <triangular vertex1="Tube_Q2_Ring_v485" vertex2="Tube_Q2_Ring_v479" vertex3="Tube_Q2_Ring_v474"/>
+             <triangular vertex1="Tube_Q2_Ring_v471" vertex2="Tube_Q2_Ring_v516" vertex3="Tube_Q2_Ring_v472"/>
+             <triangular vertex1="Tube_Q2_Ring_v485" vertex2="Tube_Q2_Ring_v482" vertex3="Tube_Q2_Ring_v479"/>
+             <triangular vertex1="Tube_Q2_Ring_v475" vertex2="Tube_Q2_Ring_v519" vertex3="Tube_Q2_Ring_v518"/>
+             <triangular vertex1="Tube_Q2_Ring_v488" vertex2="Tube_Q2_Ring_v482" vertex3="Tube_Q2_Ring_v485"/>
+             <triangular vertex1="Tube_Q2_Ring_v488" vertex2="Tube_Q2_Ring_v486" vertex3="Tube_Q2_Ring_v482"/>
+             <triangular vertex1="Tube_Q2_Ring_v475" vertex2="Tube_Q2_Ring_v518" vertex3="Tube_Q2_Ring_v471"/>
+             <triangular vertex1="Tube_Q2_Ring_v491" vertex2="Tube_Q2_Ring_v490" vertex3="Tube_Q2_Ring_v486"/>
+             <triangular vertex1="Tube_Q2_Ring_v480" vertex2="Tube_Q2_Ring_v520" vertex3="Tube_Q2_Ring_v519"/>
+             <triangular vertex1="Tube_Q2_Ring_v480" vertex2="Tube_Q2_Ring_v521" vertex3="Tube_Q2_Ring_v520"/>
+             <triangular vertex1="Tube_Q2_Ring_v491" vertex2="Tube_Q2_Ring_v486" vertex3="Tube_Q2_Ring_v488"/>
+             <triangular vertex1="Tube_Q2_Ring_v480" vertex2="Tube_Q2_Ring_v519" vertex3="Tube_Q2_Ring_v475"/>
+             <triangular vertex1="Tube_Q2_Ring_v501" vertex2="Tube_Q2_Ring_v490" vertex3="Tube_Q2_Ring_v491"/>
+             <triangular vertex1="Tube_Q2_Ring_v483" vertex2="Tube_Q2_Ring_v522" vertex3="Tube_Q2_Ring_v521"/>
+             <triangular vertex1="Tube_Q2_Ring_v508" vertex2="Tube_Q2_Ring_v505" vertex3="Tube_Q2_Ring_v494"/>
+             <triangular vertex1="Tube_Q2_Ring_v508" vertex2="Tube_Q2_Ring_v494" vertex3="Tube_Q2_Ring_v493"/>
+             <triangular vertex1="Tube_Q2_Ring_v508" vertex2="Tube_Q2_Ring_v493" vertex3="Tube_Q2_Ring_v490"/>
+             <triangular vertex1="Tube_Q2_Ring_v483" vertex2="Tube_Q2_Ring_v521" vertex3="Tube_Q2_Ring_v480"/>
+             <triangular vertex1="Tube_Q2_Ring_v487" vertex2="Tube_Q2_Ring_v523" vertex3="Tube_Q2_Ring_v522"/>
+             <triangular vertex1="Tube_Q2_Ring_v508" vertex2="Tube_Q2_Ring_v490" vertex3="Tube_Q2_Ring_v501"/>
+             <triangular vertex1="Tube_Q2_Ring_v441" vertex2="Tube_Q2_Ring_v507" vertex3="Tube_Q2_Ring_v478"/>
+             <triangular vertex1="Tube_Q2_Ring_v524" vertex2="Tube_Q2_Ring_v444" vertex3="Tube_Q2_Ring_v246"/>
+             <triangular vertex1="Tube_Q2_Ring_v487" vertex2="Tube_Q2_Ring_v522" vertex3="Tube_Q2_Ring_v483"/>
+             <triangular vertex1="Tube_Q2_Ring_v492" vertex2="Tube_Q2_Ring_v525" vertex3="Tube_Q2_Ring_v523"/>
+             <triangular vertex1="Tube_Q2_Ring_v492" vertex2="Tube_Q2_Ring_v523" vertex3="Tube_Q2_Ring_v487"/>
+             <triangular vertex1="Tube_Q2_Ring_v524" vertex2="Tube_Q2_Ring_v509" vertex3="Tube_Q2_Ring_v498"/>
+             <triangular vertex1="Tube_Q2_Ring_v524" vertex2="Tube_Q2_Ring_v443" vertex3="Tube_Q2_Ring_v444"/>
+             <triangular vertex1="Tube_Q2_Ring_v497" vertex2="Tube_Q2_Ring_v525" vertex3="Tube_Q2_Ring_v492"/>
+             <triangular vertex1="Tube_Q2_Ring_v524" vertex2="Tube_Q2_Ring_v498" vertex3="Tube_Q2_Ring_v443"/>
+             <triangular vertex1="Tube_Q2_Ring_v497" vertex2="Tube_Q2_Ring_v495" vertex3="Tube_Q2_Ring_v525"/>
+             <triangular vertex1="Tube_Q2_Ring_v500" vertex2="Tube_Q2_Ring_v441" vertex3="Tube_Q2_Ring_v442"/>
+             <triangular vertex1="Tube_Q2_Ring_v441" vertex2="Tube_Q2_Ring_v478" vertex3="Tube_Q2_Ring_v281"/>
+             <triangular vertex1="Tube_Q2_Ring_v526" vertex2="Tube_Q2_Ring_v509" vertex3="Tube_Q2_Ring_v524"/>
+             <triangular vertex1="Tube_Q2_Ring_v526" vertex2="Tube_Q2_Ring_v246" vertex3="Tube_Q2_Ring_v248"/>
+             <triangular vertex1="Tube_Q2_Ring_v500" vertex2="Tube_Q2_Ring_v506" vertex3="Tube_Q2_Ring_v441"/>
+             <triangular vertex1="Tube_Q2_Ring_v495" vertex2="Tube_Q2_Ring_v527" vertex3="Tube_Q2_Ring_v525"/>
+             <triangular vertex1="Tube_Q2_Ring_v499" vertex2="Tube_Q2_Ring_v510" vertex3="Tube_Q2_Ring_v506"/>
+             <triangular vertex1="Tube_Q2_Ring_v495" vertex2="Tube_Q2_Ring_v528" vertex3="Tube_Q2_Ring_v527"/>
+             <triangular vertex1="Tube_Q2_Ring_v495" vertex2="Tube_Q2_Ring_v280" vertex3="Tube_Q2_Ring_v528"/>
+             <triangular vertex1="Tube_Q2_Ring_v526" vertex2="Tube_Q2_Ring_v524" vertex3="Tube_Q2_Ring_v246"/>
+             <triangular vertex1="Tube_Q2_Ring_v467" vertex2="Tube_Q2_Ring_v509" vertex3="Tube_Q2_Ring_v526"/>
+             <triangular vertex1="Tube_Q2_Ring_v499" vertex2="Tube_Q2_Ring_v506" vertex3="Tube_Q2_Ring_v500"/>
+             <triangular vertex1="Tube_Q2_Ring_v467" vertex2="Tube_Q2_Ring_v248" vertex3="Tube_Q2_Ring_v250"/>
+             <triangular vertex1="Tube_Q2_Ring_v467" vertex2="Tube_Q2_Ring_v526" vertex3="Tube_Q2_Ring_v248"/>
+             <triangular vertex1="Tube_Q2_Ring_v512" vertex2="Tube_Q2_Ring_v510" vertex3="Tube_Q2_Ring_v499"/>
+             <triangular vertex1="Tube_Q2_Ring_v467" vertex2="Tube_Q2_Ring_v468" vertex3="Tube_Q2_Ring_v509"/>
+             <triangular vertex1="Tube_Q2_Ring_v512" vertex2="Tube_Q2_Ring_v513" vertex3="Tube_Q2_Ring_v510"/>
+             <triangular vertex1="Tube_Q2_Ring_v466" vertex2="Tube_Q2_Ring_v250" vertex3="Tube_Q2_Ring_v215"/>
+             <triangular vertex1="Tube_Q2_Ring_v473" vertex2="Tube_Q2_Ring_v472" vertex3="Tube_Q2_Ring_v513"/>
+             <triangular vertex1="Tube_Q2_Ring_v466" vertex2="Tube_Q2_Ring_v515" vertex3="Tube_Q2_Ring_v468"/>
+             <triangular vertex1="Tube_Q2_Ring_v473" vertex2="Tube_Q2_Ring_v513" vertex3="Tube_Q2_Ring_v512"/>
+             <triangular vertex1="Tube_Q2_Ring_v466" vertex2="Tube_Q2_Ring_v476" vertex3="Tube_Q2_Ring_v515"/>
+             <triangular vertex1="Tube_Q2_Ring_v528" vertex2="Tube_Q2_Ring_v280" vertex3="Tube_Q2_Ring_v529"/>
+             <triangular vertex1="Tube_Q2_Ring_v530" vertex2="Tube_Q2_Ring_v528" vertex3="Tube_Q2_Ring_v529"/>
+             <triangular vertex1="Tube_Q2_Ring_v527" vertex2="Tube_Q2_Ring_v528" vertex3="Tube_Q2_Ring_v530"/>
+             <triangular vertex1="Tube_Q2_Ring_v531" vertex2="Tube_Q2_Ring_v527" vertex3="Tube_Q2_Ring_v530"/>
+             <triangular vertex1="Tube_Q2_Ring_v525" vertex2="Tube_Q2_Ring_v527" vertex3="Tube_Q2_Ring_v531"/>
+             <triangular vertex1="Tube_Q2_Ring_v532" vertex2="Tube_Q2_Ring_v525" vertex3="Tube_Q2_Ring_v531"/>
+             <triangular vertex1="Tube_Q2_Ring_v523" vertex2="Tube_Q2_Ring_v525" vertex3="Tube_Q2_Ring_v532"/>
+             <triangular vertex1="Tube_Q2_Ring_v533" vertex2="Tube_Q2_Ring_v523" vertex3="Tube_Q2_Ring_v532"/>
+             <triangular vertex1="Tube_Q2_Ring_v522" vertex2="Tube_Q2_Ring_v523" vertex3="Tube_Q2_Ring_v533"/>
+             <triangular vertex1="Tube_Q2_Ring_v534" vertex2="Tube_Q2_Ring_v522" vertex3="Tube_Q2_Ring_v533"/>
+             <triangular vertex1="Tube_Q2_Ring_v521" vertex2="Tube_Q2_Ring_v522" vertex3="Tube_Q2_Ring_v534"/>
+             <triangular vertex1="Tube_Q2_Ring_v535" vertex2="Tube_Q2_Ring_v521" vertex3="Tube_Q2_Ring_v534"/>
+             <triangular vertex1="Tube_Q2_Ring_v520" vertex2="Tube_Q2_Ring_v521" vertex3="Tube_Q2_Ring_v535"/>
+             <triangular vertex1="Tube_Q2_Ring_v536" vertex2="Tube_Q2_Ring_v520" vertex3="Tube_Q2_Ring_v535"/>
+             <triangular vertex1="Tube_Q2_Ring_v519" vertex2="Tube_Q2_Ring_v520" vertex3="Tube_Q2_Ring_v536"/>
+             <triangular vertex1="Tube_Q2_Ring_v518" vertex2="Tube_Q2_Ring_v536" vertex3="Tube_Q2_Ring_v537"/>
+             <triangular vertex1="Tube_Q2_Ring_v518" vertex2="Tube_Q2_Ring_v519" vertex3="Tube_Q2_Ring_v536"/>
+             <triangular vertex1="Tube_Q2_Ring_v517" vertex2="Tube_Q2_Ring_v537" vertex3="Tube_Q2_Ring_v538"/>
+             <triangular vertex1="Tube_Q2_Ring_v517" vertex2="Tube_Q2_Ring_v518" vertex3="Tube_Q2_Ring_v537"/>
+             <triangular vertex1="Tube_Q2_Ring_v539" vertex2="Tube_Q2_Ring_v517" vertex3="Tube_Q2_Ring_v538"/>
+             <triangular vertex1="Tube_Q2_Ring_v516" vertex2="Tube_Q2_Ring_v517" vertex3="Tube_Q2_Ring_v539"/>
+             <triangular vertex1="Tube_Q2_Ring_v540" vertex2="Tube_Q2_Ring_v516" vertex3="Tube_Q2_Ring_v539"/>
+             <triangular vertex1="Tube_Q2_Ring_v514" vertex2="Tube_Q2_Ring_v516" vertex3="Tube_Q2_Ring_v540"/>
+             <triangular vertex1="Tube_Q2_Ring_v541" vertex2="Tube_Q2_Ring_v514" vertex3="Tube_Q2_Ring_v540"/>
+             <triangular vertex1="Tube_Q2_Ring_v511" vertex2="Tube_Q2_Ring_v514" vertex3="Tube_Q2_Ring_v541"/>
+             <triangular vertex1="Tube_Q2_Ring_v542" vertex2="Tube_Q2_Ring_v511" vertex3="Tube_Q2_Ring_v541"/>
+             <triangular vertex1="Tube_Q2_Ring_v507" vertex2="Tube_Q2_Ring_v511" vertex3="Tube_Q2_Ring_v542"/>
+             <triangular vertex1="Tube_Q2_Ring_v543" vertex2="Tube_Q2_Ring_v507" vertex3="Tube_Q2_Ring_v542"/>
+             <triangular vertex1="Tube_Q2_Ring_v478" vertex2="Tube_Q2_Ring_v507" vertex3="Tube_Q2_Ring_v543"/>
+             <triangular vertex1="Tube_Q2_Ring_v544" vertex2="Tube_Q2_Ring_v478" vertex3="Tube_Q2_Ring_v543"/>
+             <triangular vertex1="Tube_Q2_Ring_v183" vertex2="Tube_Q2_Ring_v478" vertex3="Tube_Q2_Ring_v544"/>
+             <triangular vertex1="Tube_Q2_Ring_v183" vertex2="Tube_Q2_Ring_v544" vertex3="Tube_Q2_Ring_v285"/>
+             <triangular vertex1="Tube_Q2_Ring_v377" vertex2="Tube_Q2_Ring_v376" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v376" vertex2="Tube_Q2_Ring_v375" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v375" vertex2="Tube_Q2_Ring_v382" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v382" vertex2="Tube_Q2_Ring_v387" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v387" vertex2="Tube_Q2_Ring_v395" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v395" vertex2="Tube_Q2_Ring_v397" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v397" vertex2="Tube_Q2_Ring_v404" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v404" vertex2="Tube_Q2_Ring_v408" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v427" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v408"/>
+             <triangular vertex1="Tube_Q2_Ring_v426" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v427"/>
+             <triangular vertex1="Tube_Q2_Ring_v428" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v426"/>
+             <triangular vertex1="Tube_Q2_Ring_v430" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v428"/>
+             <triangular vertex1="Tube_Q2_Ring_v432" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v430"/>
+             <triangular vertex1="Tube_Q2_Ring_v408" vertex2="Tube_Q2_Ring_v166" vertex3="Tube_Q2_Ring_v170"/>
+             <triangular vertex1="Tube_Q2_Ring_v432" vertex2="Tube_Q2_Ring_v433" vertex3="Tube_Q2_Ring_v166"/>
+             <triangular vertex1="Tube_Q2_Ring_v433" vertex2="Tube_Q2_Ring_v425" vertex3="Tube_Q2_Ring_v166"/>
+        </tessellated>
+    </solids>
+
+    <structure>
+        <volume name="tube_q2_ring">
+            <materialref ref="Vacuum"/>
+            <solidref ref="Tube_Q4_Ring-SOL"/>
+        </volume>
+    </structure>
+
+    <setup name="Default" version="1.0">
+        <world ref="tube_q2_ring"/>
+    </setup>
+</gdml>

@@ -32,12 +32,12 @@
 /vis/scene/add/axes  0 0 0 1  # Simple axes: x=red, y=green, z=blue.
 
 # Add text
-/vis/scene/add/text 2500 1000 -2500 mm 12 4 4 Q1
-/vis/scene/add/text -2500 1000 -2500 mm 12 4 4 Q2
-/vis/scene/add/text -2500 1000 2500 mm 12 4 4 Q3
-/vis/scene/add/text 2500 1000 2500 mm 12 4 4 Q4
+/vis/scene/add/text -2500 1000 -2500 mm 12 4 4 Q1
+/vis/scene/add/text -2500 1000 2500 mm 12 4 4 Q2
+/vis/scene/add/text 2500 1000 2500 mm 12 4 4 Q3
+/vis/scene/add/text 2500 1000 -2500 mm 12 4 4 Q4
 
-/vis/scene/add/text 2500 1000 0 mm 12 4 4 L1
-/vis/scene/add/text 0 1000 2500 mm 12 4 4 L2
-/vis/scene/add/text -2500 1000 0 mm 12 4 4 L3
-/vis/scene/add/text 0 1000 -2500 mm 12 4 4 L4
+/vis/scene/add/text 2500 1000 0 mm 12 4 4 L2
+/vis/scene/add/text 0 1000 2500 mm 12 4 4 L3
+/vis/scene/add/text -2500 1000 0 mm 12 4 4 L4
+/vis/scene/add/text 0 1000 -2500 mm 12 4 4 L1
